@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-secondary-800 bg-white;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 md:px-8;
+  }
+  
+  .btn {
+    @apply inline-block px-5 py-2.5 font-medium text-center rounded-md transition duration-300 focus:outline-none focus:ring-2;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-300;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-secondary-600 text-white hover:bg-secondary-700 focus:ring-secondary-300;
+  }
+  
+  .btn-accent {
+    @apply btn bg-accent-500 text-white hover:bg-accent-600 focus:ring-accent-300;
+  }
+  
+  .btn-outline {
+    @apply btn bg-transparent border border-primary-600 text-primary-600 hover:bg-primary-50 focus:ring-primary-300;
+  }
+  
+  .section-title {
+    @apply text-4xl md:text-5xl font-display font-medium mb-4 text-secondary-950;
+  }
+  
+  .section-subtitle {
+    @apply text-lg md:text-xl text-secondary-600 mb-12 max-w-3xl mx-auto;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300;
+  }
+  
+  .image-hover {
+    @apply transition-all duration-500 ease-in-out hover:scale-105;
+  }
+}
+
+/* Custom styles for slick carousel */
+.slick-dots li button:before {
+  @apply text-primary-500 text-lg;
+}
+
+.slick-dots li.slick-active button:before {
+  @apply text-primary-700;
+}
+
+.slick-prev, .slick-next {
+  @apply z-10;
+}
+
+/* Animation classes */
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.slide-up {
+  animation: slideUp 0.5s ease-out;
+}
+
+.scale-in {
+  animation: scaleIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slideUp {
+  0% { transform: translateY(20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes scaleIn {
+  0% { transform: scale(0.95); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}

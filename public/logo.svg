@@ -1,0 +1,7 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="12" fill="#8c7455" />
+  <path d="M25 35 L50 20 L75 35 L75 70 L50 85 L25 70 Z" stroke="white" stroke-width="3" fill="none" />
+  <path d="M40 40 L60 40 L60 65 L40 65 Z" stroke="white" stroke-width="2" fill="none" />
+  <text x="28" y="58" font-family="Arial" font-size="10" fill="white">INESTA</text>
+  <text x="34" y="70" font-family="Arial" font-size="8" fill="white">MODE</text>
+</svg>
