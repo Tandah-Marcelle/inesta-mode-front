@@ -17,11 +17,63 @@ import homme8 from '../assets/images/Collection homme/garcon dhonneur/2.jpg';
 import homme9 from '../assets/images/Collection homme/garcon dhonneur/3.jpg';
 
 
+import dameNature1 from '../assets/images/collection dame nature/1.jpg';
+import dameNature2 from '../assets/images/collection dame nature/2.jpg';
+import dameNature3 from '../assets/images/collection dame nature/3.jpg';
+import dameNature4 from '../assets/images/collection dame nature/4.jpg';
+import dameNature5 from '../assets/images/collection dame nature/5.jpg';
+
+
+import enfants1 from '../assets/images/Children/Fille Inesta/1.jpg';
+import enfants2 from '../assets/images/Children/Fille Inesta/2.jpg';
+import enfants3 from '../assets/images/Children/Fille Inesta/3.jpg';
+import enfants4 from '../assets/images/Children/Fille Inesta/4.jpg';
+import enfants5 from '../assets/images/Children/Fille Inesta/5.jpg';
+import enfants6 from '../assets/images/Children/Fille Inesta/6.jpg';
+import enfants7 from '../assets/images/Children/Fille Inesta/7.jpg';
+import enfants8 from '../assets/images/Children/Fille Inesta/8.jpg';
+import enfants9 from '../assets/images/Children/Fille Inesta/9.jpg';
+import enfants10 from '../assets/images/Children/Fille Inesta/10.jpg';
+import enfants11 from '../assets/images/Children/Fille Inesta/11.jpg';
+import enfants12 from '../assets/images/Children/Fille Inesta/12.jpg';
+import enfants13 from '../assets/images/Children/Fille Inesta/13.jpg';
+import enfants14 from '../assets/images/Children/Fille Inesta/14.jpg';
+import enfants15 from '../assets/images/Children/Fille Inesta/15.jpg';
+import enfants16 from '../assets/images/Children/Fille Inesta/16.jpg';
+import enfants17 from '../assets/images/Children/Fille Inesta/17.jpg';
+import enfants18 from '../assets/images/Children/Fille Inesta/18.jpg';
+import enfants19 from '../assets/images/Children/Fille Inesta/19.jpg';
+import enfants20 from '../assets/images/Children/Fille Inesta/20.jpg';
+import enfants21 from '../assets/images/Children/Fille Inesta/21.jpg';
+import enfants22 from '../assets/images/Children/Fille Inesta/22.jpg';
+import enfants23 from '../assets/images/Children/Fille Inesta/23.jpg';
+import enfants24 from '../assets/images/Children/Fille Inesta/24.jpg';
+import enfants25 from '../assets/images/Children/Fille Inesta/25.jpg';
+import enfants26 from '../assets/images/Children/Fille Inesta/26.jpg';
+import enfants27 from '../assets/images/Children/Fille Inesta/27.jpg';
+import enfants28 from '../assets/images/Children/Fille Inesta/28.jpg';
+import enfants29 from '../assets/images/Children/Fille Inesta/29.jpg';
+import enfants30 from '../assets/images/Children/Fille Inesta/30.jpg';
+import enfants31 from '../assets/images/Children/Fille Inesta/31.jpg';
+import enfants32 from '../assets/images/Children/Fille Inesta/32.jpg';
+import enfants33 from '../assets/images/Children/Fille Inesta/33.jpg';
+import enfants34 from '../assets/images/Children/Fille Inesta/34.jpg';
+import enfants35 from '../assets/images/Children/Fille Inesta/35.jpg';
+import enfants36 from '../assets/images/Children/Fille Inesta/36.jpg';
+import enfants37 from '../assets/images/Children/Fille Inesta/37.jpg';
+import enfants38 from '../assets/images/Children/Fille Inesta/38.jpg';
+import enfants39 from '../assets/images/Children/Fille Inesta/39.jpg';
+import enfants40 from '../assets/images/Children/Fille Inesta/40.jpg';
+import enfants41 from '../assets/images/Children/Fille Inesta/41.jpg';
+import enfants42 from '../assets/images/Children/Fille Inesta/42.jpg';
+import enfants43 from '../assets/images/Children/Fille Inesta/43.jpg';
+
+
 
 export const dresses: Dress[] = [
   {
     id: 'ev001',
-    name: 'Midnight Elegance',
+    name: 'Rose Noir',
     category: 'rose-noir',
     price: 299.99,
     images: [roseNoir1,roseNoir2,roseNoir3,roseNoir4,roseNoir5],
@@ -41,7 +93,7 @@ export const dresses: Dress[] = [
   },
   {
     id: 'ev002',
-    name: 'Golden Cascade',
+    name: 'Homme Elegant',
     category: 'homme',
     price: 349.99,
     images: [homme1,homme2,homme3,homme4
@@ -64,7 +116,7 @@ export const dresses: Dress[] = [
 
   {
     id: 'ev003',
-    name: 'Golden Cascade',
+    name: 'Homme Confiant',
     category: 'homme',
     price: 349.99,
     images: [homme5,homme6,homme7,homme8,homme9
@@ -84,16 +136,12 @@ export const dresses: Dress[] = [
     likes: 189
   },
 
-
-
-
-
   {
     id: 'dn001',
-    name: 'Ruby Sensation',
-    category: 'cocktail-dresses',
+    name: 'Dame Nature',
+    category: 'dame-nature',
     price: 179.99,
-    images: [
+    images: [dameNature1,dameNature2,dameNature3,dameNature4,dameNature5
     ],
     description: 'A vibrant cocktail dress in rich ruby red with a flattering fit and subtle embellishments. Perfect for cocktail parties and date nights.',
     details: [
@@ -110,15 +158,12 @@ export const dresses: Dress[] = [
     likes: 127
   },
   {
-    id: 'brd001',
-    name: 'Ethereal Dream',
-    category: 'bridal-collection',
+    id: 'brd008',
+    name: 'Robe Orange Claire',
+    category: 'enfants',
     price: 899.99,
     images: [
-      'https://images.pexels.com/photos/2122363/pexels-photo-2122363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/2122355/pexels-photo-2122355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/2122361/pexels-photo-2122361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ],
+    enfants1,enfants2,enfants3,enfants4 ],
     description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
     details: [
       'Cathedral-length train',
@@ -133,6 +178,173 @@ export const dresses: Dress[] = [
     new: false,
     likes: 423
   },
+
+  {
+    id: 'brd007',
+    name: 'Marronne Claire',
+    category: 'enfants',
+    price: 899.99,
+    images: [
+    enfants5,enfants6,enfants7],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
+    colors: ['Ivory', 'White', 'Champagne'],
+    featured: true,
+    new: false,
+    likes: 423
+  },
+
+  {
+    id: 'brd006',
+    name: 'Robe Bleu Claire',
+    category: 'enfants',
+    price: 899.99,
+    images: [
+    enfants8,enfants9,enfants10],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
+    colors: ['Ivory', 'White', 'Champagne'],
+    featured: true,
+    new: false,
+    likes: 423
+  },
+
+  {
+    id: 'brd005',
+    name: 'Robe Blanche',
+    category: 'enfants',
+    price: 899.99,
+    images: [
+    enfants11,enfants12,enfants13,enfants14 ],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
+    colors: ['Ivory', 'White', 'Champagne'],
+    featured: true,
+    new: false,
+    likes: 423
+  },
+
+  {
+    id: 'brd004',
+    name: 'Robe Blanc Rose',
+    category: 'enfants',
+    price: 899.99,
+    images: [
+    enfants15,enfants16,enfants17 ],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
+    colors: ['Ivory', 'White', 'Champagne'],
+    featured: true,
+    new: false,
+    likes: 423
+  },
+
+
+  {
+    id: 'brd003',
+    name: 'Robe Rose',
+    category: 'enfants',
+    price: 899.99,
+    images: [
+    enfants18,enfants19,enfants20],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
+    colors: ['Ivory', 'White', 'Champagne'],
+    featured: true,
+    new: false,
+    likes: 423
+  },
+
+  {
+    id: 'brd002',
+    name: 'Robe Orange Claire',
+    category: 'enfants',
+    price: 899.99,
+    images: [
+    enfants21,enfants22,enfants23,enfants24 ],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
+    colors: ['Ivory', 'White', 'Champagne'],
+    featured: true,
+    new: false,
+    likes: 423
+  },
+
+
+  {
+    id: 'autres1',
+    name: 'Autres',
+    category: 'enfants',
+    price: 899.99,
+    images: [
+    enfants25,enfants26,enfants27,enfants28,
+    enfants29,enfants30,enfants31,enfants32,
+    enfants33,enfants34,enfants25,enfants26,
+    enfants27,enfants38,enfants39,enfants40,
+    enfants41,enfants43,enfants43
+  ],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
+    colors: ['Ivory', 'White', 'Champagne'],
+    featured: true,
+    new: false,
+    likes: 423
+  },
+
+
+
+
+
+
   {
     id: 'sum001',
     name: 'Seaside Breeze',
