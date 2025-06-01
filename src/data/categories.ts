@@ -1,64 +1,48 @@
 import { Category } from '../types';
 
+import roseNoir from '../assets/images/collection rose noir/all miss.jpg';
+import homme from '../assets/images/Collection homme/1.jpg';
+import dameNature from '../assets/images/collection dame nature/2.jpg';
+import enfants from '../assets/images/Children/Fille Inesta/2.jpg';
+import marrige from '../assets/images/collection marrige robe blanche/3.jpg';
+import sacPerle from '../assets/images/sac perle/5.jpg';
+
+
 export const categories: Category[] = [
   {
-    id: 'evening-gowns',
-    name: 'Evening Gowns',
-    description: 'Elegant gowns for special occasions and formal events',
-    image: 'https://images.pexels.com/photos/1755428/pexels-photo-1755428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    id: 'rose-noir',
+    name: 'Rose Noir',
+    description: 'Collection élégante rose noir sophistiquées.',
+    image: roseNoir
   },
   {
-    id: 'cocktail-dresses',
-    name: 'Cocktail Dresses',
-    description: 'Stylish dresses perfect for cocktail parties and semi-formal events',
-    image: 'https://images.pexels.com/photos/1022693/pexels-photo-1022693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    id: 'homme',
+    name: 'Homme',
+    description: 'Collection de vêtements pour hommes stylée pour le gentleman moderne.',
+    image: homme
   },
   {
-    id: 'bridal-collection',
-    name: 'Bridal Collection',
-    description: 'Beautiful wedding gowns and bridal party dresses',
-    image: 'https://images.pexels.com/photos/2122361/pexels-photo-2122361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    id: 'dame-nature',
+    name: 'Dame Nature',
+    description: 'Designs inspirés de la nature célébrant la beauté organique.',
+    image: dameNature
   },
   {
-    id: 'summer-collection',
-    name: 'Summer Collection',
-    description: 'Light and breezy dresses perfect for summer',
-    image: 'https://images.pexels.com/photos/7176304/pexels-photo-7176304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    id: 'enfants',
+    name: 'Enfants',
+    description: 'Adorable collection de vêtements pour enfants.',
+    image: enfants
   },
   {
-    id: 'winter-collection',
-    name: 'Winter Collection',
-    description: 'Warm and stylish dresses for colder months',
-    image: 'https://images.pexels.com/photos/7760743/pexels-photo-7760743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    id: 'marrige',
+    name: 'Mariage',
+    description: 'Collection nuptiale exquise pour votre jour spécial.',
+    image: marrige
   },
   {
-    id: 'casual-wear',
-    name: 'Casual Wear',
-    description: 'Comfortable yet stylish everyday dresses',
-    image: 'https://images.pexels.com/photos/5325600/pexels-photo-5325600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-  },
-  {
-    id: 'african-prints',
-    name: 'African Prints',
-    description: 'Vibrant dresses featuring traditional African prints',
-    image: 'https://images.pexels.com/photos/2467393/pexels-photo-2467393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-  },
-  {
-    id: 'business-attire',
-    name: 'Business Attire',
-    description: 'Professional dresses suitable for the workplace',
-    image: 'https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-  },
-  {
-    id: 'limited-editions',
-    name: 'Limited Editions',
-    description: 'Exclusive designs available for a limited time only',
-    image: 'https://images.pexels.com/photos/8365688/pexels-photo-8365688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-  },
-  {
-    id: 'custom-designs',
-    name: 'Custom Designs',
-    description: 'Personalized dresses created to your specifications',
-    image: 'https://images.pexels.com/photos/10513822/pexels-photo-10513822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    id: 'sac-perle',
+    name: 'Sac Perle',
+    description: 'Collection d’accessoires luxueux ornés de perles.',
+    image:sacPerle
   }
 ];

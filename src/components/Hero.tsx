@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import image1 from "../assets/images/collection marrige robe blanche/fille dhonneur/3.jpg";
 import image2 from "../assets/images/collection marrige robe blanche/fille dhonneur/2.jpg";
-import image3 from "../assets/images/collection marrige robe blanche/fille dhonneur/1.jpg";
+import image3 from "../assets/images/Collection homme/garcon dhonneur/3.jpg";
 
 // Preload images for better performance
 const preloadImages = (urls) => {

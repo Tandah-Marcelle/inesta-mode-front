@@ -1,36 +1,43 @@
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 
+import princessIssie from '../assets/images/princess issie/1.jpg';
+import juliaSamantha from '../assets/images/julia Samantha/5.jpg';
+import DeuxiemeDauphine2023  from '../assets/images/2ème Dauphine Miss Cameroun 2023/1.jpg';
+import DeuxiemeDauphine2024 from '../assets/images/2ème Dauphine Miss Cameroun 2024 chez inesta/3.jpg';
+import clientX from '../assets/images/Children/Fille Inesta/22.jpg';
+
+
 const testimonials = [
   {
-    name: "Julie Samira Nguini",
-    title: "Miss Cameroon 2016",
-    image: "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    quote: "Inesta Mode's designs perfectly capture the essence of modern African beauty. Their attention to detail and craftsmanship is unmatched."
+    name: "Princesse Issie",
+    title: "Miss Cameroon 2023",
+    image: princessIssie,
+    quote: "Les créations d’Inesta Mode capturent parfaitement l’essence de la beauté africaine moderne. Leur souci du détail et leur savoir-faire sont incomparables."
   },
   {
-    name: "Jessica Ngoua",
-    title: "Miss Cameroon 2017",
-    image: "https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    quote: "I've worn many designer dresses, but none compare to the elegance and comfort of Inesta Mode's creations."
+    name: "Julia Samantha",
+    title: "Miss Cameroon XXXX",
+    image: juliaSamantha,
+    quote: " J’ai porté de nombreuses robes de créateurs, mais aucune n’égale l’élégance et le confort des créations d’Inesta Mode."
   },
   {
-    name: "Aimee Diane",
-    title: "Miss Cameroon 2018",
-    image: "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    quote: "The way Inesta Mode combines traditional elements with modern design is truly remarkable."
+    name: "No name",
+    title: "2ème Dauphine Miss Cameroun 2023",
+    image: DeuxiemeDauphine2023,
+    quote: " La manière dont Inesta Mode allie éléments traditionnels et design moderne est tout simplement remarquable."
   },
   {
-    name: "Audrey Nabila",
-    title: "Miss Cameroon 2019",
-    image: "https://images.pexels.com/photos/1989248/pexels-photo-1989248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    quote: "Every dress tells a story, and Inesta Mode helps me tell mine with grace and style."
+    name: "No name",
+    title: "2ème Dauphine Miss Cameroun 2024",
+    image: DeuxiemeDauphine2024,
+    quote: "Je suis tres fiere de ma Maman, je l'aime beaucoup et je souhaterai etre comme elle un jour."
   },
   {
-    name: "Angèle Kossinda",
-    title: "Miss Cameroon 2020",
-    image: "https://images.pexels.com/photos/1898555/pexels-photo-1898555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    quote: "Their custom designs make me feel confident and beautiful every time I step onto the stage."
+    name: "No name",
+    title: "Monsieur XXX",
+    image: clientX,
+    quote: "Leurs créations sur mesure me font me sentir confiant et beaux."
   }
 ];
 

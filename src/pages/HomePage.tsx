@@ -6,6 +6,9 @@ import SponsorsPreview from '../components/SponsorsPreview';
 import FAQ from '../components/FAQ';
 import Testimonials from '../components/Testimonials';
 
+// Import your local workshop image
+import workshopImage from '../assets/images/collection rose noir/image rose noir.jpg'; 
+
 function HomePage() {
   return (
     <>
@@ -20,17 +23,17 @@ function HomePage() {
         <div className="container-custom">
           <div className="relative rounded-lg overflow-hidden">
             <img 
-              src="https://images.pexels.com/photos/5709656/pexels-photo-5709656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-              alt="Inesta Mode Workshop" 
+              src={workshopImage} 
+              alt="Atelier Inesta Mode" 
               className="w-full h-96 object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center p-8 text-center">
               <div className="max-w-3xl">
                 <h2 className="text-3xl md:text-4xl font-display font-medium text-white mb-4">
-                  Crafted With Passion, Worn With Pride
+                  Conçu avec passion, porté avec fierté
                 </h2>
                 <p className="text-lg text-white/90 mb-6">
-                  Each dress at Inesta Mode is meticulously handcrafted by skilled artisans, ensuring quality, uniqueness, and attention to every detail.
+                  Chaque robe chez Inesta Mode est minutieusement confectionnée à la main par des artisans qualifiés, garantissant qualité, originalité et souci du moindre détail.
                 </p>
               </div>
             </div>

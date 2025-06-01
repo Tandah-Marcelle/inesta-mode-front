@@ -48,9 +48,9 @@ function FeaturedProducts() {
     <section ref={ref} className="py-20 bg-gray-50">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="section-title">Featured Designs</h2>
+          <h2 className="section-title">Créations en vedette</h2>
           <p className="section-subtitle">
-            Discover our most sought-after creations, handcrafted with passion and precision
+          Découvrez nos modèles les plus prisés, confectionnés avec passion et précision.
           </p>
         </div>
 
@@ -98,7 +98,7 @@ function FeaturedProducts() {
                           to={`/product/${dress.id}`} 
                           className="text-primary-600 hover:text-primary-700 font-medium"
                         >
-                          View Details
+                          Voir les détails
                         </Link>
                       </div>
                     </div>

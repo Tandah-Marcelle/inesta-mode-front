@@ -33,7 +33,7 @@ function FeaturedCollection() {
         <div className="text-center mb-16">
           <h2 className="section-title">Inesta Mode  Collections</h2>
           <p className="section-subtitle">
-            Explore our diverse range of handcrafted dresses, each telling a unique story of elegance and style
+          Explorez notre gamme variée de robes artisanales, chacune racontant une histoire unique d'élégance et de style.
           </p>
         </div>
 
@@ -64,8 +64,7 @@ function FeaturedCollection() {
                       </p>
                       <div className={`mt-4 overflow-hidden transition-all duration-300 ${hoveredIndex === index ? 'max-h-20 opacity-100' : 'max-h-0 opacity-0'}`}>
                         <span className="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm">
-                          View Collection
-                        </span>
+                        Voir Toutes les Collections                        </span>
                       </div>
                     </div>
                   </div>
@@ -77,8 +76,8 @@ function FeaturedCollection() {
 
         <div className="text-center mt-12">
           <Link to="/collections" className="btn-primary">
-            View All Collections
-          </Link>
+          Voir Toutes les Collections
+                    </Link>
         </div>
       </div>
     </section>

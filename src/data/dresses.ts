@@ -4,7 +4,7 @@ export const dresses: Dress[] = [
   {
     id: 'ev001',
     name: 'Midnight Elegance',
-    category: 'evening-gowns',
+    category: 'rose-noir',
     price: 299.99,
     images: [
       'https://images.pexels.com/photos/9428864/pexels-photo-9428864.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
