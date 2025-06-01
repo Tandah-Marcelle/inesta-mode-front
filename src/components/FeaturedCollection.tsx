@@ -31,7 +31,7 @@ function FeaturedCollection() {
     <section ref={ref} className="py-20 bg-white">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="section-title">Our Collections</h2>
+          <h2 className="section-title">Inesta Mode  Collections</h2>
           <p className="section-subtitle">
             Explore our diverse range of handcrafted dresses, each telling a unique story of elegance and style
           </p>
