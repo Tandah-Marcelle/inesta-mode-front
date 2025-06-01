@@ -31,14 +31,16 @@ const testimonials = [
     name: "No name",
     title: "2ème Dauphine Miss Cameroun 2024",
     image: DeuxiemeDauphine2024,
-    quote: "Je suis tres fiere de ma Maman, je l'aime beaucoup et je souhaterai etre comme elle un jour."
+    quote: "Chaque création d'Inesta mode racconte une histoire. "
   },
+  
   {
     name: "No name",
-    title: "Monsieur XXX",
+    title: " XXX",
     image: clientX,
-    quote: "Leurs créations sur mesure me font me sentir confiant et beaux."
+    quote: "Je suis tres fiere de ma Maman, je l'aime beaucoup et je souhaterai etre comme elle un jour"
   }
+  
 ];
 
 function Testimonials() {
@@ -51,9 +53,9 @@ function Testimonials() {
     <section className="py-20 bg-white">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="section-title">What Our Clients Say</h2>
+          <h2 className="section-title">Ce que disent nos clients</h2>
           <p className="section-subtitle">
-            Hear from some of the distinguished personalities who have worn our designs
+            Quelques-unes des personnalites qui apprecies et encouragent notre travail.
           </p>
         </div>
 

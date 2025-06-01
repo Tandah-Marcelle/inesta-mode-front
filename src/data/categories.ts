@@ -6,6 +6,9 @@ import dameNature from '../assets/images/collection dame nature/2.jpg';
 import enfants from '../assets/images/Children/Fille Inesta/2.jpg';
 import marrige from '../assets/images/collection marrige robe blanche/3.jpg';
 import sacPerle from '../assets/images/sac perle/5.jpg';
+import belleFleure from '../assets/images/collection belle fleur/1.jpg';
+import countryFlag from '../assets/images/collection counry flag/11.jpg';
+
 
 
 export const categories: Category[] = [
@@ -43,6 +46,20 @@ export const categories: Category[] = [
     id: 'sac-perle',
     name: 'Sac Perle',
     description: 'Collection d’accessoires luxueux ornés de perles.',
+    image:sacPerle
+  },
+
+  {
+    id: 'belle-fleur',
+    name: 'Belle Fleure',
+    description: 'xxxxx',
+    image:sacPerle
+  },
+
+  {
+    id: 'contry-flag',
+    name: 'Country Flag',
+    description: 'xxxxx',
     image:sacPerle
   }
 ];

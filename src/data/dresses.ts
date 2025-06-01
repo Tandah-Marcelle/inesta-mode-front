@@ -1,4 +1,22 @@
 import { Dress } from '../types';
+import roseNoir1 from '../assets/images/collection rose noir/all miss.jpg';
+import roseNoir2 from '../assets/images/collection rose noir/image rose noir.jpg';
+import roseNoir3 from '../assets/images/collection rose noir/princess_issie1.jpg';
+import roseNoir4 from '../assets/images/collection rose noir/princess_issie2.jpg';
+import roseNoir5 from '../assets/images/collection rose noir/princess_issie3.jpg';
+
+
+import homme1 from '../assets/images/Collection homme/2.jpg';
+import homme2 from '../assets/images/Collection homme/4.jpg';
+import homme3 from '../assets/images/Collection homme/1.jpg';
+import homme4 from '../assets/images/Collection homme/3.jpg';
+import homme5 from '../assets/images/Collection homme/5.jpg';
+import homme6 from '../assets/images/Collection homme/garcon dhonneur/1.jpg';
+import homme7 from '../assets/images/Collection homme/garcon dhonneur/4.jpg';
+import homme8 from '../assets/images/Collection homme/garcon dhonneur/2.jpg';
+import homme9 from '../assets/images/Collection homme/garcon dhonneur/3.jpg';
+
+
 
 export const dresses: Dress[] = [
   {
@@ -6,11 +24,7 @@ export const dresses: Dress[] = [
     name: 'Midnight Elegance',
     category: 'rose-noir',
     price: 299.99,
-    images: [
-      'https://images.pexels.com/photos/9428864/pexels-photo-9428864.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/9428861/pexels-photo-9428861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/9428860/pexels-photo-9428860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ],
+    images: [roseNoir1,roseNoir2,roseNoir3,roseNoir4,roseNoir5],
     description: 'A stunning floor-length gown in midnight blue featuring delicate beadwork and a graceful silhouette. Perfect for formal galas and red carpet events.',
     details: [
       'Floor-length design',
@@ -28,12 +42,9 @@ export const dresses: Dress[] = [
   {
     id: 'ev002',
     name: 'Golden Cascade',
-    category: 'evening-gowns',
+    category: 'homme',
     price: 349.99,
-    images: [
-      'https://images.pexels.com/photos/7760888/pexels-photo-7760888.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/7760889/pexels-photo-7760889.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/7760890/pexels-photo-7760890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    images: [homme1,homme2,homme3,homme4
     ],
     description: 'A breathtaking gold sequin gown that cascades beautifully to the floor. The structured bodice provides elegant support while the flowing skirt creates dramatic movement.',
     details: [
@@ -49,15 +60,40 @@ export const dresses: Dress[] = [
     new: false,
     likes: 189
   },
+
+
   {
-    id: 'cd001',
+    id: 'ev003',
+    name: 'Golden Cascade',
+    category: 'homme',
+    price: 349.99,
+    images: [homme5,homme6,homme7,homme8,homme9
+    ],
+    description: 'A breathtaking gold sequin gown that cascades beautifully to the floor. The structured bodice provides elegant support while the flowing skirt creates dramatic movement.',
+    details: [
+      'Full sequin coverage',
+      'Structured bodice',
+      'Flowing A-line skirt',
+      'Adjustable straps',
+      'Back slit for ease of movement'
+    ],
+    sizes: ['XS', 'S', 'M', 'L'],
+    colors: ['Gold', 'Silver', 'Rose Gold'],
+    featured: true,
+    new: false,
+    likes: 189
+  },
+
+
+
+
+
+  {
+    id: 'dn001',
     name: 'Ruby Sensation',
     category: 'cocktail-dresses',
     price: 179.99,
     images: [
-      'https://images.pexels.com/photos/1755428/pexels-photo-1755428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/985635/pexels-photo-985635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     ],
     description: 'A vibrant cocktail dress in rich ruby red with a flattering fit and subtle embellishments. Perfect for cocktail parties and date nights.',
     details: [
