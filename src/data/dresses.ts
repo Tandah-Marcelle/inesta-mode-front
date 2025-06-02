@@ -67,6 +67,73 @@ import enfants40 from '../assets/images/Children/Fille Inesta/40.jpg';
 import enfants41 from '../assets/images/Children/Fille Inesta/41.jpg';
 import enfants42 from '../assets/images/Children/Fille Inesta/42.jpg';
 import enfants43 from '../assets/images/Children/Fille Inesta/43.jpg';
+import enfants44 from '../assets/images/Children/Garcon Inesta/1.jpg';
+
+
+import mariage1 from '../assets/images/collection marrige robe blanche/1.jpg';
+import mariage2 from '../assets/images/collection marrige robe blanche/2.jpg';
+import mariage3 from '../assets/images/collection marrige robe blanche/3.jpg';
+import mariage4 from '../assets/images/collection marrige robe blanche/4.jpg';
+import mariage5 from '../assets/images/collection marrige robe blanche/5.jpg';
+import mariage6 from '../assets/images/collection marrige robe blanche/6.jpg';
+import mariage7 from '../assets/images/collection marrige robe blanche/7.jpg';
+import mariage8 from '../assets/images/collection marrige robe blanche/8.jpg';
+import mariage9 from '../assets/images/collection marrige robe blanche/9.jpg';
+import mariage10 from '../assets/images/collection marrige robe blanche/10.jpg';
+import mariage11 from '../assets/images/collection marrige robe blanche/11.jpg';
+import mariage12 from '../assets/images/collection marrige robe blanche/12.jpg';
+import mariage13 from '../assets/images/collection marrige robe blanche/13.jpg';
+import mariage14 from '../assets/images/collection marrige robe blanche/14.jpg';
+import mariage15 from '../assets/images/collection marrige robe blanche/15.jpg';
+import mariage16 from '../assets/images/collection marrige robe blanche/16.jpg';
+import mariage17 from '../assets/images/collection marrige robe blanche/17.jpg';
+import mariage18 from '../assets/images/collection marrige robe blanche/18.jpg';
+import mariage19 from '../assets/images/collection marrige robe blanche/19.jpg';
+import mariage20 from '../assets/images/collection marrige robe blanche/20.jpg';
+import mariage21 from '../assets/images/collection marrige robe blanche/21.jpg';
+import mariage22 from '../assets/images/collection marrige robe blanche/22.jpg';
+import mariage23 from '../assets/images/collection marrige robe blanche/23.jpg';
+import mariage24 from '../assets/images/collection marrige robe blanche/24.jpg';
+import mariage25 from '../assets/images/collection marrige robe blanche/25.jpg';
+import mariage26 from '../assets/images/collection marrige robe blanche/26.jpg';
+import mariage27 from '../assets/images/collection marrige robe blanche/27.jpg';
+import mariage28 from '../assets/images/collection marrige robe blanche/28.jpg';
+import mariage29 from '../assets/images/collection marrige robe blanche/29.jpg';
+import mariage30 from '../assets/images/collection marrige robe blanche/30.jpg';
+import mariage31 from '../assets/images/collection marrige robe blanche/31.jpg';
+import mariage32 from '../assets/images/collection marrige robe blanche/32.jpg';
+import mariage33 from '../assets/images/collection marrige robe blanche/33.jpg';
+import mariage34 from '../assets/images/collection marrige robe blanche/34.jpg';
+import mariage35 from '../assets/images/collection marrige robe blanche/35.jpg';
+import mariage36 from '../assets/images/collection marrige robe blanche/36.jpg';
+import mariage37 from '../assets/images/collection marrige robe blanche/37.jpg';
+import mariage38 from '../assets/images/collection marrige robe blanche/38.jpg';
+import mariage39 from '../assets/images/collection marrige robe blanche/39.jpg';
+import mariage40 from '../assets/images/collection marrige robe blanche/40.jpg';
+import mariage41 from '../assets/images/collection marrige robe blanche/41.jpg';
+import mariage42 from '../assets/images/collection marrige robe blanche/42.jpg';
+import mariage43 from '../assets/images/collection marrige robe blanche/43.jpg';
+import mariage43 from '../assets/images/collection marrige robe blanche/43.jpg';
+import mariage44 from '../assets/images/collection marrige robe blanche/44.jpg';
+import mariage45 from '../assets/images/collection marrige robe blanche/45.jpg';
+
+import sacperle1 from '../assets/images/sac perle/1.jpg';
+import sacperle2 from '../assets/images/sac perle/2.jpg';
+import sacperle3 from '../assets/images/sac perle/3.jpg';
+import sacperle4 from '../assets/images/sac perle/4.jpg';
+import sacperle5 from '../assets/images/sac perle/5.jpg';
+import sacperle6 from '../assets/images/sac perle/6.jpg';
+import sacperle7 from '../assets/images/sac perle/7.jpg';
+import sacperle8 from '../assets/images/sac perle/8.jpg';
+import sacperle9 from '../assets/images/sac perle/9.jpg';
+import sacperle10 from '../assets/images/sac perle/10.jpg';
+import bellefleure1 from '../assets/images/sac perle/1.jpg';
+import bellefleure2 from '../assets/images/sac perle/2.jpg';
+
+
+
+
+
 
 
 
@@ -340,6 +407,27 @@ export const dresses: Dress[] = [
     likes: 423
   },
 
+  {
+    id: 'g1',
+    name: 'Deux Pieces',
+    category: 'enfants',
+    price: 899.99,
+    images: [
+    enfants44 ],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
+    colors: ['Ivory', 'White', 'Champagne'],
+    featured: true,
+    new: false,
+    likes: 423
+  },
 
 
 
@@ -347,13 +435,11 @@ export const dresses: Dress[] = [
 
   {
     id: 'sum001',
-    name: 'Seaside Breeze',
-    category: 'summer-collection',
+    name: 'Mariage',
+    category: 'marrige',
     price: 129.99,
     images: [
-      'https://images.pexels.com/photos/7176396/pexels-photo-7176396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/7176304/pexels-photo-7176304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/7176305/pexels-photo-7176305.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      mariage1,mariage2,mariage3
     ],
     description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
     details: [
@@ -368,7 +454,243 @@ export const dresses: Dress[] = [
     featured: false,
     new: true,
     likes: 156
-  }
+  },
+
+  {
+    id: 'sum002',
+    name: 'Mariage',
+    category: 'marrige',
+    price: 129.99,
+    images: [ 
+      mariage6,mariage7,mariage8,mariage9,mariage11,mariage12
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+  {
+    id: 'sum003',
+    name: 'Mariage',
+    category: 'marrige',
+    price: 129.99,
+    images: [ 
+      mariage14,mariage15,mariage13
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+  {
+    id: 'sum004',
+    name: 'Mariage',
+    category: 'marrige',
+    price: 129.99,
+    images: [ 
+      mariage16,mariage17,mariage18,mariage19
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+  {
+    id: 'sum005',
+    name: 'Mariage',
+    category: 'marrige',
+    price: 129.99,
+    images: [ 
+      mariage20,mariage21
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+  {
+    id: 'sum006',
+    name: 'Mariage',
+    category: 'marrige',
+    price: 129.99,
+    images: [ 
+      mariage22,mariage23,mariage24,mariage25
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+  {
+    id: 'sum007',
+    name: 'marrige',
+    category: 'marrige',
+    price: 129.99,
+    images: [ 
+      mariage27,mariage26
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+  {
+    id: 'sum008',
+    name: 'Mariage',
+    category: 'marrige',
+    price: 129.99,
+
+    images: [ 
+      mariage28,mariage29,mariage30,mariage30,mariage31,mariage32
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+  {
+    id: 'sum0010',
+    name: 'Autres',
+    category: 'marrige',
+    price: 129.99,
+
+    images: [ 
+      mariage28,mariage29,mariage30,mariage30,mariage31,mariage32
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+  {
+    id: 'sum0011',
+    name: 'Sac Perle',
+    category: 'sac-perle',
+    price: 129.99,
+
+    images: [ 
+      sacperle1,sacperle2,sacperle3,sacperle3,sacperle4,sacperle5,sacperle6,sacperle7,sacperle8,sacperle9,sacperle10
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+  {
+    id: 'sum0017',
+    name: 'Belle Fleure',
+    category: 'sac-perle',
+    price: 129.99,
+
+    images: [ 
+      bellefleure1,bellefleure2
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
 ];
 
 // Create 15 more dresses to have a total of 20 dresses (4 per page with 5 pages)
