@@ -5,7 +5,6 @@ import roseNoir3 from '../assets/images/collection rose noir/princess_issie1.jpg
 import roseNoir4 from '../assets/images/collection rose noir/princess_issie2.jpg';
 import roseNoir5 from '../assets/images/collection rose noir/princess_issie3.jpg';
 
-
 import homme1 from '../assets/images/Collection homme/2.jpg';
 import homme2 from '../assets/images/Collection homme/4.jpg';
 import homme3 from '../assets/images/Collection homme/1.jpg';
@@ -58,14 +57,10 @@ import enfants31 from '../assets/images/Children/Fille Inesta/31.jpg';
 import enfants32 from '../assets/images/Children/Fille Inesta/32.jpg';
 import enfants33 from '../assets/images/Children/Fille Inesta/33.jpg';
 import enfants34 from '../assets/images/Children/Fille Inesta/34.jpg';
-import enfants35 from '../assets/images/Children/Fille Inesta/35.jpg';
-import enfants36 from '../assets/images/Children/Fille Inesta/36.jpg';
-import enfants37 from '../assets/images/Children/Fille Inesta/37.jpg';
 import enfants38 from '../assets/images/Children/Fille Inesta/38.jpg';
 import enfants39 from '../assets/images/Children/Fille Inesta/39.jpg';
 import enfants40 from '../assets/images/Children/Fille Inesta/40.jpg';
 import enfants41 from '../assets/images/Children/Fille Inesta/41.jpg';
-import enfants42 from '../assets/images/Children/Fille Inesta/42.jpg';
 import enfants43 from '../assets/images/Children/Fille Inesta/43.jpg';
 import enfants44 from '../assets/images/Children/Garcon Inesta/1.jpg';
 
@@ -73,13 +68,10 @@ import enfants44 from '../assets/images/Children/Garcon Inesta/1.jpg';
 import mariage1 from '../assets/images/collection marrige robe blanche/1.jpg';
 import mariage2 from '../assets/images/collection marrige robe blanche/2.jpg';
 import mariage3 from '../assets/images/collection marrige robe blanche/3.jpg';
-import mariage4 from '../assets/images/collection marrige robe blanche/4.jpg';
-import mariage5 from '../assets/images/collection marrige robe blanche/5.jpg';
 import mariage6 from '../assets/images/collection marrige robe blanche/6.jpg';
 import mariage7 from '../assets/images/collection marrige robe blanche/7.jpg';
 import mariage8 from '../assets/images/collection marrige robe blanche/8.jpg';
 import mariage9 from '../assets/images/collection marrige robe blanche/9.jpg';
-import mariage10 from '../assets/images/collection marrige robe blanche/10.jpg';
 import mariage11 from '../assets/images/collection marrige robe blanche/11.jpg';
 import mariage12 from '../assets/images/collection marrige robe blanche/12.jpg';
 import mariage13 from '../assets/images/collection marrige robe blanche/13.jpg';
@@ -101,21 +93,6 @@ import mariage28 from '../assets/images/collection marrige robe blanche/28.jpg';
 import mariage29 from '../assets/images/collection marrige robe blanche/29.jpg';
 import mariage30 from '../assets/images/collection marrige robe blanche/30.jpg';
 import mariage31 from '../assets/images/collection marrige robe blanche/31.jpg';
-import mariage32 from '../assets/images/collection marrige robe blanche/32.jpg';
-import mariage33 from '../assets/images/collection marrige robe blanche/33.jpg';
-import mariage34 from '../assets/images/collection marrige robe blanche/34.jpg';
-import mariage35 from '../assets/images/collection marrige robe blanche/35.jpg';
-import mariage36 from '../assets/images/collection marrige robe blanche/36.jpg';
-import mariage37 from '../assets/images/collection marrige robe blanche/37.jpg';
-import mariage38 from '../assets/images/collection marrige robe blanche/38.jpg';
-import mariage39 from '../assets/images/collection marrige robe blanche/39.jpg';
-import mariage40 from '../assets/images/collection marrige robe blanche/40.jpg';
-import mariage41 from '../assets/images/collection marrige robe blanche/41.jpg';
-import mariage42 from '../assets/images/collection marrige robe blanche/42.jpg';
-import mariage43 from '../assets/images/collection marrige robe blanche/43.jpg';
-import mariage43 from '../assets/images/collection marrige robe blanche/43.jpg';
-import mariage44 from '../assets/images/collection marrige robe blanche/44.jpg';
-import mariage45 from '../assets/images/collection marrige robe blanche/45.jpg';
 
 import sacperle1 from '../assets/images/sac perle/1.jpg';
 import sacperle2 from '../assets/images/sac perle/2.jpg';
@@ -144,13 +121,23 @@ export const dresses: Dress[] = [
     category: 'rose-noir',
     price: 299.99,
     images: [roseNoir1,roseNoir2,roseNoir3,roseNoir4,roseNoir5],
-    description: 'A stunning floor-length gown in midnight blue featuring delicate beadwork and a graceful silhouette. Perfect for formal galas and red carpet events.',
+    description: 'Une somptueuse robe longue noire ornée de sequins étincelants, de perles argentées et de fleurs brodées à la main. Sa silhouette sirène épouse gracieusement les courbes du corps, tandis que les manches transparentes ajoutent une touche d’élégance raffinée. Idéale pour les galas prestigieux, les événements de tapis rouge et les soirées de haute couture.',
     details: [
-      'Floor-length design',
-      'Hand-sewn beadwork',
-      'Built-in cups for support',
-      'Hidden back zipper',
-      'Small train'
+    'Design longueur au sol',
+
+'Sequins noirs cousus à la main',
+
+'Fleurs perlées en relief sur le buste et les épaules',
+
+'Manches longues en tulle transparent orné de perles',
+
+'Fermeture invisible au dos',
+
+'Bas de robe orné de fleurs en tissu en relief',
+
+'Silhouette sirène avec traîne légère',
+
+'Bonnets intégrés pour un bon maintien',
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     colors: ['Midnight Blue', 'Black', 'Burgundy'],
@@ -165,14 +152,14 @@ export const dresses: Dress[] = [
     price: 349.99,
     images: [homme1,homme2,homme3,homme4
     ],
-    description: 'A breathtaking gold sequin gown that cascades beautifully to the floor. The structured bodice provides elegant support while the flowing skirt creates dramatic movement.',
-    details: [
-      'Full sequin coverage',
-      'Structured bodice',
-      'Flowing A-line skirt',
-      'Adjustable straps',
-      'Back slit for ease of movement'
-    ],
+  description: 'Un ensemble traditionnel moderne d’un noir profond, rehaussé de détails dorés et de finitions métalliques. Cette tenue allie élégance contemporaine et raffinement culturel, idéale pour des cérémonies, des mariages ou des soirées habillées. La coupe ajustée met en valeur la silhouette masculine tout en garantissant confort et prestance.',
+details: [
+  'Tissu noir de qualité supérieure',
+  'Boutons œillets dorés sur le plastron et les manches',
+  'Ornements dorés en pointe sur les extrémités',
+  'Plastron décoratif cousu à l’avant',
+  'Coupe droite et confortable pour une élégance moderne'
+],
     sizes: ['XS', 'S', 'M', 'L'],
     colors: ['Gold', 'Silver', 'Rose Gold'],
     featured: true,
@@ -188,14 +175,16 @@ export const dresses: Dress[] = [
     price: 349.99,
     images: [homme5,homme6,homme7,homme8,homme9
     ],
-    description: 'A breathtaking gold sequin gown that cascades beautifully to the floor. The structured bodice provides elegant support while the flowing skirt creates dramatic movement.',
-    details: [
-      'Full sequin coverage',
-      'Structured bodice',
-      'Flowing A-line skirt',
-      'Adjustable straps',
-      'Back slit for ease of movement'
-    ],
+  description: 'Un ensemble de cérémonie majestueux et coordonné, composé de tenues vert émeraude rehaussées de broderies dorées raffinées. Ce look, à la fois royal et contemporain, incarne l’élégance masculine pour les grandes occasions comme les mariages traditionnels. Les coupes ajustées et les accessoires harmonisés, tels que les cannes dorées et les coiffes, renforcent l’allure noble et sophistiquée du groupe.',
+details: [
+  'Costumes vert émeraude à coupe droite',
+  'Épaulières brodées de motifs dorés',
+  'Pantalons assortis parfaitement taillés',
+  'Coiffes traditionnelles aux motifs dorés',
+  'Cannes dorées en accessoire élégant',
+  'Chaussures noires classiques pour une finition soignée'
+],
+
     sizes: ['XS', 'S', 'M', 'L'],
     colors: ['Gold', 'Silver', 'Rose Gold'],
     featured: true,
@@ -210,14 +199,16 @@ export const dresses: Dress[] = [
     price: 179.99,
     images: [dameNature1,dameNature2,dameNature3,dameNature4,dameNature5
     ],
-    description: 'A vibrant cocktail dress in rich ruby red with a flattering fit and subtle embellishments. Perfect for cocktail parties and date nights.',
-    details: [
-      'Knee-length',
-      'Fitted bodice',
-      'Slight flare at hem',
-      'Concealed side zipper',
-      'Subtle beading at neckline'
-    ],
+   description: 'Une robe féerique et artistique ornée de fleurs multicolores, de franges et de détails inspirés de la nature. Parfaite pour des événements à thème, des concours de costumes ou des séances photo créatives.',
+details: [
+'Robe courte, au-dessus du genou',
+'Corsage ajusté décoré de fleurs en tissu et feuillage',
+'Manches longues en tulle transparent',
+'Franges beiges ornées de fleurs tombant sur le bas de la robe',
+'Grandes ailes décoratives vert foncé avec bordures dorées',
+'Accessoires floraux dans les cheveux',
+'Baguette magique étoilée avec une rose rouge'
+],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     colors: ['Ruby Red', 'Emerald Green', 'Black'],
     featured: false,
@@ -231,14 +222,17 @@ export const dresses: Dress[] = [
     price: 899.99,
     images: [
     enfants1,enfants2,enfants3,enfants4 ],
-    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
-    details: [
-      'Cathedral-length train',
-      'Hand-applied lace details',
-      'Illusion neckline',
-      'Button-up back',
-      'Optional detachable sleeves'
-    ],
+    description: 'Une somptueuse robe de cérémonie pour enfant en tulle orange vif, ornée d’un corsage richement décoré de fleurs et de perles. Idéale pour les fêtes, mariages ou occasions spéciales.',
+details: [
+'Longueur au sol',
+'Jupe volumineuse à volants en tulle',
+'Corsage ajusté décoré de fleurs en relief et de perles',
+'Manches courtes ornées de chaînes de perles',
+'Fermeture discrète au dos',
+'Accessoire assorti : petit sac à main doré'
+]
+
+,
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
     colors: ['Ivory', 'White', 'Champagne'],
     featured: true,
@@ -253,14 +247,16 @@ export const dresses: Dress[] = [
     price: 899.99,
     images: [
     enfants5,enfants6,enfants7],
-    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
-    details: [
-      'Cathedral-length train',
-      'Hand-applied lace details',
-      'Illusion neckline',
-      'Button-up back',
-      'Optional detachable sleeves'
-    ],
+   description: 'Une somptueuse robe de bal couleur champagne, à l’allure princière, avec un bustier orné de dentelle et un spectaculaire col à volants. Parfaite pour les cérémonies, galas ou occasions royales.',
+details: [
+'Longueur au sol',
+'Jupe volumineuse en tulle scintillant',
+'Bustier ajusté avec motifs de dentelle',
+'Col large à volants spectaculaires',
+'Épaules dégagées',
+'Fermeture discrète au dos',
+'Accessoire : diadème élégant'
+],
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
     colors: ['Ivory', 'White', 'Champagne'],
     featured: true,
@@ -275,14 +271,14 @@ export const dresses: Dress[] = [
     price: 899.99,
     images: [
     enfants8,enfants9,enfants10],
-    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
-    details: [
-      'Cathedral-length train',
-      'Hand-applied lace details',
-      'Illusion neckline',
-      'Button-up back',
-      'Optional detachable sleeves'
-    ],
+  description: "Une somptueuse robe de princesse bleu ciel, sublimée par des broderies florales bleu royal et un corsage à décolleté en illusion. Cette tenue féerique évoque l'élégance et la magie des contes de fées, parfaite pour un anniversaire, une cérémonie ou une séance photo mémorable. Le volume spectaculaire de la jupe en tulle apporte une touche royale et majestueuse à l'ensemble.",
+details: [
+  "Corsage en dentelle brodée florale",
+  "Décolleté en illusion avec transparence subtile",
+  "Jupe volumineuse en tulle multicouche",
+  "Couronne scintillante assortie",
+  "Bijoux délicats pour compléter le look"
+],
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
     colors: ['Ivory', 'White', 'Champagne'],
     featured: true,
@@ -297,14 +293,15 @@ export const dresses: Dress[] = [
     price: 899.99,
     images: [
     enfants11,enfants12,enfants13,enfants14 ],
-    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
-    details: [
-      'Cathedral-length train',
-      'Hand-applied lace details',
-      'Illusion neckline',
-      'Button-up back',
-      'Optional detachable sleeves'
-    ],
+    description: "Élégante robe de princesse blanche à corsage en dentelle raffinée, dotée d’un col illusion transparent et d'une jupe ample en tulle. Parfaite pour les grandes occasions comme les anniversaires ou les défilés, cette tenue incarne grâce, pureté et raffinement. La finition du bustier et les accessoires scintillants ajoutent une touche féerique à l’ensemble.",
+details: [
+  "Corsage brodé en dentelle blanche",
+  "Décolleté illusion transparent",
+  "Jupe large et fluide en tulle doux",
+  "Accessoires royaux : couronne et collier rose",
+  "Ballon chiffre doré pour une célébration joyeuse"
+]
+,
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
     colors: ['Ivory', 'White', 'Champagne'],
     featured: true,
@@ -319,14 +316,15 @@ export const dresses: Dress[] = [
     price: 899.99,
     images: [
     enfants15,enfants16,enfants17 ],
-    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
-    details: [
-      'Cathedral-length train',
-      'Hand-applied lace details',
-      'Illusion neckline',
-      'Button-up back',
-      'Optional detachable sleeves'
-    ],
+   description: "Robe féerique à motif licorne pour petite fille, parfaite pour les fêtes d'anniversaire, les séances photo et les jeux de rôle magiques. Elle se distingue par ses ailes de papillon roses, ses broderies licorne multicolores et ses fleurs en relief, offrant une allure de petite fée tout droit sortie d’un conte.",
+details: [
+  "Robe blanche ornée de licornes brodées",
+  "Fleurs roses en 3D sur le buste",
+  "Ailes papillon roses à pois fleuris",
+  "Bandeau avec papillons roses assortis",
+  "Tissu scintillant pour un effet magique"
+]
+,
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
     colors: ['Ivory', 'White', 'Champagne'],
     featured: true,
@@ -601,7 +599,7 @@ export const dresses: Dress[] = [
     price: 129.99,
 
     images: [ 
-      mariage28,mariage29,mariage30,mariage30,mariage31,mariage32
+      mariage28,mariage29,mariage30,mariage30,mariage31
     ],
     description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
     details: [
@@ -625,7 +623,7 @@ export const dresses: Dress[] = [
     price: 129.99,
 
     images: [ 
-      mariage28,mariage29,mariage30,mariage30,mariage31,mariage32
+      mariage28,mariage29,mariage30,mariage30,mariage31
     ],
     description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
     details: [
