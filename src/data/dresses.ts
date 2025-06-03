@@ -1,4 +1,5 @@
 import { Dress } from '../types';
+import { Category } from '../types';
 import roseNoir1 from '../assets/images/collection rose noir/all miss.jpg';
 import roseNoir2 from '../assets/images/collection rose noir/image rose noir.jpg';
 import roseNoir3 from '../assets/images/collection rose noir/princess_issie1.jpg';
@@ -162,6 +163,54 @@ import countryflag37 from '../assets/images/collection country flag/37.jpg';
 import countryflag38 from '../assets/images/collection country flag/38.jpg';
 import countryflag39 from '../assets/images/collection country flag/39.jpg';
 
+
+
+import tradi1 from '../assets/images/mariage coutumier/hatit traditionnel/1.jpg';
+import tradi2 from '../assets/images/mariage coutumier/hatit traditionnel/2.jpg';
+import tradi3 from '../assets/images/mariage coutumier/hatit traditionnel/3.jpg';
+import tradi4 from '../assets/images/mariage coutumier/hatit traditionnel/4.jpg';
+import tradi5 from '../assets/images/mariage coutumier/hatit traditionnel/5.jpg';
+import tradi6 from '../assets/images/mariage coutumier/hatit traditionnel/6.jpg';  
+import tradi7 from '../assets/images/mariage coutumier/hatit traditionnel/7.jpg';
+import tradi8 from '../assets/images/mariage coutumier/hatit traditionnel/8.jpg';
+import tradi9 from '../assets/images/mariage coutumier/hatit traditionnel/9.jpg';
+import tradi10 from '../assets/images/mariage coutumier/hatit traditionnel/10.jpg';
+import tradi11 from '../assets/images/mariage coutumier/hatit traditionnel/11.jpg';
+import tradi12 from '../assets/images/mariage coutumier/hatit traditionnel/12.jpg';
+import tradi13 from '../assets/images/mariage coutumier/hatit traditionnel/13.jpg';
+import tradi14 from '../assets/images/mariage coutumier/hatit traditionnel/14.jpg';
+import tradi15 from '../assets/images/mariage coutumier/hatit traditionnel/15.jpg';
+import tradi16 from '../assets/images/mariage coutumier/hatit traditionnel/16.jpg';
+import tradi17 from '../assets/images/mariage coutumier/hatit traditionnel/17.jpg';
+import tradi18 from '../assets/images/mariage coutumier/hatit traditionnel/18.jpg';
+import tradi19 from '../assets/images/mariage coutumier/hatit traditionnel/19.jpg';
+import tradi20 from '../assets/images/mariage coutumier/hatit traditionnel/20.jpg';
+import tradi21 from '../assets/images/mariage coutumier/hatit traditionnel/21.jpg';
+import tradi22 from '../assets/images/mariage coutumier/hatit traditionnel/22.jpg';
+import tradi23 from '../assets/images/mariage coutumier/hatit traditionnel/23.jpg';
+import tradi24 from '../assets/images/mariage coutumier/hatit traditionnel/24.jpg';
+import tradi25 from '../assets/images/mariage coutumier/hatit traditionnel/25.jpg';
+import tradi26 from '../assets/images/mariage coutumier/hatit traditionnel/26.jpg';
+import tradi27 from '../assets/images/mariage coutumier/hatit traditionnel/27.jpg';
+import tradi28 from '../assets/images/mariage coutumier/hatit traditionnel/28.jpg';
+import tradi29 from '../assets/images/mariage coutumier/hatit traditionnel/29.jpg';
+import tradi30 from '../assets/images/mariage coutumier/hatit traditionnel/30.jpg';
+import tradi31 from '../assets/images/mariage coutumier/hatit traditionnel/31.jpg';
+import tradi32 from '../assets/images/mariage coutumier/hatit traditionnel/32.jpg';
+import tradi33 from '../assets/images/mariage coutumier/hatit traditionnel/33.jpg';
+import tradi34 from '../assets/images/mariage coutumier/hatit traditionnel/34.jpg';
+import tradi35 from '../assets/images/mariage coutumier/hatit traditionnel/35.jpg';
+import tradi36 from '../assets/images/mariage coutumier/hatit traditionnel/36.jpg';
+import tradi37 from '../assets/images/mariage coutumier/hatit traditionnel/37.jpg';
+import tradi38 from '../assets/images/mariage coutumier/hatit traditionnel/38.jpg';
+
+import dress1 from '../assets/images/mariage coutumier/1/dress1.jpg';
+import dress2 from '../assets/images/mariage coutumier/1/dress2.jpg';
+import dress3 from '../assets/images/mariage coutumier/1/dress3.jpg';
+import dress4 from '../assets/images/mariage coutumier/1/dress4.jpg';
+import dress5 from '../assets/images/mariage coutumier/1/dress5.jpg';
+import dress6 from '../assets/images/mariage coutumier/1/dress6.jpg';
+import dress7 from '../assets/images/mariage coutumier/1/dress7.jpg';
 
 
 
@@ -795,6 +844,362 @@ details: [
     new: true,
     likes: 156
   },
+
+
+
+
+  {
+    id: 'tardi001',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi1,tradi2,tradi3,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+  {
+    id: 'tardi002',
+    name: 'Habit Traditionnel ',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi4,tradi5,tradi6
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+    {
+    id: 'tardi002',
+    name: 'Mariage Coutumier',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      dress1,dress2,dress3,dress4,dress5,dress6,dress7
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+  {
+    id: 'tardi003',
+    name: 'Habit Traditionnel',
+    category: 'Habit Traditionnel',
+    price: 129.99,
+
+    images: [ 
+      tradi8,tradi9,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+  {
+    id: 'tardi004',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi12,tradi13,tradi14
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+    {
+    id: 'tardi005',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi15,tradi17,tradi18,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+  {
+    id: 'tardi006',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi16,tradi19,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+  {
+    id: 'tardi006',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi20,tradi21,tradi22,tradi23
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+    {
+    id: 'tardi007',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi24,tradi25,tradi26,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+    {
+    id: 'tardi008',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi27,tradi28,tradi29,tradi30,
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+  {
+    id: 'tardi009',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi31,tradi32,tradi33
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+  {
+    id: 'tardi0010',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi37,tradi38,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+
+  {
+    id: 'tardi006',
+    name: 'Autres tenues traditionnelles',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi7,tradi11,tradi10,tradi34,tradi35,tradi36
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

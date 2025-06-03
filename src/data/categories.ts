@@ -42,6 +42,15 @@ export const categories: Category[] = [
     description: 'Collection nuptiale exquise pour votre jour spécial.',
     image: marrige
   },
+
+  {
+    id: 'marrige',
+    name: 'Tenues Traditionnelles',
+    description: 'Collection de tenues traditionnelles pour célébrer la culture.',
+    image: marrige
+  },
+
+
   {
     id: 'sac-perle',
     name: 'Sac Perle',
@@ -52,14 +61,21 @@ export const categories: Category[] = [
   {
     id: 'belle-fleur',
     name: 'Belle Fleure',
-    description: 'xxxxx',
+    description: 'Collection d’accessoires luxueux ornés de perles.xxxxx',
     image:sacPerle
   },
 
   {
     id: 'country-flag',
     name: 'Country Flag',
-    description: 'xxxxx',
+    description: 'Collection d’accessoires luxueux ornés de perles.',
+    image:sacPerle
+  },
+
+   {
+    id: 'robe-mixte',
+    name: 'Autres Robes Mixte',
+    description: 'Collection d’accessoires luxueux ornés de perles.',
     image:sacPerle
   }
 ];

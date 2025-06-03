@@ -1,25 +1,21 @@
 import { Sponsor } from '../types';
+import AFDEEF from '../assets/images/sponsors/AFDEEFjpg.jpg';
+import TAMO from '../assets/images/sponsors/TAMO.jpg';
 
 export const sponsors: Sponsor[] = [
   {
     id: 'sp001',
-    name: 'TAMO Foundation',
-    description: 'The TAMO Foundation works to provide educational opportunities for underprivileged children around the world. Inesta Mode supports their mission by donating a percentage of profits from select collections.',
-    logo: 'https://images.pexels.com/photos/3747139/pexels-photo-3747139.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    website: 'https://example.com/tamo-foundation'
+    name: "Association des Femmes Dynamiques Engagées pour l'Epanouissement de la Famille (AFDEEF)",
+    description: "L' association AFDEEF est un groupe de femmes dynamiques, ambitieuses et persévérantes, venant d'horizons différents qui ont décidé mettre leurs connaissances en commun afin de lutter contre tous obstacles entravant le bien être mental ainsi que l'épanouissement de la femme,  de sa famille et son entourage.",
+    logo: AFDEEF,
+    website: ''
   },
   {
     id: 'sp002',
-    name: 'Fashion Forward Initiative',
-    description: 'Fashion Forward Initiative promotes sustainable practices in the fashion industry. Inesta Mode partners with them to reduce waste and implement eco-friendly production methods.',
-    logo: 'https://images.pexels.com/photos/5696555/pexels-photo-5696555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    website: 'https://example.com/fashion-forward'
+    name: 'Technological Aid for Minorities Outcries (TAMO Secures)',
+    description: 'Nous luttons contre la violence basée sur le genre avec TAMO Secures, une solution logicielle innovante. Notre mission est de sensibiliser et de premouvoir le changement en utilisant la technologie pour protéger et autonomiser les femmes et jeunes filles',
+    logo: TAMO ,
+    website: ''
   },
-  {
-    id: 'sp003',
-    name: 'Women Empowerment League',
-    description: 'The Women Empowerment League supports women entrepreneurs in developing countries. Inesta Mode collaborates by providing training and opportunities for women in the fashion industry.',
-    logo: 'https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    website: 'https://example.com/women-empowerment'
-  }
+
 ];

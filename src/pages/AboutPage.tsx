@@ -1,5 +1,6 @@
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
+import FounderImage from '../assets/images/collection marrige robe blanche/23.jpg';
 
 function AboutPage() {
   const { ref: storyRef, inView: storyInView } = useInView({
@@ -53,7 +54,7 @@ function AboutPage() {
               </div>
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="../assets/images/collection marrige robe blanche/23.jpg"
+                      src={FounderImage}
                   alt="Inesta Mode Founder"
                   className="w-full h-full object-cover"
                 />

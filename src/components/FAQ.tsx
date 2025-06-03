@@ -7,22 +7,12 @@ const faqs = [
     question: "How can I order a custom dress?",
     answer: "You can order a custom dress by visiting our Custom Designs collection or contacting us directly through our contact form. We'll schedule a consultation to discuss your requirements, take measurements, and create your perfect dress."
   },
-  {
-    question: "What is your return policy?",
-    answer: "We accept returns within 14 days of delivery for standard collection items in their original condition. Custom-made dresses are non-returnable unless there are significant defects."
-  },
-  {
-    question: "How long does shipping take?",
-    answer: "Standard shipping takes 3-5 business days within the country. International shipping typically takes 7-14 business days. Express shipping options are available at checkout."
-  },
+
   {
     question: "Do you offer alterations?",
     answer: "Yes, we offer alterations for all our dresses. The first fitting and basic alterations are complimentary. Additional modifications may incur extra charges."
   },
-  {
-    question: "Can I schedule a virtual fitting?",
-    answer: "Yes! We offer virtual fitting sessions through video call. You'll need someone to help take your measurements, and we'll guide you through the process."
-  },
+
   {
     question: "What payment methods do you accept?",
     answer: "We accept all major credit cards, PayPal, and bank transfers. For custom orders, we require a 50% deposit to begin work."
