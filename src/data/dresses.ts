@@ -107,15 +107,11 @@ import mariage34 from '../assets/images/collection marrige robe blanche/34.jpg';
 import mariage35 from '../assets/images/collection marrige robe blanche/35.jpg';
 import mariage36 from '../assets/images/collection marrige robe blanche/36.jpg';
 import mariage37 from '../assets/images/collection marrige robe blanche/37.jpg';
-import mariage38 from '../assets/images/collection marrige robe blanche/38.jpg';
-import mariage39 from '../assets/images/collection marrige robe blanche/39.jpg';
-import mariage40 from '../assets/images/collection marrige robe blanche/40.jpg';
-import mariage41 from '../assets/images/collection marrige robe blanche/41.jpg';
-import mariage42 from '../assets/images/collection marrige robe blanche/42.jpg';
 import mariage43 from '../assets/images/collection marrige robe blanche/43.jpg';
-import mariage43 from '../assets/images/collection marrige robe blanche/43.jpg';
-import mariage44 from '../assets/images/collection marrige robe blanche/44.jpg';
-import mariage45 from '../assets/images/collection marrige robe blanche/45.jpg';
+import mariage46 from '../assets/images/collection marrige robe blanche/46.jpg';
+import mariage48 from '../assets/images/collection marrige robe blanche/48.jpg';
+import mariage49 from '../assets/images/collection marrige robe blanche/49.jpg';
+
 
 import sacperle1 from '../assets/images/sac perle/1.jpg';
 import sacperle2 from '../assets/images/sac perle/2.jpg';
@@ -127,9 +123,50 @@ import sacperle7 from '../assets/images/sac perle/7.jpg';
 import sacperle8 from '../assets/images/sac perle/8.jpg';
 import sacperle9 from '../assets/images/sac perle/9.jpg';
 import sacperle10 from '../assets/images/sac perle/10.jpg';
-import bellefleure1 from '../assets/images/sac perle/1.jpg';
-import bellefleure2 from '../assets/images/sac perle/2.jpg';
 
+
+import bellefleure1 from '../assets/images/collection belle fleur/1.jpg';
+import bellefleure2 from '../assets/images/collection belle fleur/2.jpg';
+
+
+import countryflag1 from '../assets/images/collection country flag/1.jpg';
+import countryflag2 from '../assets/images/collection country flag/2.jpg';
+import countryflag3 from '../assets/images/collection country flag/3.jpg';
+import countryflag4 from '../assets/images/collection country flag/4.jpg';
+import countryflag5 from '../assets/images/collection country flag/5.jpg';
+import countryflag6 from '../assets/images/collection country flag/6.jpg';
+import countryflag7 from '../assets/images/collection country flag/7.jpg';
+import countryflag8 from '../assets/images/collection country flag/8.jpg';
+import countryflag9 from '../assets/images/collection country flag/9.jpg';
+import countryflag10 from '../assets/images/collection country flag/10.jpg';
+import countryflag11 from '../assets/images/collection country flag/11.jpg';
+import countryflag12 from '../assets/images/collection country flag/12.jpg';
+import countryflag13 from '../assets/images/collection country flag/13.jpg';
+import countryflag14 from '../assets/images/collection country flag/14.jpg';
+import countryflag15 from '../assets/images/collection country flag/15.jpg';
+import countryflag16 from '../assets/images/collection country flag/16.jpg';
+import countryflag17 from '../assets/images/collection country flag/17.jpg';
+import countryflag18 from '../assets/images/collection country flag/18.jpg';
+import countryflag19 from '../assets/images/collection country flag/19.jpg';
+import countryflag20 from '../assets/images/collection country flag/20.jpg';
+import countryflag21 from '../assets/images/collection country flag/21.jpg';
+import countryflag22 from '../assets/images/collection country flag/22.jpg';
+import countryflag23 from '../assets/images/collection country flag/23.jpg';
+import countryflag24 from '../assets/images/collection country flag/24.jpg';
+import countryflag25 from '../assets/images/collection country flag/25.jpg';
+import countryflag26 from '../assets/images/collection country flag/26.jpg';
+import countryflag27 from '../assets/images/collection country flag/27.jpg';
+import countryflag28 from '../assets/images/collection country flag/28.jpg';
+import countryflag29 from '../assets/images/collection country flag/29.jpg';
+import countryflag31 from '../assets/images/collection country flag/31.jpg';
+import countryflag32 from '../assets/images/collection country flag/32.jpg';
+import countryflag33 from '../assets/images/collection country flag/33.jpg';
+import countryflag34 from '../assets/images/collection country flag/34.jpg';
+import countryflag35 from '../assets/images/collection country flag/35.jpg';
+import countryflag36 from '../assets/images/collection country flag/36.jpg';
+import countryflag37 from '../assets/images/collection country flag/37.jpg';
+import countryflag38 from '../assets/images/collection country flag/38.jpg';
+import countryflag39 from '../assets/images/collection country flag/39.jpg';
 
 
 
@@ -620,7 +657,7 @@ export const dresses: Dress[] = [
 
   {
     id: 'sum0010',
-    name: 'Autres',
+    name: 'Marriage',
     category: 'marrige',
     price: 129.99,
 
@@ -641,6 +678,31 @@ export const dresses: Dress[] = [
     new: true,
     likes: 156
   },
+
+
+  {
+    id: 'sum0044',
+    name: 'Autres',
+    category: 'marrige',
+    price: 129.99,
+    images: [ 
+      mariage33,mariage34,mariage35,mariage36,mariage37,mariage43,mariage46,mariage48,mariage49
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
 
   {
     id: 'sum0011',
@@ -669,7 +731,7 @@ export const dresses: Dress[] = [
   {
     id: 'sum0017',
     name: 'Belle Fleure',
-    category: 'sac-perle',
+    category: 'belle-fleur',
     price: 129.99,
 
     images: [ 
@@ -689,6 +751,38 @@ export const dresses: Dress[] = [
     new: true,
     likes: 156
   },
+
+
+  {
+    id: 'sum00177',
+    name: 'Country Flag',
+    category: 'country-flag',
+    price: 129.99,
+
+    images: [ 
+      countryflag1,countryflag2,countryflag3,countryflag4,countryflag5,countryflag6,countryflag7,countryflag8,
+      countryflag9,countryflag10,countryflag11,countryflag12,
+      countryflag13,countryflag14,countryflag15,countryflag16,countryflag17,countryflag18,countryflag19,countryflag20,
+      countryflag21,countryflag22,countryflag23,countryflag24,countryflag25,countryflag26,countryflag27,countryflag28,countryflag29,countryflag31,countryflag32,countryflag33,countryflag34,countryflag35,countryflag36,
+      countryflag37,countryflag38,countryflag39
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
 
 
 ];

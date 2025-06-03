@@ -53,7 +53,7 @@ function AboutPage() {
               </div>
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="https://images.pexels.com/photos/4620623/pexels-photo-4620623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                  src="../assets/images/collection marrige robe blanche/23.jpg"
                   alt="Inesta Mode Founder"
                   className="w-full h-full object-cover"
                 />

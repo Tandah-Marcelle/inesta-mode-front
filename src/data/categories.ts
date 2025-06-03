@@ -57,7 +57,7 @@ export const categories: Category[] = [
   },
 
   {
-    id: 'contry-flag',
+    id: 'country-flag',
     name: 'Country Flag',
     description: 'xxxxx',
     image:sacPerle
