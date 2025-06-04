@@ -6,6 +6,7 @@ import juliaSamantha from '../assets/images/julia Samantha/5.jpg';
 import DeuxiemeDauphine2023  from '../assets/images/2ème Dauphine Miss Cameroun 2023/1.jpg';
 import DeuxiemeDauphine2024 from '../assets/images/2ème Dauphine Miss Cameroun 2024 chez inesta/3.jpg';
 import clientX from '../assets/images/Children/Fille Inesta/22.jpg';
+import  clienthomme from '../assets/images/Collection homme/2.jpg';
 
 
 const testimonials = [
@@ -21,6 +22,13 @@ const testimonials = [
     image: juliaSamantha,
     quote: " J’ai porté de nombreuses robes de créateurs, mais aucune n’égale l’élégance et le confort des créations d’Inesta Mode."
   },
+    {
+    name: "No name",
+    title: " XXX",
+    image: clienthomme,
+    quote: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+
   {
     name: "No name",
     title: "2ème Dauphine Miss Cameroun 2023",

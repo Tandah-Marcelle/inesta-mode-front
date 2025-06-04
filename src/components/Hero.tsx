@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import image1 from "../assets/images/collection marrige robe blanche/fille dhonneur/3.jpg";
+// import image1 from "../assets/images/collection marrige robe blanche/fille dhonneur/3.jpg";
 import image2 from "../assets/images/collection marrige robe blanche/fille dhonneur/2.jpg";
 import image3 from "../assets/images/Collection homme/garcon dhonneur/3.jpg";
 
@@ -14,11 +14,11 @@ const preloadImages = (urls) => {
 };
 
 const heroBackgrounds = [
-  {
-    id: 1,
-    image: image1,
-    alt: "Bridal dress collection - elegant white gown"
-  },
+  // {
+  //   id: 1,
+  //   image: image1,
+  //   alt: "Bridal dress collection - elegant white gown"
+  // },
   {
     id: 2,
     image: image2,
