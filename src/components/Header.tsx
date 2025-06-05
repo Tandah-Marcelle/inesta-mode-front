@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ShoppingBag } from 'lucide-react';
 import { useShop } from '../contexts/ShopContext';
 
+import logo from '../assets/images/InestaLogo/logo.jpg'
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -49,7 +50,7 @@ function Header() {
     <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container-custom flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <img src="/logo.svg" alt="Inesta Mode Logo" className="h-10 w-10 mr-2" />
+          <img src={logo} alt="Inesta Mode Logo" className="h-10 w-10 mr-2" />
           <span className={`font-display font-semibold text-2xl ${isScrolled ? 'text-primary-800' : 'text-primary-800 md:text-white'}`}>
             Inesta Mode
           </span>
