@@ -262,6 +262,99 @@ import specialMiss43 from '../assets/images/2ème Dauphine Miss Cameroun 2024 ch
 
 
 
+//Journee de jeunesse
+import jj1 from '../assets/images/journee de jeuness/Dress1.jpg';
+import jj2 from '../assets/images/journee de jeuness/2.jpg';
+import jj3 from '../assets/images/journee de jeuness/3.jpg'; 
+import jj4 from '../assets/images/journee de jeuness/4.jpg';
+import jj5 from '../assets/images/journee de jeuness/5.jpg';
+
+//Robe Mixte
+import robeMixte1 from '../assets/images/non collection single dresses/Dress1.jpg';
+import robeMixte2 from '../assets/images/non collection single dresses/Dress2.jpg';
+import robeMixte3 from '../assets/images/non collection single dresses/Dress3.jpg';
+import robeMixte4 from '../assets/images/non collection single dresses/Dress4.jpg';
+import robeMixte5 from '../assets/images/non collection single dresses/Dress5.jpg';
+import robeMixte6 from '../assets/images/non collection single dresses/Dress6.jpg';
+import robeMixte7 from '../assets/images/non collection single dresses/Dress7.jpg';
+import robeMixte8 from '../assets/images/non collection single dresses/Dress8.jpg';
+import robeMixte9 from '../assets/images/non collection single dresses/Dress9.jpg';
+import robeMixte10 from '../assets/images/non collection single dresses/Dress10.jpg';
+
+import robeMixte11 from '../assets/images/non collection single dresses/Dress11.jpg';
+import robeMixte12 from '../assets/images/non collection single dresses/Dress12.jpg';
+import robeMixte13 from '../assets/images/non collection single dresses/Dress13.jpg';
+import robeMixte14 from '../assets/images/non collection single dresses/Dress14.jpg';
+import robeMixte15 from '../assets/images/non collection single dresses/Dress15.jpg';
+import robeMixte16 from '../assets/images/non collection single dresses/Dress16.jpg';
+import robeMixte17 from '../assets/images/non collection single dresses/Dress17.jpg';
+
+import robeMixte18 from '../assets/images/non collection single dresses/Dress18.jpg';
+import robeMixte19 from '../assets/images/non collection single dresses/Dress19.jpg';
+import robeMixte20 from '../assets/images/non collection single dresses/Dress20.jpg';
+import robeMixte21 from '../assets/images/non collection single dresses/Dress21.jpg';
+import robeMixte22 from '../assets/images/non collection single dresses/Dress22.jpg';
+import robeMixte23 from '../assets/images/non collection single dresses/Dress23.jpg';
+import robeMixte24 from '../assets/images/non collection single dresses/Dress24.jpg';
+import robeMixte25 from '../assets/images/non collection single dresses/Dress25.jpg';
+import robeMixte26 from '../assets/images/non collection single dresses/Dress26.jpg';
+import robeMixte27 from '../assets/images/non collection single dresses/Dress27.jpg';
+import robeMixte28 from '../assets/images/non collection single dresses/Dress28.jpg';
+import robeMixte29 from '../assets/images/non collection single dresses/Dress29.jpg';
+import robeMixte30 from '../assets/images/non collection single dresses/Dress30.jpg';
+import robeMixte31 from '../assets/images/non collection single dresses/Dress31.jpg';
+import robeMixte32 from '../assets/images/non collection single dresses/Dress32.jpg';
+import robeMixte33 from '../assets/images/non collection single dresses/Dress33.jpg';
+import robeMixte34 from '../assets/images/non collection single dresses/Dress34.jpg';
+import robeMixte35 from '../assets/images/non collection single dresses/Dress35.jpg';
+import
+  robeMixte36 from '../assets/images/non collection single dresses/Dress36.jpg';
+import robeMixte37 from '../assets/images/non collection single dresses/Dress37.jpg';
+import robeMixte38 from '../assets/images/non collection single dresses/Dress38.jpg';
+import robeMixte39 from '../assets/images/non collection single dresses/Dress39.jpg';
+import robeMixte40 from '../assets/images/non collection single dresses/Dress40.jpg';
+import robeMixte41 from '../assets/images/non collection single dresses/Dress41.jpg';
+import robeMixte42 from '../assets/images/non collection single dresses/Dress42.jpg';
+import robeMixte43 from '../assets/images/non collection single dresses/Dress43.jpg';
+import robeMixte44 from '../assets/images/non collection single dresses/Dress44.jpg';
+import robeMixte45 from '../assets/images/non collection single dresses/Dress45.jpg';
+import
+  robeMixte46 from '../assets/images/non collection single dresses/Dress46.jpg';
+import robeMixte47 from '../assets/images/non collection single dresses/Dress47.jpg';
+import robeMixte48 from '../assets/images/non collection single dresses/Dress48.jpg';
+import robeMixte49 from '../assets/images/non collection single dresses/Dress49.jpg';
+import robeMixte50 from '../assets/images/non collection single dresses/Dress50.jpg';
+import
+  robeMixte51 from '../assets/images/non collection single dresses/Dress51.jpg';
+import robeMixte52 from '../assets/images/non collection single dresses/Dress52.jpg';
+import robeMixte53 from '../assets/images/non collection single dresses/Dress53.jpg';
+import robeMixte54 from '../assets/images/non collection single dresses/Dress54.jpg';
+import robeMixte55 from '../assets/images/non collection single dresses/Dress55.jpg';
+import robeMixte56 from '../assets/images/non collection single dresses/Dress56.jpg';
+import robeMixte57 from '../assets/images/non collection single dresses/Dress57.jpg';
+import robeMixte58 from '../assets/images/non collection single dresses/Dress58.jpg';
+import robeMixte59 from '../assets/images/non collection single dresses/Dress59.jpg';
+import robeMixte60 from '../assets/images/non collection single dresses/Dress60.jpg';
+import robeMixte61 from '../assets/images/non collection single dresses/Dress61.jpg';
+import robeMixte62 from '../assets/images/non collection single dresses/Dress62.jpg';
+
+import robeMixte63 from '../assets/images/non collection single dresses/Dress63.jpg';
+import robeMixte64 from '../assets/images/non collection single dresses/Dress64.jpg';
+import robeMixte65 from '../assets/images/non collection single dresses/Dress65.jpg';
+import robeMixte66 from '../assets/images/non collection single dresses/Dress66.jpg';
+import robeMixte67 from '../assets/images/non collection single dresses/Dress67.jpg';
+import robeMixte68 from '../assets/images/non collection single dresses/Dress68.jpg';
+import robeMixte69 from '../assets/images/non collection single dresses/Dress69.jpg';
+import robeMixte70 from '../assets/images/non collection single dresses/Dress70.jpg';
+import robeMixte71 from '../assets/images/non collection single dresses/Dress71.jpg';
+import robeMixte72 from '../assets/images/non collection single dresses/Dress72.jpg';
+import robeMixte73 from '../assets/images/non collection single dresses/Dress73.jpg';
+import robeMixte74 from '../assets/images/non collection single dresses/Dress74.jpg';
+import robeMixte75 from '../assets/images/non collection single dresses/Dress75.jpg';
+
+
+
+
 
 export const dresses: Dress[] = [
   {
@@ -1338,8 +1431,66 @@ details: [
     featured: false,
     new: true,
     likes: 156
-  }
+  },
 
+
+  {
+    id: 'journee-jeunesse',
+    name: 'Journee Jeunesse',
+    category: 'journee-jeunesse',
+    price: 129.99,
+
+    images: [ 
+     jj1,jj2,jj3,jj4,jj5,
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+    {
+    id: 'RM1',
+    name: 'Robe Mixte',
+    category: 'robe-mixte',
+    price: 129.99,
+
+    images: [ 
+     robeMixte5,robeMixte1,robeMixte2,robeMixte3,robeMixte4,robeMixte6,robeMixte7,robeMixte8,
+     robeMixte9,robeMixte10,robeMixte11,robeMixte12,robeMixte13,robeMixte14,robeMixte15,robeMixte16,
+     robeMixte17,robeMixte18,robeMixte19,robeMixte20,robeMixte21,robeMixte22,robeMixte23,robeMixte24,robeMixte25,
+      robeMixte26,robeMixte27,robeMixte28,robeMixte29,robeMixte30,robeMixte31,robeMixte32,robeMixte33,
+      robeMixte34,robeMixte35,robeMixte36,robeMixte37,robeMixte38,robeMixte39,robeMixte40,robeMixte41,
+      robeMixte42,robeMixte43,robeMixte44,robeMixte45,robeMixte46,robeMixte47,robeMixte48,robeMixte49,
+      robeMixte50,robeMixte51,robeMixte52,robeMixte53,robeMixte54,robeMixte55,robeMixte56,robeMixte57,
+      robeMixte58,robeMixte59,robeMixte60,robeMixte61,robeMixte62,robeMixte63,robeMixte64,robeMixte65,
+      robeMixte66,robeMixte67,robeMixte68,robeMixte69,robeMixte70,robeMixte71,robeMixte72,robeMixte73,
+      robeMixte74,robeMixte75,
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  }
 
 
 

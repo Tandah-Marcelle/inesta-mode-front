@@ -8,8 +8,10 @@ import marrige from '../assets/images/collection marrige robe blanche/32.jpg';
 import sacPerle from '../assets/images/sac perle/5.jpg';
 import belleFleure from '../assets/images/collection belle fleur/2.jpg';
 import countryFlag from '../assets/images/collection country flag/11.jpg';
-import tenuetradi from '../assets/images/mariage coutumier/hatit traditionnel/17.jpg';
+import tenuetradi from '../assets/images/mariage coutumier/hatit traditionnel/1.jpg';
 import specialMiss from '../assets/images/julia Samantha/15.jpg';
+import journeeJeunesse from '../assets/images/journee de jeuness/Dress1.jpg';
+import robeMixte from '../assets/images/non collection single dresses/Dress5.jpg';
 
 
 
@@ -50,20 +52,13 @@ export const categories: Category[] = [
     id: 'mariage-coutumier',
     name: 'Tenues Traditionnelles',
     description: 'Collection de tenues traditionnelles pour célébrer la culture.',
-    image: marrige
+    image: tenuetradi
   }
   ,{
     id: 'special-miss',
     name: 'Special Miss',
     description: 'Collection spéciale pour les reines et les miss.',
     image:specialMiss
-  },
-
-  {
-    id: 'mariage-coutumier',
-    name: 'Tenues Traditionnelles',
-    description: 'Collection de tenues traditionnelles pour célébrer la culture.',
-    image: tenuetradi
   },
 
 
@@ -92,10 +87,17 @@ export const categories: Category[] = [
     image:sacPerle
   },
 
-  //  {
-  //   id: 'robe-mixte',
-  //   name: 'Autres Robes Mixte',
-  //   description: 'Collection d’accessoires luxueux ornés de perles.',
-  //   image:robeMixte
-  // }
+      {
+    id: 'journee-jeunesse',
+    name: 'Journée de la Jeunesse',
+    description: 'Collection d’accessoires luxueux ornés de perles.',
+    image:journeeJeunesse
+  },
+
+   {
+    id: 'robe-mixte',
+    name: 'Autres Robes Mixte',
+    description: 'Collection d’accessoires luxueux ornés de perles.',
+    image:robeMixte
+  }
 ];
