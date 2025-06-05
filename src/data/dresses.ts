@@ -1207,6 +1207,10 @@ details: [
 
 ];
 
+// Create 15 more dresses to have a total of 20 dresses (4 per page with 5 pages)
+export const allDresses: Dress[] = [
+  ...dresses,
+  // Additional evening gowns
 
-
-
+  
+];
