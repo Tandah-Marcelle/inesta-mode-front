@@ -1,5 +1,4 @@
 import { Dress } from '../types';
-import { Category } from '../types';
 import roseNoir1 from '../assets/images/collection rose noir/all miss.jpg';
 import roseNoir2 from '../assets/images/collection rose noir/image rose noir.jpg';
 import roseNoir3 from '../assets/images/collection rose noir/princess_issie1.jpg';
@@ -94,8 +93,6 @@ import mariage28 from '../assets/images/collection marrige robe blanche/28.jpg';
 import mariage29 from '../assets/images/collection marrige robe blanche/29.jpg';
 import mariage30 from '../assets/images/collection marrige robe blanche/30.jpg';
 import mariage31 from '../assets/images/collection marrige robe blanche/31.jpg';
-
-import mariage32 from '../assets/images/collection marrige robe blanche/32.jpg';
 import mariage33 from '../assets/images/collection marrige robe blanche/33.jpg';
 import mariage34 from '../assets/images/collection marrige robe blanche/34.jpg';
 import mariage35 from '../assets/images/collection marrige robe blanche/35.jpg';
