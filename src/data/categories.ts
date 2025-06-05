@@ -46,17 +46,17 @@ export const categories: Category[] = [
   },
 
   {
-<<<<<<< HEAD
+
     id: 'mariage-coutumier',
     name: 'Tenues Traditionnelles',
     description: 'Collection de tenues traditionnelles pour célébrer la culture.',
     image: marrige
-=======
+  }
+  ,{
     id: 'special-miss',
     name: 'Special Miss',
     description: 'Collection spéciale pour les reines et les miss.',
     image:specialMiss
->>>>>>> be3abce202b1a6feb4aea255e305b10cd6b3eccf
   },
 
   {

@@ -1207,39 +1207,6 @@ details: [
 
 ];
 
-<<<<<<< HEAD
 
 
 
-=======
-// Create 15 more dresses to have a total of 20 dresses (4 per page with 5 pages)
-export const allDresses: Dress[] = [
-  ...dresses,
-  // Additional evening gowns
-  {
-    id: 'ev003',
-    name: 'Emerald Enchantment',
-    category: 'evening-gowns',
-    price: 329.99,
-    images: [
-      'https://images.pexels.com/photos/7639406/pexels-photo-7639406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/7639407/pexels-photo-7639407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/7639408/pexels-photo-7639408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ],
-    description: 'A stunning emerald green gown with a mermaid silhouette and delicate beadwork on the bodice. Perfect for making a statement at any formal event.',
-    details: [
-      'Mermaid silhouette',
-      'Sweetheart neckline',
-      'Hand-sewn beadwork',
-      'Corset back',
-      'Small train'
-    ],
-    sizes: ['XS', 'S', 'M', 'L'],
-    colors: ['Emerald Green', 'Navy Blue', 'Burgundy'],
-    featured: false,
-    new: true,
-    likes: 118
-  },
-  
-];
->>>>>>> refs/remotes/origin/main
