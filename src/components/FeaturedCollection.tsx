@@ -44,7 +44,7 @@ function FeaturedCollection() {
             animate="show"
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
-            {categories.slice(0, 6).map((category, index) => (
+            {categories.slice(0, 9).map((category, index) => (
               <motion.div key={category.id} variants={item}>
                 <Link 
                   to={`/collections/${category.id}`}
