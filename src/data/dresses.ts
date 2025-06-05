@@ -1,4 +1,5 @@
 import { Dress } from '../types';
+import { Category } from '../types';
 import roseNoir1 from '../assets/images/collection rose noir/all miss.jpg';
 import roseNoir2 from '../assets/images/collection rose noir/image rose noir.jpg';
 import roseNoir3 from '../assets/images/collection rose noir/princess_issie1.jpg';
@@ -94,6 +95,19 @@ import mariage29 from '../assets/images/collection marrige robe blanche/29.jpg';
 import mariage30 from '../assets/images/collection marrige robe blanche/30.jpg';
 import mariage31 from '../assets/images/collection marrige robe blanche/31.jpg';
 
+import mariage32 from '../assets/images/collection marrige robe blanche/32.jpg';
+import mariage33 from '../assets/images/collection marrige robe blanche/33.jpg';
+import mariage34 from '../assets/images/collection marrige robe blanche/34.jpg';
+import mariage35 from '../assets/images/collection marrige robe blanche/35.jpg';
+import mariage36 from '../assets/images/collection marrige robe blanche/36.jpg';
+import mariage37 from '../assets/images/collection marrige robe blanche/37.jpg';
+import mariage43 from '../assets/images/collection marrige robe blanche/43.jpg';
+import mariage46 from '../assets/images/collection marrige robe blanche/46.jpg';
+import mariage48 from '../assets/images/collection marrige robe blanche/48.jpg';
+import mariage49 from '../assets/images/collection marrige robe blanche/49.jpg';
+
+
+
 import sacperle1 from '../assets/images/sac perle/1.jpg';
 import sacperle2 from '../assets/images/sac perle/2.jpg';
 import sacperle3 from '../assets/images/sac perle/3.jpg';
@@ -104,10 +118,99 @@ import sacperle7 from '../assets/images/sac perle/7.jpg';
 import sacperle8 from '../assets/images/sac perle/8.jpg';
 import sacperle9 from '../assets/images/sac perle/9.jpg';
 import sacperle10 from '../assets/images/sac perle/10.jpg';
-import bellefleure1 from '../assets/images/sac perle/1.jpg';
-import bellefleure2 from '../assets/images/sac perle/2.jpg';
 
 
+import bellefleure1 from '../assets/images/collection belle fleur/1.jpg';
+import bellefleure2 from '../assets/images/collection belle fleur/2.jpg';
+
+
+import countryflag1 from '../assets/images/collection country flag/1.jpg';
+import countryflag2 from '../assets/images/collection country flag/2.jpg';
+import countryflag3 from '../assets/images/collection country flag/3.jpg';
+import countryflag4 from '../assets/images/collection country flag/4.jpg';
+import countryflag5 from '../assets/images/collection country flag/5.jpg';
+import countryflag6 from '../assets/images/collection country flag/6.jpg';
+import countryflag7 from '../assets/images/collection country flag/7.jpg';
+import countryflag8 from '../assets/images/collection country flag/8.jpg';
+import countryflag9 from '../assets/images/collection country flag/9.jpg';
+import countryflag10 from '../assets/images/collection country flag/10.jpg';
+import countryflag11 from '../assets/images/collection country flag/11.jpg';
+import countryflag12 from '../assets/images/collection country flag/12.jpg';
+import countryflag13 from '../assets/images/collection country flag/13.jpg';
+import countryflag14 from '../assets/images/collection country flag/14.jpg';
+import countryflag15 from '../assets/images/collection country flag/15.jpg';
+import countryflag16 from '../assets/images/collection country flag/16.jpg';
+import countryflag17 from '../assets/images/collection country flag/17.jpg';
+import countryflag18 from '../assets/images/collection country flag/18.jpg';
+import countryflag19 from '../assets/images/collection country flag/19.jpg';
+import countryflag20 from '../assets/images/collection country flag/20.jpg';
+import countryflag21 from '../assets/images/collection country flag/21.jpg';
+import countryflag22 from '../assets/images/collection country flag/22.jpg';
+import countryflag23 from '../assets/images/collection country flag/23.jpg';
+import countryflag24 from '../assets/images/collection country flag/24.jpg';
+import countryflag25 from '../assets/images/collection country flag/25.jpg';
+import countryflag26 from '../assets/images/collection country flag/26.jpg';
+import countryflag27 from '../assets/images/collection country flag/27.jpg';
+import countryflag28 from '../assets/images/collection country flag/28.jpg';
+import countryflag29 from '../assets/images/collection country flag/29.jpg';
+import countryflag31 from '../assets/images/collection country flag/31.jpg';
+import countryflag32 from '../assets/images/collection country flag/32.jpg';
+import countryflag33 from '../assets/images/collection country flag/33.jpg';
+import countryflag34 from '../assets/images/collection country flag/34.jpg';
+import countryflag35 from '../assets/images/collection country flag/35.jpg';
+import countryflag36 from '../assets/images/collection country flag/36.jpg';
+import countryflag37 from '../assets/images/collection country flag/37.jpg';
+import countryflag38 from '../assets/images/collection country flag/38.jpg';
+import countryflag39 from '../assets/images/collection country flag/39.jpg';
+
+
+
+import tradi1 from '../assets/images/mariage coutumier/hatit traditionnel/1.jpg';
+import tradi2 from '../assets/images/mariage coutumier/hatit traditionnel/2.jpg';
+import tradi3 from '../assets/images/mariage coutumier/hatit traditionnel/3.jpg';
+import tradi4 from '../assets/images/mariage coutumier/hatit traditionnel/4.jpg';
+import tradi5 from '../assets/images/mariage coutumier/hatit traditionnel/5.jpg';
+import tradi6 from '../assets/images/mariage coutumier/hatit traditionnel/6.jpg';  
+import tradi7 from '../assets/images/mariage coutumier/hatit traditionnel/7.jpg';
+import tradi8 from '../assets/images/mariage coutumier/hatit traditionnel/8.jpg';
+import tradi9 from '../assets/images/mariage coutumier/hatit traditionnel/9.jpg';
+import tradi10 from '../assets/images/mariage coutumier/hatit traditionnel/10.jpg';
+import tradi11 from '../assets/images/mariage coutumier/hatit traditionnel/11.jpg';
+import tradi12 from '../assets/images/mariage coutumier/hatit traditionnel/12.jpg';
+import tradi13 from '../assets/images/mariage coutumier/hatit traditionnel/13.jpg';
+import tradi14 from '../assets/images/mariage coutumier/hatit traditionnel/14.jpg';
+import tradi15 from '../assets/images/mariage coutumier/hatit traditionnel/15.jpg';
+import tradi16 from '../assets/images/mariage coutumier/hatit traditionnel/16.jpg';
+import tradi17 from '../assets/images/mariage coutumier/hatit traditionnel/17.jpg';
+import tradi18 from '../assets/images/mariage coutumier/hatit traditionnel/18.jpg';
+import tradi19 from '../assets/images/mariage coutumier/hatit traditionnel/19.jpg';
+import tradi20 from '../assets/images/mariage coutumier/hatit traditionnel/20.jpg';
+import tradi21 from '../assets/images/mariage coutumier/hatit traditionnel/21.jpg';
+import tradi22 from '../assets/images/mariage coutumier/hatit traditionnel/22.jpg';
+import tradi23 from '../assets/images/mariage coutumier/hatit traditionnel/23.jpg';
+import tradi24 from '../assets/images/mariage coutumier/hatit traditionnel/24.jpg';
+import tradi25 from '../assets/images/mariage coutumier/hatit traditionnel/25.jpg';
+import tradi26 from '../assets/images/mariage coutumier/hatit traditionnel/26.jpg';
+import tradi27 from '../assets/images/mariage coutumier/hatit traditionnel/27.jpg';
+import tradi28 from '../assets/images/mariage coutumier/hatit traditionnel/28.jpg';
+import tradi29 from '../assets/images/mariage coutumier/hatit traditionnel/29.jpg';
+import tradi30 from '../assets/images/mariage coutumier/hatit traditionnel/30.jpg';
+import tradi31 from '../assets/images/mariage coutumier/hatit traditionnel/31.jpg';
+import tradi32 from '../assets/images/mariage coutumier/hatit traditionnel/32.jpg';
+import tradi33 from '../assets/images/mariage coutumier/hatit traditionnel/33.jpg';
+import tradi34 from '../assets/images/mariage coutumier/hatit traditionnel/34.jpg';
+import tradi35 from '../assets/images/mariage coutumier/hatit traditionnel/35.jpg';
+import tradi36 from '../assets/images/mariage coutumier/hatit traditionnel/36.jpg';
+import tradi37 from '../assets/images/mariage coutumier/hatit traditionnel/37.jpg';
+import tradi38 from '../assets/images/mariage coutumier/hatit traditionnel/38.jpg';
+
+import dress1 from '../assets/images/mariage coutumier/1/dress1.jpg';
+import dress2 from '../assets/images/mariage coutumier/1/dress2.jpg';
+import dress3 from '../assets/images/mariage coutumier/1/dress3.jpg';
+import dress4 from '../assets/images/mariage coutumier/1/dress4.jpg';
+import dress5 from '../assets/images/mariage coutumier/1/dress5.jpg';
+import dress6 from '../assets/images/mariage coutumier/1/dress6.jpg';
+import dress7 from '../assets/images/mariage coutumier/1/dress7.jpg';
 
 
 
@@ -340,15 +443,14 @@ details: [
     price: 899.99,
     images: [
     enfants18,enfants19,enfants20],
-   description: 'Une somptueuse robe de princesse pour enfant en tulle rose fuchsia, ornée de broderies florales blanches et rouges, avec une ceinture fleurie et une cape assortie. Parfaite pour les anniversaires, fêtes ou séances photo royales.',
-details: [
-'Longueur au sol',
-'Jupe volumineuse en tulle brodé de fleurs',
-'Corsage ajusté avec ceinture ornée de fleurs',
-'Cape en tulle assortie fixée à l’épaule',
-'Broderies florales blanches et rouges sur l’ourlet',
-'Accessoire : couronne dorée décorative'
-],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
     colors: ['Ivory', 'White', 'Champagne'],
     featured: true,
@@ -363,14 +465,14 @@ details: [
     price: 899.99,
     images: [
     enfants21,enfants22,enfants23,enfants24 ],
-   description: 'Une adorable robe d’anniversaire pour bébé, en tulle rose dégradé, avec un corsage décoré d’un motif licorne et des manches à volants en organza. Parfaite pour une fête de premier anniversaire ou une séance photo à thème Barbie.',
-details: [
-'Longueur au sol',
-'Jupe volumineuse en tulle rose à volants superposés',
-'Corsage blanc avec motif licorne coloré',
-'Manches courtes à volants en organza rose vif',
-'Accessoire : couronne dorée'
-],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
     colors: ['Ivory', 'White', 'Champagne'],
     featured: true,
@@ -387,18 +489,18 @@ details: [
     images: [
     enfants25,enfants26,enfants27,enfants28,
     enfants29,enfants30,enfants31,enfants32,
-    enfants33,enfants34,enfants38,enfants39,enfants40,
+    enfants33,enfants34,enfants25,enfants26,
+    enfants27,enfants38,enfants39,enfants40,
     enfants41,enfants43,enfants43
   ],
-   description: 'Une élégante robe de cérémonie pour enfant, en tissu ivoire rehaussé de larges bandes de dentelle bordeaux et d’un corsage richement brodé. Parfaite pour les mariages, anniversaires ou occasions spéciales.',
-details: [
-'Longueur au-dessus du genou',
-'Jupe évasée à double volant ornée de dentelle bordeaux',
-'Corsage ajusté avec broderies florales et perles',
-'Sans manches',
-'Fermeture discrète au dos',
-'Accessoire : sac à main rose perlé'
-],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
     colors: ['Ivory', 'White', 'Champagne'],
     featured: true,
@@ -413,14 +515,14 @@ details: [
     price: 899.99,
     images: [
     enfants44 ],
-   description: "Ensemble élégant pour garçon alliant modernité et culture, idéal pour les cérémonies, les mariages ou les événements festifs. Ce costume en tissu blanc est rehaussé d’un gilet et d’un nœud papillon assortis en pagne bleu à motifs géométriques traditionnels.",
-details: [
-  "Chemise blanche à manches courtes",
-  "Gilet en pagne bleu à motifs blancs",
-  "Nœud papillon assorti au gilet",
-  "Pantalon court blanc pour un look chic et décontracté",
-  "Revers de col style tailleur décoratif"
-],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
     colors: ['Ivory', 'White', 'Champagne'],
     featured: true,
@@ -440,15 +542,14 @@ details: [
     images: [
       mariage1,mariage2,mariage3
     ],
-    description: "Sublime robe de mariée princesse, parfaite pour un mariage royal. Confectionnée dans un tissu blanc luxueux, elle se distingue par son bustier orné de perles florales et de touches vert émeraude, offrant une allure sophistiquée et majestueuse.",
-details: [
-  "Robe de mariée coupe princesse à jupe volumineuse en tulle",
-  "Bustier orné de fleurs en 3D et de perles scintillantes",
-  "Détails vert émeraude sur le haut pour une touche d’originalité",
-  "Épaules dégagées pour un effet glamour",
-  "Accessoires assortis : diadème, collier, boucles d’oreilles et éventail en plumes blanches"
-]
-,
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
     featured: false,
@@ -464,15 +565,14 @@ details: [
     images: [ 
       mariage6,mariage7,mariage8,mariage9,mariage11,mariage12
     ],
-    description: "Robe de cérémonie élégante et moderne, cette pièce sculpturale séduit par son jeu d’asymétrie, son bustier floral vert émeraude et son drapé fluide qui épouse la silhouette avec raffinement.",
-details: [
-  "Coupe sirène avec drapé fluide en tissu satin ivoire",
-  "Bustier incrusté de fleurs, perles et pierres en nuances de vert émeraude",
-  "Manche asymétrique en forme de feuilles stylisées ornées de perles",
-  "Drapé tombant en cascade à l’arrière pour un effet royal",
-  "Parfaite pour les réceptions, galas ou fiançailles traditionnelles modernes"
-]
-,
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
     featured: false,
@@ -488,15 +588,14 @@ details: [
     images: [ 
       mariage14,mariage15,mariage13
     ],
-   description: 'Une somptueuse robe de mariée africaine, mêlant un tissu pagne bleu imprimé à une jupe volumineuse en tulle blanc vaporeux, avec une longue traîne spectaculaire. Parfaite pour les cérémonies de mariage traditionnelles ou modernes.',
-details: [
-'Longue traîne en tulle blanc avec bordure en pagne bleu imprimé',
-'Corsage ajusté en pagne bleu à motifs dorés et blancs',
-'Manches courtes avec cape en dentelle blanche à franges',
-'Ceinture marquée à la taille',
-'Fermeture discrète au dos',
-'Accessoire : bouquet de fleurs'
-],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
     featured: false,
@@ -512,15 +611,14 @@ details: [
     images: [ 
       mariage16,mariage17,mariage18,mariage19
     ],
-  description: 'Une somptueuse robe de mariée princesse blanche, entièrement ornée de broderies florales et de dentelle, avec un corsage ajusté à manches longues transparentes et une jupe volumineuse. Parfaite pour une cérémonie élégante et royale.',
-details: [
-'Longueur au sol avec jupe volumineuse',
-'Corsage ajusté recouvert de dentelle florale',
-'Manches longues transparentes en tulle brodé',
-'Voile assorti avec broderies florales',
-'Couronne ornée de pierres vert émeraude',
-'Accessoire : bouquet de fleurs blanches'
-],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
     featured: false,
@@ -623,7 +721,7 @@ details: [
 
   {
     id: 'sum0010',
-    name: 'Autres',
+    name: 'Marriage',
     category: 'marrige',
     price: 129.99,
 
@@ -644,6 +742,31 @@ details: [
     new: true,
     likes: 156
   },
+
+
+  {
+    id: 'sum0044',
+    name: 'Autres',
+    category: 'marrige',
+    price: 129.99,
+    images: [ 
+      mariage33,mariage34,mariage35,mariage36,mariage37,mariage43,mariage46,mariage48,mariage49
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
 
   {
     id: 'sum0011',
@@ -672,7 +795,7 @@ details: [
   {
     id: 'sum0017',
     name: 'Belle Fleure',
-    category: 'sac-perle',
+    category: 'belle-fleur',
     price: 129.99,
 
     images: [ 
@@ -694,8 +817,429 @@ details: [
   },
 
 
+  {
+    id: 'sum00177',
+    name: 'Country Flag',
+    category: 'country-flag',
+    price: 129.99,
+
+    images: [ 
+      countryflag1,countryflag2,countryflag3,countryflag4,countryflag5,countryflag6,countryflag7,countryflag8,
+      countryflag9,countryflag10,countryflag11,countryflag12,
+      countryflag13,countryflag14,countryflag15,countryflag16,countryflag17,countryflag18,countryflag19,countryflag20,
+      countryflag21,countryflag22,countryflag23,countryflag24,countryflag25,countryflag26,countryflag27,countryflag28,countryflag29,countryflag31,countryflag32,countryflag33,countryflag34,countryflag35,countryflag36,
+      countryflag37,countryflag38,countryflag39
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+
+  {
+    id: 'tardi001',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi1,tradi2,tradi3,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+  {
+    id: 'tardi002',
+    name: 'Habit Traditionnel ',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi4,tradi5,tradi6
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+    {
+    id: 'tardi002',
+    name: 'Mariage Coutumier',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      dress1,dress2,dress3,dress4,dress5,dress6,dress7
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+  {
+    id: 'tardi003',
+    name: 'Habit Traditionnel',
+    category: 'Habit Traditionnel',
+    price: 129.99,
+
+    images: [ 
+      tradi8,tradi9,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+  {
+    id: 'tardi004',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi12,tradi13,tradi14
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+    {
+    id: 'tardi005',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi15,tradi17,tradi18,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+  {
+    id: 'tardi006',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi16,tradi19,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+  {
+    id: 'tardi006',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi20,tradi21,tradi22,tradi23
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+    {
+    id: 'tardi007',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi24,tradi25,tradi26,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+    {
+    id: 'tardi008',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi27,tradi28,tradi29,tradi30,
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+  {
+    id: 'tardi009',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi31,tradi32,tradi33
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+  {
+    id: 'tardi0010',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi37,tradi38,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+
+  {
+    id: 'tardi006',
+    name: 'Autres tenues traditionnelles',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi7,tradi11,tradi10,tradi34,tradi35,tradi36
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ];
 
+<<<<<<< HEAD
 
 
 
+=======
+// Create 15 more dresses to have a total of 20 dresses (4 per page with 5 pages)
+export const allDresses: Dress[] = [
+  ...dresses,
+  // Additional evening gowns
+  {
+    id: 'ev003',
+    name: 'Emerald Enchantment',
+    category: 'evening-gowns',
+    price: 329.99,
+    images: [
+      'https://images.pexels.com/photos/7639406/pexels-photo-7639406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/7639407/pexels-photo-7639407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/7639408/pexels-photo-7639408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    ],
+    description: 'A stunning emerald green gown with a mermaid silhouette and delicate beadwork on the bodice. Perfect for making a statement at any formal event.',
+    details: [
+      'Mermaid silhouette',
+      'Sweetheart neckline',
+      'Hand-sewn beadwork',
+      'Corset back',
+      'Small train'
+    ],
+    sizes: ['XS', 'S', 'M', 'L'],
+    colors: ['Emerald Green', 'Navy Blue', 'Burgundy'],
+    featured: false,
+    new: true,
+    likes: 118
+  },
+  
+];
+>>>>>>> refs/remotes/origin/main
