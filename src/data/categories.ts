@@ -44,7 +44,7 @@ export const categories: Category[] = [
   },
 
   {
-    id: 'marrige',
+    id: 'mariage-coutumier',
     name: 'Tenues Traditionnelles',
     description: 'Collection de tenues traditionnelles pour célébrer la culture.',
     image: marrige
