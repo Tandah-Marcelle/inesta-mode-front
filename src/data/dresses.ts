@@ -214,6 +214,23 @@ import dress7 from '../assets/images/mariage coutumier/1/dress7.jpg';
 
 
 
+//special miss
+import specialMiss1 from '../assets/images/julia Samantha/1.jpg';
+import specialMiss2 from '../assets/images/julia Samantha/2.jpg';
+import specialMiss3 from '../assets/images/julia Samantha/3.jpg';
+import specialMiss4 from '../assets/images/julia Samantha/4.jpg';
+import specialMiss5 from '../assets/images/julia Samantha/5.jpg';
+import specialMiss6 from '../assets/images/julia Samantha/6.jpg';
+import specialMiss7 from '../assets/images/julia Samantha/7.jpg';
+import specialMiss8 from '../assets/images/julia Samantha/8.jpg';
+import specialMiss9 from '../assets/images/julia Samantha/9.jpg';
+import specialMiss10 from '../assets/images/julia Samantha/10.jpg';
+import specialMiss11 from '../assets/images/julia Samantha/11.jpg';
+import specialMiss12 from '../assets/images/julia Samantha/12.jpg';
+import specialMiss13 from '../assets/images/julia Samantha/13.jpg';
+import specialMiss14 from '../assets/images/julia Samantha/14.jpg';
+import specialMiss15 from '../assets/images/julia Samantha/15.jpg';
+
 
 
 
@@ -1190,6 +1207,30 @@ details: [
 
 
 
+  {
+    id: 'miss1',
+    name: 'Julia Samantha',
+    category: 'special-miss',
+    price: 129.99,
+
+    images: [ 
+      specialMiss1,specialMiss2,specialMiss3,specialMiss4,specialMiss5,specialMiss6,specialMiss7,specialMiss8,
+      specialMiss9,specialMiss10,specialMiss11,specialMiss12,specialMiss13,specialMiss14,specialMiss15,specialMiss16,
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
 
 
 
