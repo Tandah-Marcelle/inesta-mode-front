@@ -244,10 +244,21 @@ import specialMiss24 from '../assets/images/princess issie/9.jpg';
 import specialMiss25 from '../assets/images/princess issie/10.jpg';
 import specialMiss26 from '../assets/images/princess issie/11.jpg';
 import specialMiss27 from '../assets/images/princess issie/12.jpg';
-
-
-
-
+import specialMiss29 from '../assets/images/miss universe 2023/1.jpg';
+import specialMiss30 from '../assets/images/miss universe 2023/2.jpg';
+import specialMiss31 from '../assets/images/miss universe 2023/3.jpg';
+import specialMiss32 from '../assets/images/miss universe 2023/4.jpg';
+import specialMiss33 from '../assets/images/miss universe 2023/5.jpg';
+import specialMiss34 from '../assets/images/2ème Dauphine Miss Cameroun 2023/1.jpg';
+import specialMiss35 from '../assets/images/2ème Dauphine Miss Cameroun 2023/2.jpg';
+import specialMiss36 from '../assets/images/2ème Dauphine Miss Cameroun 2023/3.jpg';
+import specialMiss37 from '../assets/images/2ème Dauphine Miss Cameroun 2023/4.jpg';
+import specialMiss38 from '../assets/images/2ème Dauphine Miss Cameroun 2023/5.jpg';
+import specialMiss39 from '../assets/images/2ème Dauphine Miss Cameroun 2023/6.jpg';
+import specialMiss40 from '../assets/images/2ème Dauphine Miss Cameroun 2023/7.jpg';
+import specialMiss41 from '../assets/images/2ème Dauphine Miss Cameroun 2024 chez inesta/1.jpg';
+import specialMiss42 from '../assets/images/2ème Dauphine Miss Cameroun 2024 chez inesta/2.jpg';
+import specialMiss43 from '../assets/images/2ème Dauphine Miss Cameroun 2024 chez inesta/3.jpg';
 
 
 
@@ -1227,13 +1238,13 @@ details: [
 
   {
     id: 'miss1',
-    name: 'Julia Samantha',
+    name: 'Miss Julia Samantha',
     category: 'special-miss',
     price: 129.99,
 
     images: [ 
       specialMiss1,specialMiss2,specialMiss3,specialMiss4,specialMiss5,specialMiss6,specialMiss7,specialMiss8,
-      specialMiss9,specialMiss10,specialMiss11,specialMiss12,specialMiss13,specialMiss14,specialMiss15,specialMiss16,
+      specialMiss9,specialMiss10,specialMiss11,specialMiss12,specialMiss13,specialMiss14,specialMiss15
     ],
     description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
     details: [
@@ -1255,13 +1266,13 @@ details: [
 
   {
     id: 'miss2',
-    name: 'Princess Issie',
+    name: 'Miss Princess Issie',
     category: 'special-miss',
     price: 129.99,
 
     images: [ 
      specialMiss17,specialMiss18,specialMiss19,specialMiss20,specialMiss21,specialMiss22,specialMiss23,specialMiss24,
-     specialMiss25,specialMiss26,specialMiss27,specialMiss28,
+     specialMiss25,specialMiss26,specialMiss27,specialMiss28,specialMiss29,specialMiss30,specialMiss31,specialMiss32,specialMiss33
     ],
     description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
     details: [
@@ -1280,7 +1291,54 @@ details: [
 
 
 
+  {
+    id: 'miss3',
+    name: 'Miss Ngueleu Raissa',
+    category: 'special-miss',
+    price: 129.99,
 
+    images: [ 
+     specialMiss34,specialMiss35,specialMiss36,specialMiss37,specialMiss38,specialMiss39,specialMiss40
+  
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+  {
+    id: 'miss4',
+    name: 'Miss Aïchatou Bobo',
+    category: 'special-miss',
+    price: 129.99,
+
+    images: [ 
+     specialMiss41,specialMiss42,specialMiss43
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  }
 
 
 
