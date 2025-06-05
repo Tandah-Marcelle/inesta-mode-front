@@ -34,15 +34,7 @@ function Footer() {
             </ul>
           </div>
           
-          <div>
-            <h3 className="font-display text-xl mb-4">Customer Service</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li><Link to="/contact" className="hover:text-primary-500 transition-colors">Contact Us</Link></li>
-              <li><Link to="/shipping" className="hover:text-primary-500 transition-colors">Shipping & Returns</Link></li>
-              <li><Link to="/size-guide" className="hover:text-primary-500 transition-colors">Size Guide</Link></li>
-              <li><Link to="/faq" className="hover:text-primary-500 transition-colors">FAQ</Link></li>
-            </ul>
-          </div>
+    
           
           <div>
             <h3 className="font-display text-xl mb-4">Newsletter</h3>
