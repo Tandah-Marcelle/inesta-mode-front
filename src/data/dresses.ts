@@ -214,7 +214,7 @@ import dress7 from '../assets/images/mariage coutumier/1/dress7.jpg';
 
 
 
-//special miss
+//special miss julia Samantha
 import specialMiss1 from '../assets/images/julia Samantha/1.jpg';
 import specialMiss2 from '../assets/images/julia Samantha/2.jpg';
 import specialMiss3 from '../assets/images/julia Samantha/3.jpg';
@@ -230,6 +230,24 @@ import specialMiss12 from '../assets/images/julia Samantha/12.jpg';
 import specialMiss13 from '../assets/images/julia Samantha/13.jpg';
 import specialMiss14 from '../assets/images/julia Samantha/14.jpg';
 import specialMiss15 from '../assets/images/julia Samantha/15.jpg';
+
+
+import specialMiss28 from '../assets/images/princess issie/1.jpg';
+import specialMiss17 from '../assets/images/princess issie/2.jpg';
+import specialMiss18 from '../assets/images/princess issie/3.jpg';
+import specialMiss19 from '../assets/images/princess issie/4.jpg';
+import specialMiss20 from '../assets/images/princess issie/5.jpg';
+import specialMiss21 from '../assets/images/princess issie/6.jpg';
+import specialMiss22 from '../assets/images/princess issie/7.jpg';
+import specialMiss23 from '../assets/images/princess issie/8.jpg';
+import specialMiss24 from '../assets/images/princess issie/9.jpg';
+import specialMiss25 from '../assets/images/princess issie/10.jpg';
+import specialMiss26 from '../assets/images/princess issie/11.jpg';
+import specialMiss27 from '../assets/images/princess issie/12.jpg';
+
+
+
+
 
 
 
@@ -1235,6 +1253,30 @@ details: [
 
 
 
+  {
+    id: 'miss2',
+    name: 'Princess Issie',
+    category: 'special-miss',
+    price: 129.99,
+
+    images: [ 
+     specialMiss17,specialMiss18,specialMiss19,specialMiss20,specialMiss21,specialMiss22,specialMiss23,specialMiss24,
+     specialMiss25,specialMiss26,specialMiss27,specialMiss28,
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
 
 
 
