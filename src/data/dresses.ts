@@ -1,4 +1,5 @@
 import { Dress } from '../types';
+import { Category } from '../types';
 import roseNoir1 from '../assets/images/collection rose noir/all miss.jpg';
 import roseNoir2 from '../assets/images/collection rose noir/image rose noir.jpg';
 import roseNoir3 from '../assets/images/collection rose noir/princess_issie1.jpg';
@@ -94,6 +95,19 @@ import mariage29 from '../assets/images/collection marrige robe blanche/29.jpg';
 import mariage30 from '../assets/images/collection marrige robe blanche/30.jpg';
 import mariage31 from '../assets/images/collection marrige robe blanche/31.jpg';
 
+import mariage32 from '../assets/images/collection marrige robe blanche/32.jpg';
+import mariage33 from '../assets/images/collection marrige robe blanche/33.jpg';
+import mariage34 from '../assets/images/collection marrige robe blanche/34.jpg';
+import mariage35 from '../assets/images/collection marrige robe blanche/35.jpg';
+import mariage36 from '../assets/images/collection marrige robe blanche/36.jpg';
+import mariage37 from '../assets/images/collection marrige robe blanche/37.jpg';
+import mariage43 from '../assets/images/collection marrige robe blanche/43.jpg';
+import mariage46 from '../assets/images/collection marrige robe blanche/46.jpg';
+import mariage48 from '../assets/images/collection marrige robe blanche/48.jpg';
+import mariage49 from '../assets/images/collection marrige robe blanche/49.jpg';
+
+
+
 import sacperle1 from '../assets/images/sac perle/1.jpg';
 import sacperle2 from '../assets/images/sac perle/2.jpg';
 import sacperle3 from '../assets/images/sac perle/3.jpg';
@@ -104,11 +118,239 @@ import sacperle7 from '../assets/images/sac perle/7.jpg';
 import sacperle8 from '../assets/images/sac perle/8.jpg';
 import sacperle9 from '../assets/images/sac perle/9.jpg';
 import sacperle10 from '../assets/images/sac perle/10.jpg';
-import bellefleure1 from '../assets/images/sac perle/1.jpg';
-import bellefleure2 from '../assets/images/sac perle/2.jpg';
+
+
+import bellefleure1 from '../assets/images/collection belle fleur/1.jpg';
+import bellefleure2 from '../assets/images/collection belle fleur/2.jpg';
+
+
+import countryflag1 from '../assets/images/collection country flag/1.jpg';
+import countryflag2 from '../assets/images/collection country flag/2.jpg';
+import countryflag3 from '../assets/images/collection country flag/3.jpg';
+import countryflag4 from '../assets/images/collection country flag/4.jpg';
+import countryflag5 from '../assets/images/collection country flag/5.jpg';
+import countryflag6 from '../assets/images/collection country flag/6.jpg';
+import countryflag7 from '../assets/images/collection country flag/7.jpg';
+import countryflag8 from '../assets/images/collection country flag/8.jpg';
+import countryflag9 from '../assets/images/collection country flag/9.jpg';
+import countryflag10 from '../assets/images/collection country flag/10.jpg';
+import countryflag11 from '../assets/images/collection country flag/11.jpg';
+import countryflag12 from '../assets/images/collection country flag/12.jpg';
+import countryflag13 from '../assets/images/collection country flag/13.jpg';
+import countryflag14 from '../assets/images/collection country flag/14.jpg';
+import countryflag15 from '../assets/images/collection country flag/15.jpg';
+import countryflag16 from '../assets/images/collection country flag/16.jpg';
+import countryflag17 from '../assets/images/collection country flag/17.jpg';
+import countryflag18 from '../assets/images/collection country flag/18.jpg';
+import countryflag19 from '../assets/images/collection country flag/19.jpg';
+import countryflag20 from '../assets/images/collection country flag/20.jpg';
+import countryflag21 from '../assets/images/collection country flag/21.jpg';
+import countryflag22 from '../assets/images/collection country flag/22.jpg';
+import countryflag23 from '../assets/images/collection country flag/23.jpg';
+import countryflag24 from '../assets/images/collection country flag/24.jpg';
+import countryflag25 from '../assets/images/collection country flag/25.jpg';
+import countryflag26 from '../assets/images/collection country flag/26.jpg';
+import countryflag27 from '../assets/images/collection country flag/27.jpg';
+import countryflag28 from '../assets/images/collection country flag/28.jpg';
+import countryflag29 from '../assets/images/collection country flag/29.jpg';
+import countryflag31 from '../assets/images/collection country flag/31.jpg';
+import countryflag32 from '../assets/images/collection country flag/32.jpg';
+import countryflag33 from '../assets/images/collection country flag/33.jpg';
+import countryflag34 from '../assets/images/collection country flag/34.jpg';
+import countryflag35 from '../assets/images/collection country flag/35.jpg';
+import countryflag36 from '../assets/images/collection country flag/36.jpg';
+import countryflag37 from '../assets/images/collection country flag/37.jpg';
+import countryflag38 from '../assets/images/collection country flag/38.jpg';
+import countryflag39 from '../assets/images/collection country flag/39.jpg';
 
 
 
+import tradi1 from '../assets/images/mariage coutumier/hatit traditionnel/1.jpg';
+import tradi2 from '../assets/images/mariage coutumier/hatit traditionnel/2.jpg';
+import tradi3 from '../assets/images/mariage coutumier/hatit traditionnel/3.jpg';
+import tradi4 from '../assets/images/mariage coutumier/hatit traditionnel/4.jpg';
+import tradi5 from '../assets/images/mariage coutumier/hatit traditionnel/5.jpg';
+import tradi6 from '../assets/images/mariage coutumier/hatit traditionnel/6.jpg';  
+import tradi7 from '../assets/images/mariage coutumier/hatit traditionnel/7.jpg';
+import tradi8 from '../assets/images/mariage coutumier/hatit traditionnel/8.jpg';
+import tradi9 from '../assets/images/mariage coutumier/hatit traditionnel/9.jpg';
+import tradi10 from '../assets/images/mariage coutumier/hatit traditionnel/10.jpg';
+import tradi11 from '../assets/images/mariage coutumier/hatit traditionnel/11.jpg';
+import tradi12 from '../assets/images/mariage coutumier/hatit traditionnel/12.jpg';
+import tradi13 from '../assets/images/mariage coutumier/hatit traditionnel/13.jpg';
+import tradi14 from '../assets/images/mariage coutumier/hatit traditionnel/14.jpg';
+import tradi15 from '../assets/images/mariage coutumier/hatit traditionnel/15.jpg';
+import tradi16 from '../assets/images/mariage coutumier/hatit traditionnel/16.jpg';
+import tradi17 from '../assets/images/mariage coutumier/hatit traditionnel/17.jpg';
+import tradi18 from '../assets/images/mariage coutumier/hatit traditionnel/18.jpg';
+import tradi19 from '../assets/images/mariage coutumier/hatit traditionnel/19.jpg';
+import tradi20 from '../assets/images/mariage coutumier/hatit traditionnel/20.jpg';
+import tradi21 from '../assets/images/mariage coutumier/hatit traditionnel/21.jpg';
+import tradi22 from '../assets/images/mariage coutumier/hatit traditionnel/22.jpg';
+import tradi23 from '../assets/images/mariage coutumier/hatit traditionnel/23.jpg';
+import tradi24 from '../assets/images/mariage coutumier/hatit traditionnel/24.jpg';
+import tradi25 from '../assets/images/mariage coutumier/hatit traditionnel/25.jpg';
+import tradi26 from '../assets/images/mariage coutumier/hatit traditionnel/26.jpg';
+import tradi27 from '../assets/images/mariage coutumier/hatit traditionnel/27.jpg';
+import tradi28 from '../assets/images/mariage coutumier/hatit traditionnel/28.jpg';
+import tradi29 from '../assets/images/mariage coutumier/hatit traditionnel/29.jpg';
+import tradi30 from '../assets/images/mariage coutumier/hatit traditionnel/30.jpg';
+import tradi31 from '../assets/images/mariage coutumier/hatit traditionnel/31.jpg';
+import tradi32 from '../assets/images/mariage coutumier/hatit traditionnel/32.jpg';
+import tradi33 from '../assets/images/mariage coutumier/hatit traditionnel/33.jpg';
+import tradi34 from '../assets/images/mariage coutumier/hatit traditionnel/34.jpg';
+import tradi35 from '../assets/images/mariage coutumier/hatit traditionnel/35.jpg';
+import tradi36 from '../assets/images/mariage coutumier/hatit traditionnel/36.jpg';
+import tradi37 from '../assets/images/mariage coutumier/hatit traditionnel/37.jpg';
+import tradi38 from '../assets/images/mariage coutumier/hatit traditionnel/38.jpg';
+
+import dress1 from '../assets/images/mariage coutumier/1/dress1.jpg';
+import dress2 from '../assets/images/mariage coutumier/1/dress2.jpg';
+import dress3 from '../assets/images/mariage coutumier/1/dress3.jpg';
+import dress4 from '../assets/images/mariage coutumier/1/dress4.jpg';
+import dress5 from '../assets/images/mariage coutumier/1/dress5.jpg';
+import dress6 from '../assets/images/mariage coutumier/1/dress6.jpg';
+import dress7 from '../assets/images/mariage coutumier/1/dress7.jpg';
+
+
+
+//special miss julia Samantha
+import specialMiss1 from '../assets/images/julia Samantha/1.jpg';
+import specialMiss2 from '../assets/images/julia Samantha/2.jpg';
+import specialMiss3 from '../assets/images/julia Samantha/3.jpg';
+import specialMiss4 from '../assets/images/julia Samantha/4.jpg';
+import specialMiss5 from '../assets/images/julia Samantha/5.jpg';
+import specialMiss6 from '../assets/images/julia Samantha/6.jpg';
+import specialMiss7 from '../assets/images/julia Samantha/7.jpg';
+import specialMiss8 from '../assets/images/julia Samantha/8.jpg';
+import specialMiss9 from '../assets/images/julia Samantha/9.jpg';
+import specialMiss10 from '../assets/images/julia Samantha/10.jpg';
+import specialMiss11 from '../assets/images/julia Samantha/11.jpg';
+import specialMiss12 from '../assets/images/julia Samantha/12.jpg';
+import specialMiss13 from '../assets/images/julia Samantha/13.jpg';
+import specialMiss14 from '../assets/images/julia Samantha/14.jpg';
+import specialMiss15 from '../assets/images/julia Samantha/15.jpg';
+
+
+import specialMiss28 from '../assets/images/princess issie/1.jpg';
+import specialMiss17 from '../assets/images/princess issie/2.jpg';
+import specialMiss18 from '../assets/images/princess issie/3.jpg';
+import specialMiss19 from '../assets/images/princess issie/4.jpg';
+import specialMiss20 from '../assets/images/princess issie/5.jpg';
+import specialMiss21 from '../assets/images/princess issie/6.jpg';
+import specialMiss22 from '../assets/images/princess issie/7.jpg';
+import specialMiss23 from '../assets/images/princess issie/8.jpg';
+import specialMiss24 from '../assets/images/princess issie/9.jpg';
+import specialMiss25 from '../assets/images/princess issie/10.jpg';
+import specialMiss26 from '../assets/images/princess issie/11.jpg';
+import specialMiss27 from '../assets/images/princess issie/12.jpg';
+import specialMiss29 from '../assets/images/miss universe 2023/1.jpg';
+import specialMiss30 from '../assets/images/miss universe 2023/2.jpg';
+import specialMiss31 from '../assets/images/miss universe 2023/3.jpg';
+import specialMiss32 from '../assets/images/miss universe 2023/4.jpg';
+import specialMiss33 from '../assets/images/miss universe 2023/5.jpg';
+import specialMiss34 from '../assets/images/2ème Dauphine Miss Cameroun 2023/1.jpg';
+import specialMiss35 from '../assets/images/2ème Dauphine Miss Cameroun 2023/2.jpg';
+import specialMiss36 from '../assets/images/2ème Dauphine Miss Cameroun 2023/3.jpg';
+import specialMiss37 from '../assets/images/2ème Dauphine Miss Cameroun 2023/4.jpg';
+import specialMiss38 from '../assets/images/2ème Dauphine Miss Cameroun 2023/5.jpg';
+import specialMiss39 from '../assets/images/2ème Dauphine Miss Cameroun 2023/6.jpg';
+import specialMiss40 from '../assets/images/2ème Dauphine Miss Cameroun 2023/7.jpg';
+import specialMiss41 from '../assets/images/2ème Dauphine Miss Cameroun 2024 chez inesta/1.jpg';
+import specialMiss42 from '../assets/images/2ème Dauphine Miss Cameroun 2024 chez inesta/2.jpg';
+import specialMiss43 from '../assets/images/2ème Dauphine Miss Cameroun 2024 chez inesta/3.jpg';
+
+
+
+//Journee de jeunesse
+import jj1 from '../assets/images/journee de jeuness/Dress1.jpg';
+import jj2 from '../assets/images/journee de jeuness/2.jpg';
+import jj3 from '../assets/images/journee de jeuness/3.jpg'; 
+import jj4 from '../assets/images/journee de jeuness/4.jpg';
+import jj5 from '../assets/images/journee de jeuness/5.jpg';
+
+//Robe Mixte
+import robeMixte1 from '../assets/images/non collection single dresses/Dress1.jpg';
+import robeMixte2 from '../assets/images/non collection single dresses/Dress2.jpg';
+import robeMixte3 from '../assets/images/non collection single dresses/Dress3.jpg';
+import robeMixte4 from '../assets/images/non collection single dresses/Dress4.jpg';
+import robeMixte5 from '../assets/images/non collection single dresses/Dress5.jpg';
+import robeMixte6 from '../assets/images/non collection single dresses/Dress6.jpg';
+import robeMixte7 from '../assets/images/non collection single dresses/Dress7.jpg';
+import robeMixte8 from '../assets/images/non collection single dresses/Dress8.jpg';
+import robeMixte9 from '../assets/images/non collection single dresses/Dress9.jpg';
+import robeMixte10 from '../assets/images/non collection single dresses/Dress10.jpg';
+
+import robeMixte11 from '../assets/images/non collection single dresses/Dress11.jpg';
+import robeMixte12 from '../assets/images/non collection single dresses/Dress12.jpg';
+import robeMixte13 from '../assets/images/non collection single dresses/Dress13.jpg';
+import robeMixte14 from '../assets/images/non collection single dresses/Dress14.jpg';
+import robeMixte15 from '../assets/images/non collection single dresses/Dress15.jpg';
+import robeMixte16 from '../assets/images/non collection single dresses/Dress16.jpg';
+import robeMixte17 from '../assets/images/non collection single dresses/Dress17.jpg';
+
+import robeMixte18 from '../assets/images/non collection single dresses/Dress18.jpg';
+import robeMixte19 from '../assets/images/non collection single dresses/Dress19.jpg';
+import robeMixte20 from '../assets/images/non collection single dresses/Dress20.jpg';
+import robeMixte21 from '../assets/images/non collection single dresses/Dress21.jpg';
+import robeMixte22 from '../assets/images/non collection single dresses/Dress22.jpg';
+import robeMixte23 from '../assets/images/non collection single dresses/Dress23.jpg';
+import robeMixte24 from '../assets/images/non collection single dresses/Dress24.jpg';
+import robeMixte25 from '../assets/images/non collection single dresses/Dress25.jpg';
+import robeMixte26 from '../assets/images/non collection single dresses/Dress26.jpg';
+import robeMixte27 from '../assets/images/non collection single dresses/Dress27.jpg';
+import robeMixte28 from '../assets/images/non collection single dresses/Dress28.jpg';
+import robeMixte29 from '../assets/images/non collection single dresses/Dress29.jpg';
+import robeMixte30 from '../assets/images/non collection single dresses/Dress30.jpg';
+import robeMixte31 from '../assets/images/non collection single dresses/Dress31.jpg';
+import robeMixte32 from '../assets/images/non collection single dresses/Dress32.jpg';
+import robeMixte33 from '../assets/images/non collection single dresses/Dress33.jpg';
+import robeMixte34 from '../assets/images/non collection single dresses/Dress34.jpg';
+import robeMixte35 from '../assets/images/non collection single dresses/Dress35.jpg';
+import
+  robeMixte36 from '../assets/images/non collection single dresses/Dress36.jpg';
+import robeMixte37 from '../assets/images/non collection single dresses/Dress37.jpg';
+import robeMixte38 from '../assets/images/non collection single dresses/Dress38.jpg';
+import robeMixte39 from '../assets/images/non collection single dresses/Dress39.jpg';
+import robeMixte40 from '../assets/images/non collection single dresses/Dress40.jpg';
+import robeMixte41 from '../assets/images/non collection single dresses/Dress41.jpg';
+import robeMixte42 from '../assets/images/non collection single dresses/Dress42.jpg';
+import robeMixte43 from '../assets/images/non collection single dresses/Dress43.jpg';
+import robeMixte44 from '../assets/images/non collection single dresses/Dress44.jpg';
+import robeMixte45 from '../assets/images/non collection single dresses/Dress45.jpg';
+import
+  robeMixte46 from '../assets/images/non collection single dresses/Dress46.jpg';
+import robeMixte47 from '../assets/images/non collection single dresses/Dress47.jpg';
+import robeMixte48 from '../assets/images/non collection single dresses/Dress48.jpg';
+import robeMixte49 from '../assets/images/non collection single dresses/Dress49.jpg';
+import robeMixte50 from '../assets/images/non collection single dresses/Dress50.jpg';
+import
+  robeMixte51 from '../assets/images/non collection single dresses/Dress51.jpg';
+import robeMixte52 from '../assets/images/non collection single dresses/Dress52.jpg';
+import robeMixte53 from '../assets/images/non collection single dresses/Dress53.jpg';
+import robeMixte54 from '../assets/images/non collection single dresses/Dress54.jpg';
+import robeMixte55 from '../assets/images/non collection single dresses/Dress55.jpg';
+import robeMixte56 from '../assets/images/non collection single dresses/Dress56.jpg';
+import robeMixte57 from '../assets/images/non collection single dresses/Dress57.jpg';
+import robeMixte58 from '../assets/images/non collection single dresses/Dress58.jpg';
+import robeMixte59 from '../assets/images/non collection single dresses/Dress59.jpg';
+import robeMixte60 from '../assets/images/non collection single dresses/Dress60.jpg';
+import robeMixte61 from '../assets/images/non collection single dresses/Dress61.jpg';
+import robeMixte62 from '../assets/images/non collection single dresses/Dress62.jpg';
+
+import robeMixte63 from '../assets/images/non collection single dresses/Dress63.jpg';
+import robeMixte64 from '../assets/images/non collection single dresses/Dress64.jpg';
+import robeMixte65 from '../assets/images/non collection single dresses/Dress65.jpg';
+import robeMixte66 from '../assets/images/non collection single dresses/Dress66.jpg';
+import robeMixte67 from '../assets/images/non collection single dresses/Dress67.jpg';
+import robeMixte68 from '../assets/images/non collection single dresses/Dress68.jpg';
+import robeMixte69 from '../assets/images/non collection single dresses/Dress69.jpg';
+import robeMixte70 from '../assets/images/non collection single dresses/Dress70.jpg';
+import robeMixte71 from '../assets/images/non collection single dresses/Dress71.jpg';
+import robeMixte72 from '../assets/images/non collection single dresses/Dress72.jpg';
+import robeMixte73 from '../assets/images/non collection single dresses/Dress73.jpg';
+import robeMixte74 from '../assets/images/non collection single dresses/Dress74.jpg';
+import robeMixte75 from '../assets/images/non collection single dresses/Dress75.jpg';
 
 
 
@@ -340,15 +582,14 @@ details: [
     price: 899.99,
     images: [
     enfants18,enfants19,enfants20],
-   description: 'Une somptueuse robe de princesse pour enfant en tulle rose fuchsia, ornée de broderies florales blanches et rouges, avec une ceinture fleurie et une cape assortie. Parfaite pour les anniversaires, fêtes ou séances photo royales.',
-details: [
-'Longueur au sol',
-'Jupe volumineuse en tulle brodé de fleurs',
-'Corsage ajusté avec ceinture ornée de fleurs',
-'Cape en tulle assortie fixée à l’épaule',
-'Broderies florales blanches et rouges sur l’ourlet',
-'Accessoire : couronne dorée décorative'
-],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
     colors: ['Ivory', 'White', 'Champagne'],
     featured: true,
@@ -363,14 +604,14 @@ details: [
     price: 899.99,
     images: [
     enfants21,enfants22,enfants23,enfants24 ],
-   description: 'Une adorable robe d’anniversaire pour bébé, en tulle rose dégradé, avec un corsage décoré d’un motif licorne et des manches à volants en organza. Parfaite pour une fête de premier anniversaire ou une séance photo à thème Barbie.',
-details: [
-'Longueur au sol',
-'Jupe volumineuse en tulle rose à volants superposés',
-'Corsage blanc avec motif licorne coloré',
-'Manches courtes à volants en organza rose vif',
-'Accessoire : couronne dorée'
-],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
     colors: ['Ivory', 'White', 'Champagne'],
     featured: true,
@@ -387,18 +628,18 @@ details: [
     images: [
     enfants25,enfants26,enfants27,enfants28,
     enfants29,enfants30,enfants31,enfants32,
-    enfants33,enfants34,enfants38,enfants39,enfants40,
+    enfants33,enfants34,enfants25,enfants26,
+    enfants27,enfants38,enfants39,enfants40,
     enfants41,enfants43,enfants43
   ],
-   description: 'Une élégante robe de cérémonie pour enfant, en tissu ivoire rehaussé de larges bandes de dentelle bordeaux et d’un corsage richement brodé. Parfaite pour les mariages, anniversaires ou occasions spéciales.',
-details: [
-'Longueur au-dessus du genou',
-'Jupe évasée à double volant ornée de dentelle bordeaux',
-'Corsage ajusté avec broderies florales et perles',
-'Sans manches',
-'Fermeture discrète au dos',
-'Accessoire : sac à main rose perlé'
-],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
     colors: ['Ivory', 'White', 'Champagne'],
     featured: true,
@@ -413,14 +654,14 @@ details: [
     price: 899.99,
     images: [
     enfants44 ],
-   description: "Ensemble élégant pour garçon alliant modernité et culture, idéal pour les cérémonies, les mariages ou les événements festifs. Ce costume en tissu blanc est rehaussé d’un gilet et d’un nœud papillon assortis en pagne bleu à motifs géométriques traditionnels.",
-details: [
-  "Chemise blanche à manches courtes",
-  "Gilet en pagne bleu à motifs blancs",
-  "Nœud papillon assorti au gilet",
-  "Pantalon court blanc pour un look chic et décontracté",
-  "Revers de col style tailleur décoratif"
-],
+    description: 'A breathtaking white wedding gown with delicate lace appliqués and a flowing train. The perfect dress for your special day.',
+    details: [
+      'Cathedral-length train',
+      'Hand-applied lace details',
+      'Illusion neckline',
+      'Button-up back',
+      'Optional detachable sleeves'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
     colors: ['Ivory', 'White', 'Champagne'],
     featured: true,
@@ -440,15 +681,14 @@ details: [
     images: [
       mariage1,mariage2,mariage3
     ],
-    description: "Sublime robe de mariée princesse, parfaite pour un mariage royal. Confectionnée dans un tissu blanc luxueux, elle se distingue par son bustier orné de perles florales et de touches vert émeraude, offrant une allure sophistiquée et majestueuse.",
-details: [
-  "Robe de mariée coupe princesse à jupe volumineuse en tulle",
-  "Bustier orné de fleurs en 3D et de perles scintillantes",
-  "Détails vert émeraude sur le haut pour une touche d’originalité",
-  "Épaules dégagées pour un effet glamour",
-  "Accessoires assortis : diadème, collier, boucles d’oreilles et éventail en plumes blanches"
-]
-,
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
     featured: false,
@@ -464,15 +704,14 @@ details: [
     images: [ 
       mariage6,mariage7,mariage8,mariage9,mariage11,mariage12
     ],
-    description: "Robe de cérémonie élégante et moderne, cette pièce sculpturale séduit par son jeu d’asymétrie, son bustier floral vert émeraude et son drapé fluide qui épouse la silhouette avec raffinement.",
-details: [
-  "Coupe sirène avec drapé fluide en tissu satin ivoire",
-  "Bustier incrusté de fleurs, perles et pierres en nuances de vert émeraude",
-  "Manche asymétrique en forme de feuilles stylisées ornées de perles",
-  "Drapé tombant en cascade à l’arrière pour un effet royal",
-  "Parfaite pour les réceptions, galas ou fiançailles traditionnelles modernes"
-]
-,
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
     featured: false,
@@ -488,15 +727,14 @@ details: [
     images: [ 
       mariage14,mariage15,mariage13
     ],
-   description: 'Une somptueuse robe de mariée africaine, mêlant un tissu pagne bleu imprimé à une jupe volumineuse en tulle blanc vaporeux, avec une longue traîne spectaculaire. Parfaite pour les cérémonies de mariage traditionnelles ou modernes.',
-details: [
-'Longue traîne en tulle blanc avec bordure en pagne bleu imprimé',
-'Corsage ajusté en pagne bleu à motifs dorés et blancs',
-'Manches courtes avec cape en dentelle blanche à franges',
-'Ceinture marquée à la taille',
-'Fermeture discrète au dos',
-'Accessoire : bouquet de fleurs'
-],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
     featured: false,
@@ -512,15 +750,14 @@ details: [
     images: [ 
       mariage16,mariage17,mariage18,mariage19
     ],
-  description: 'Une somptueuse robe de mariée princesse blanche, entièrement ornée de broderies florales et de dentelle, avec un corsage ajusté à manches longues transparentes et une jupe volumineuse. Parfaite pour une cérémonie élégante et royale.',
-details: [
-'Longueur au sol avec jupe volumineuse',
-'Corsage ajusté recouvert de dentelle florale',
-'Manches longues transparentes en tulle brodé',
-'Voile assorti avec broderies florales',
-'Couronne ornée de pierres vert émeraude',
-'Accessoire : bouquet de fleurs blanches'
-],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
     featured: false,
@@ -623,7 +860,7 @@ details: [
 
   {
     id: 'sum0010',
-    name: 'Autres',
+    name: 'Marriage',
     category: 'marrige',
     price: 129.99,
 
@@ -644,6 +881,31 @@ details: [
     new: true,
     likes: 156
   },
+
+
+  {
+    id: 'sum0044',
+    name: 'Autres',
+    category: 'marrige',
+    price: 129.99,
+    images: [ 
+      mariage33,mariage34,mariage35,mariage36,mariage37,mariage43,mariage46,mariage48,mariage49
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
 
   {
     id: 'sum0011',
@@ -672,7 +934,7 @@ details: [
   {
     id: 'sum0017',
     name: 'Belle Fleure',
-    category: 'sac-perle',
+    category: 'belle-fleur',
     price: 129.99,
 
     images: [ 
@@ -694,259 +956,553 @@ details: [
   },
 
 
+  {
+    id: 'sum00177',
+    name: 'Country Flag',
+    category: 'country-flag',
+    price: 129.99,
+
+    images: [ 
+      countryflag1,countryflag2,countryflag3,countryflag4,countryflag5,countryflag6,countryflag7,countryflag8,
+      countryflag9,countryflag10,countryflag11,countryflag12,
+      countryflag13,countryflag14,countryflag15,countryflag16,countryflag17,countryflag18,countryflag19,countryflag20,
+      countryflag21,countryflag22,countryflag23,countryflag24,countryflag25,countryflag26,countryflag27,countryflag28,countryflag29,countryflag31,countryflag32,countryflag33,countryflag34,countryflag35,countryflag36,
+      countryflag37,countryflag38,countryflag39
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+
+  {
+    id: 'tardi001',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi1,tradi2,tradi3,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+  {
+    id: 'tardi002',
+    name: 'Habit Traditionnel ',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi4,tradi5,tradi6
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+    {
+    id: 'tardi002',
+    name: 'Mariage Coutumier',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      dress1,dress2,dress3,dress4,dress5,dress6,dress7
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+  {
+    id: 'tardi003',
+    name: 'Habit Traditionnel',
+    category: 'Habit Traditionnel',
+    price: 129.99,
+
+    images: [ 
+      tradi8,tradi9,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+  {
+    id: 'tardi004',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi12,tradi13,tradi14
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+    {
+    id: 'tardi005',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi15,tradi17,tradi18,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+  {
+    id: 'tardi006',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi16,tradi19,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+  {
+    id: 'tardi006',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi20,tradi21,tradi22,tradi23
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+    {
+    id: 'tardi007',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi24,tradi25,tradi26,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+    {
+    id: 'tardi008',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi27,tradi28,tradi29,tradi30,
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+  {
+    id: 'tardi009',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi31,tradi32,tradi33
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+  {
+    id: 'tardi0010',
+    name: 'Habit Traditionnel',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi37,tradi38,
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+
+  {
+    id: 'tardi006',
+    name: 'Autres tenues traditionnelles',
+    category: 'mariage-coutumier',
+    price: 129.99,
+
+    images: [ 
+      tradi7,tradi11,tradi10,tradi34,tradi35,tradi36
+
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+  {
+    id: 'miss1',
+    name: 'Miss Julia Samantha',
+    category: 'special-miss',
+    price: 129.99,
+
+    images: [ 
+      specialMiss1,specialMiss2,specialMiss3,specialMiss4,specialMiss5,specialMiss6,specialMiss7,specialMiss8,
+      specialMiss9,specialMiss10,specialMiss11,specialMiss12,specialMiss13,specialMiss14,specialMiss15
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+
+  {
+    id: 'miss2',
+    name: 'Miss Princess Issie',
+    category: 'special-miss',
+    price: 129.99,
+
+    images: [ 
+     specialMiss17,specialMiss18,specialMiss19,specialMiss20,specialMiss21,specialMiss22,specialMiss23,specialMiss24,
+     specialMiss25,specialMiss26,specialMiss27,specialMiss28,specialMiss29,specialMiss30,specialMiss31,specialMiss32,specialMiss33
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+
+  {
+    id: 'miss3',
+    name: 'Miss Ngueleu Raissa',
+    category: 'special-miss',
+    price: 129.99,
+
+    images: [ 
+     specialMiss34,specialMiss35,specialMiss36,specialMiss37,specialMiss38,specialMiss39,specialMiss40
+  
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+  {
+    id: 'miss4',
+    name: 'Miss Aïchatou Bobo',
+    category: 'special-miss',
+    price: 129.99,
+
+    images: [ 
+     specialMiss41,specialMiss42,specialMiss43
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+  {
+    id: 'journee-jeunesse',
+    name: 'Journee Jeunesse',
+    category: 'journee-jeunesse',
+    price: 129.99,
+
+    images: [ 
+     jj1,jj2,jj3,jj4,jj5,
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  },
+
+
+    {
+    id: 'RM1',
+    name: 'Robe Mixte',
+    category: 'robe-mixte',
+    price: 129.99,
+
+    images: [ 
+     robeMixte5,robeMixte1,robeMixte2,robeMixte3,robeMixte4,robeMixte6,robeMixte7,robeMixte8,
+     robeMixte9,robeMixte10,robeMixte11,robeMixte12,robeMixte13,robeMixte14,robeMixte15,robeMixte16,
+     robeMixte17,robeMixte18,robeMixte19,robeMixte20,robeMixte21,robeMixte22,robeMixte23,robeMixte24,robeMixte25,
+      robeMixte26,robeMixte27,robeMixte28,robeMixte29,robeMixte30,robeMixte31,robeMixte32,robeMixte33,
+      robeMixte34,robeMixte35,robeMixte36,robeMixte37,robeMixte38,robeMixte39,robeMixte40,robeMixte41,
+      robeMixte42,robeMixte43,robeMixte44,robeMixte45,robeMixte46,robeMixte47,robeMixte48,robeMixte49,
+      robeMixte50,robeMixte51,robeMixte52,robeMixte53,robeMixte54,robeMixte55,robeMixte56,robeMixte57,
+      robeMixte58,robeMixte59,robeMixte60,robeMixte61,robeMixte62,robeMixte63,robeMixte64,robeMixte65,
+      robeMixte66,robeMixte67,robeMixte68,robeMixte69,robeMixte70,robeMixte71,robeMixte72,robeMixte73,
+      robeMixte74,robeMixte75,
+    ],
+    description: 'A light, airy summer dress perfect for beach days and warm evenings. Made from 100% cotton for maximum comfort in hot weather.',
+    details: [
+      'Midi length',
+      '100% cotton fabric',
+      'Adjustable straps',
+      'Side pockets',
+      'Elastic back panel for comfort'
+    ],
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Sky Blue', 'Coral', 'White', 'Yellow'],
+    featured: false,
+    new: true,
+    likes: 156
+  }
+
+
+
+
+
+
 ];
 
 // Create 15 more dresses to have a total of 20 dresses (4 per page with 5 pages)
 export const allDresses: Dress[] = [
   ...dresses,
   // Additional evening gowns
-  {
-    id: 'ev003',
-    name: 'Emerald Enchantment',
-    category: 'evening-gowns',
-    price: 329.99,
-    images: [
-      'https://images.pexels.com/photos/7639406/pexels-photo-7639406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/7639407/pexels-photo-7639407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/7639408/pexels-photo-7639408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ],
-    description: 'A stunning emerald green gown with a mermaid silhouette and delicate beadwork on the bodice. Perfect for making a statement at any formal event.',
-    details: [
-      'Mermaid silhouette',
-      'Sweetheart neckline',
-      'Hand-sewn beadwork',
-      'Corset back',
-      'Small train'
-    ],
-    sizes: ['XS', 'S', 'M', 'L'],
-    colors: ['Emerald Green', 'Navy Blue', 'Burgundy'],
-    featured: false,
-    new: true,
-    likes: 118
-  },
-  // Additional cocktail dresses
-  {
-    id: 'cd002',
-    name: 'Sapphire Sparkle',
-    category: 'cocktail-dresses',
-    price: 199.99,
-    images: [
-      'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/247204/pexels-photo-247204.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/1575665/pexels-photo-1575665.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ],
-    description: 'A stunning blue cocktail dress with subtle sequins throughout that catch the light beautifully. Perfect for evening events.',
-    details: [
-      'Knee-length',
-      'Fitted silhouette',
-      'Subtle sequin detailing',
-      'V-neckline',
-      'Concealed back zipper'
-    ],
-    sizes: ['XS', 'S', 'M', 'L', 'XL'],
-    colors: ['Sapphire Blue', 'Black', 'Silver'],
-    featured: false,
-    new: false,
-    likes: 93
-  },
-  // Additional bridal collection
-  {
-    id: 'brd002',
-    name: 'Romantic Lace',
-    category: 'bridal-collection',
-    price: 799.99,
-    images: [
-      'https://images.pexels.com/photos/291759/pexels-photo-291759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/1721944/pexels-photo-1721944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/3014856/pexels-photo-3014856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ],
-    description: 'A romantic A-line wedding dress with delicate lace overlay and a subtle blush undertone. Perfect for the bride who wants a traditional look with a twist.',
-    details: [
-      'A-line silhouette',
-      'All-over lace overlay',
-      'Cap sleeves',
-      'Blush undertone',
-      'Chapel-length train'
-    ],
-    sizes: ['XS', 'S', 'M', 'L', 'XL', 'Custom'],
-    colors: ['Ivory/Blush', 'White', 'Champagne'],
-    featured: true,
-    new: false,
-    likes: 387
-  },
-  // Additional summer collection
-  {
-    id: 'sum002',
-    name: 'Tropical Paradise',
-    category: 'summer-collection',
-    price: 139.99,
-    images: [
-      'https://images.pexels.com/photos/8365876/pexels-photo-8365876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/8365886/pexels-photo-8365886.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/8365891/pexels-photo-8365891.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ],
-    description: 'A vibrant sundress with a tropical print, perfect for beach vacations and summer parties.',
-    details: [
-      'Knee-length',
-      'Lightweight rayon fabric',
-      'Adjustable straps',
-      'Tropical floral print',
-      'Flared skirt'
-    ],
-    sizes: ['XS', 'S', 'M', 'L', 'XL'],
-    colors: ['Tropical Print'],
-    featured: false,
-    new: true,
-    likes: 142
-  },
-  // Winter collection dresses
-  {
-    id: 'win001',
-    name: 'Winter Velvet',
-    category: 'winter-collection',
-    price: 249.99,
-    images: [
-      'https://images.pexels.com/photos/7760743/pexels-photo-7760743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/7760747/pexels-photo-7760747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/7760739/pexels-photo-7760739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ],
-    description: 'A luxurious velvet dress in deep burgundy with long sleeves and a flattering silhouette. Perfect for winter events and holiday parties.',
-    details: [
-      'Midi length',
-      'Premium velvet fabric',
-      'Long sleeves',
-      'V-neckline',
-      'Side slit'
-    ],
-    sizes: ['XS', 'S', 'M', 'L', 'XL'],
-    colors: ['Burgundy', 'Forest Green', 'Navy Blue'],
-    featured: true,
-    new: false,
-    likes: 176
-  },
-  // Casual wear dresses
-  {
-    id: 'cas001',
-    name: 'Everyday Chic',
-    category: 'casual-wear',
-    price: 89.99,
-    images: [
-      'https://images.pexels.com/photos/5325600/pexels-photo-5325600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/5325599/pexels-photo-5325599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/5325598/pexels-photo-5325598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ],
-    description: 'A comfortable yet stylish casual dress perfect for everyday wear. Made from soft, breathable cotton with a relaxed fit.',
-    details: [
-      'Knee-length',
-      '100% cotton',
-      'Short sleeves',
-      'Round neckline',
-      'Side pockets'
-    ],
-    sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
-    colors: ['Navy Blue', 'Heather Gray', 'Olive Green', 'Burgundy'],
-    featured: false,
-    new: false,
-    likes: 210
-  },
-  // African prints
-  {
-    id: 'afr001',
-    name: 'Ankara Delight',
-    category: 'african-prints',
-    price: 159.99,
-    images: [
-      'https://images.pexels.com/photos/2467393/pexels-photo-2467393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/1394882/pexels-photo-1394882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/2467389/pexels-photo-2467389.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ],
-    description: 'A vibrant dress featuring authentic African Ankara print. Bold, colorful, and full of cultural significance.',
-    details: [
-      'Midi length',
-      'Authentic Ankara fabric',
-      'Full circle skirt',
-      'Fitted bodice',
-      'Concealed back zipper'
-    ],
-    sizes: ['XS', 'S', 'M', 'L', 'XL'],
-    colors: ['Multicolor'],
-    featured: true,
-    new: false,
-    likes: 278
-  },
-  // Business attire
-  {
-    id: 'bus001',
-    name: 'Executive Elegance',
-    category: 'business-attire',
-    price: 189.99,
-    images: [
-      'https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/1036627/pexels-photo-1036627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ],
-    description: 'A sophisticated business dress that transitions seamlessly from boardroom to dinner. Tailored fit with subtle details that elevate your professional look.',
-    details: [
-      'Knee-length',
-      'Stretch fabric blend',
-      'Three-quarter sleeves',
-      'Boat neckline',
-      'Kick pleat at back'
-    ],
-    sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
-    colors: ['Black', 'Navy Blue', 'Charcoal Gray'],
-    featured: false,
-    new: false,
-    likes: 163
-  },
-  // Limited editions
-  {
-    id: 'lim001',
-    name: 'Celestial Fantasy',
-    category: 'limited-editions',
-    price: 499.99,
-    images: [
-      'https://images.pexels.com/photos/8365688/pexels-photo-8365688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/8365691/pexels-photo-8365691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/8365687/pexels-photo-8365687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ],
-    description: 'A limited edition ethereal gown inspired by celestial bodies. Features hand-painted stars and moons on delicate fabric that seems to float as you move.',
-    details: [
-      'Floor-length',
-      'Hand-painted details',
-      'Sheer overlay',
-      'Limited to 20 pieces worldwide',
-      'Includes certificate of authenticity'
-    ],
-    sizes: ['XS', 'S', 'M', 'L'],
-    colors: ['Midnight Blue'],
-    featured: true,
-    new: true,
-    likes: 321
-  },
-  // Custom designs
-  {
-    id: 'cus001',
-    name: 'Custom Creation',
-    category: 'custom-designs',
-    price: 599.99,
-    images: [
-      'https://images.pexels.com/photos/10513822/pexels-photo-10513822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/10513818/pexels-photo-10513818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/10513824/pexels-photo-10513824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    ],
-    description: 'Create your dream dress exactly as you envision it. Our custom design service allows you to specify every detail for a truly one-of-a-kind garment.',
-    details: [
-      'Personalized consultations',
-      'Custom fabric selection',
-      'Multiple fittings',
-      'Made to your exact measurements',
-      'Delivered within 8-10 weeks'
-    ],
-    sizes: ['Custom'],
-    colors: ['Custom'],
-    featured: false,
-    new: false,
-    likes: 174
-  }
+
+  
 ];
