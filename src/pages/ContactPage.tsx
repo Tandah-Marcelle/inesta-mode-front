@@ -1,17 +1,21 @@
 import { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, AlertCircle, CheckCircle } from 'lucide-react';
+import { useContactForm } from '../hooks/useContactForm';
 
 function ContactPage() {
   const [formData, setFormData] = useState({
-    name: '',
+    firstName: '',
+    lastName: '',
     email: '',
+    phone: '',
+    company: '',
     subject: '',
     message: ''
   });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
+  
+  const { submitForm, isSubmitting, isSuccess, error, resetForm } = useContactForm();
   
   const { ref, inView } = useInView({
     triggerOnce: true,
@@ -26,21 +30,33 @@ function ContactPage() {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setIsSubmitted(true);
+    try {
+      await submitForm({
+        firstName: formData.firstName,
+        lastName: formData.lastName,
+        email: formData.email,
+        phone: formData.phone || undefined,
+        company: formData.company || undefined,
+        subject: formData.subject,
+        message: formData.message
+      });
+      
+      // Reset form on success
       setFormData({
-        name: '',
+        firstName: '',
+        lastName: '',
         email: '',
+        phone: '',
+        company: '',
         subject: '',
         message: ''
       });
-    }, 1500);
+    } catch (err) {
+      console.error('Error submitting form:', err);
+    }
   };
 
   return (
@@ -132,31 +148,65 @@ function ContactPage() {
                   Whether you have questions about our dresses, custom orders, or anything else, we'd love to hear from you. Fill out the form and we'll get back to you as soon as possible.
                 </p>
                 
-                {isSubmitted ? (
-                  <div className="bg-success-50 text-success-700 p-6 rounded-lg">
-                    <h3 className="text-xl font-medium mb-2">Thank You!</h3>
-                    <p>Your message has been sent successfully. We'll get back to you shortly.</p>
+                {/* Success Message */}
+                {isSuccess && (
+                  <div className="bg-success-50 text-success-700 p-6 rounded-lg mb-6 flex items-center gap-3">
+                    <CheckCircle className="w-6 h-6 flex-shrink-0" />
+                    <div>
+                      <h3 className="text-lg font-medium mb-1">Message envoyé avec succès !</h3>
+                      <p>Merci de nous avoir contactés. Nous vous répondrons dans les plus brefs délais.</p>
+                    </div>
                   </div>
-                ) : (
+                )}
+                
+                {/* Error Message */}
+                {error && (
+                  <div className="bg-red-50 text-red-700 p-6 rounded-lg mb-6 flex items-center gap-3">
+                    <AlertCircle className="w-6 h-6 flex-shrink-0" />
+                    <div>
+                      <h3 className="text-lg font-medium mb-1">Erreur d'envoi</h3>
+                      <p>{error}</p>
+                    </div>
+                  </div>
+                )}
+                
+                {!isSuccess && (
                   <form onSubmit={handleSubmit}>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                       <div>
-                        <label htmlFor="name" className="block text-sm font-medium text-secondary-700 mb-1">
-                          Your Name
+                        <label htmlFor="firstName" className="block text-sm font-medium text-secondary-700 mb-1">
+                          Prénom *
                         </label>
                         <input
                           type="text"
-                          id="name"
-                          name="name"
-                          value={formData.name}
+                          id="firstName"
+                          name="firstName"
+                          value={formData.firstName}
                           onChange={handleChange}
                           className="w-full p-3 border border-secondary-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
                           required
                         />
                       </div>
                       <div>
+                        <label htmlFor="lastName" className="block text-sm font-medium text-secondary-700 mb-1">
+                          Nom *
+                        </label>
+                        <input
+                          type="text"
+                          id="lastName"
+                          name="lastName"
+                          value={formData.lastName}
+                          onChange={handleChange}
+                          className="w-full p-3 border border-secondary-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
+                          required
+                        />
+                      </div>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                      <div>
                         <label htmlFor="email" className="block text-sm font-medium text-secondary-700 mb-1">
-                          Your Email
+                          Email *
                         </label>
                         <input
                           type="email"
@@ -168,11 +218,38 @@ function ContactPage() {
                           required
                         />
                       </div>
+                      <div>
+                        <label htmlFor="phone" className="block text-sm font-medium text-secondary-700 mb-1">
+                          Téléphone
+                        </label>
+                        <input
+                          type="tel"
+                          id="phone"
+                          name="phone"
+                          value={formData.phone}
+                          onChange={handleChange}
+                          className="w-full p-3 border border-secondary-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
+                        />
+                      </div>
+                    </div>
+                    
+                    <div className="mb-4">
+                      <label htmlFor="company" className="block text-sm font-medium text-secondary-700 mb-1">
+                        Entreprise/Organisation
+                      </label>
+                      <input
+                        type="text"
+                        id="company"
+                        name="company"
+                        value={formData.company}
+                        onChange={handleChange}
+                        className="w-full p-3 border border-secondary-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
+                      />
                     </div>
                     
                     <div className="mb-4">
                       <label htmlFor="subject" className="block text-sm font-medium text-secondary-700 mb-1">
-                        Subject
+                        Sujet *
                       </label>
                       <select
                         id="subject"
@@ -182,17 +259,19 @@ function ContactPage() {
                         className="w-full p-3 border border-secondary-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
                         required
                       >
-                        <option value="">Select a subject</option>
-                        <option value="order">Order Inquiry</option>
-                        <option value="custom">Custom Design Request</option>
-                        <option value="sizing">Sizing Question</option>
-                        <option value="other">Other</option>
+                        <option value="">Sélectionnez un sujet</option>
+                        <option value="Demande d'informations produits">Demande d'informations produits</option>
+                        <option value="Commande et livraison">Commande et livraison</option>
+                        <option value="Création sur mesure">Création sur mesure</option>
+                        <option value="Partenariat">Partenariat</option>
+                        <option value="Support technique">Support technique</option>
+                        <option value="Autre">Autre</option>
                       </select>
                     </div>
                     
                     <div className="mb-6">
                       <label htmlFor="message" className="block text-sm font-medium text-secondary-700 mb-1">
-                        Your Message
+                        Votre Message *
                       </label>
                       <textarea
                         id="message"
@@ -210,7 +289,7 @@ function ContactPage() {
                       className="btn-primary w-full"
                       disabled={isSubmitting}
                     >
-                      {isSubmitting ? 'Sending...' : 'Send Message'}
+                      {isSubmitting ? 'Envoi en cours...' : 'Envoyer le message'}
                     </button>
                   </form>
                 )}

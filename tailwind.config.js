@@ -86,6 +86,7 @@ export default {
       fontFamily: {
         'display': ['"Playfair Display"', 'serif'],
         'sans': ['Raleway', 'sans-serif'],
+        'admin': ['Montserrat', 'sans-serif'],
       },
       spacing: {
         '128': '32rem',

@@ -3,19 +3,21 @@ import { useParams } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { Filter } from 'lucide-react';
-import { useShop } from '../contexts/ShopContext';
-import { categories } from '../data/categories';
+import { useCategories } from '../contexts/CategoriesContext';
+import { productsApi, Product } from '../services/products.api';
 import ProductCard from '../components/ProductCard';
 
 function CollectionPage() {
   const { categoryId } = useParams();
-  const { dresses } = useShop();
-  const [filteredDresses, setFilteredDresses] = useState([]);
+  const { categories, loading: categoriesLoading, getCategoryById, getCategoryBySlug } = useCategories();
+  const [products, setProducts] = useState<Product[]>([]);
+  const [loading, setLoading] = useState(true);
   const [activeCategory, setActiveCategory] = useState(categoryId || 'all');
   const [isFilterOpen, setIsFilterOpen] = useState(false);
   const [sortBy, setSortBy] = useState('newest');
   const [currentPage, setCurrentPage] = useState(1);
-  const dressesPerPage = 8;
+  const [totalPages, setTotalPages] = useState(1);
+  const productsPerPage = 8;
   
   const { ref, inView } = useInView({
     triggerOnce: true,
@@ -28,44 +30,48 @@ function CollectionPage() {
   }, [categoryId]);
 
   useEffect(() => {
-    let filtered = [...dresses];
-    
-    // Filter by category
-    if (activeCategory !== 'all') {
-      filtered = filtered.filter(dress => dress.category === activeCategory);
-    }
-    
-    // Sort
-    switch(sortBy) {
-      case 'price-low':
-        filtered.sort((a, b) => a.price - b.price);
-        break;
-      case 'price-high':
-        filtered.sort((a, b) => b.price - a.price);
-        break;
-      case 'popular':
-        filtered.sort((a, b) => b.likes - a.likes);
-        break;
-      case 'newest':
-      default:
-        // Assuming newer items have "new" flag set
-        filtered.sort((a, b) => (b.new ? 1 : 0) - (a.new ? 1 : 0));
-        break;
-    }
-    
-    setFilteredDresses(filtered);
-  }, [activeCategory, dresses, sortBy]);
+    fetchProducts();
+  }, [activeCategory, sortBy, currentPage]);
 
-  // Pagination
-  const indexOfLastDress = currentPage * dressesPerPage;
-  const indexOfFirstDress = indexOfLastDress - dressesPerPage;
-  const currentDresses = filteredDresses.slice(indexOfFirstDress, indexOfLastDress);
-  const totalPages = Math.ceil(filteredDresses.length / dressesPerPage);
+  const fetchProducts = async () => {
+    try {
+      setLoading(true);
+      
+      // Get category ID from slug if needed
+      let categoryIdToUse = null;
+      if (activeCategory !== 'all') {
+        const category = getCategoryBySlug(activeCategory) || getCategoryById(activeCategory);
+        categoryIdToUse = category?.id;
+      }
+      
+      const params = {
+        page: currentPage,
+        limit: productsPerPage,
+        status: 'published' as const,
+        ...(categoryIdToUse && { categoryId: categoryIdToUse }),
+        ...(sortBy === 'price-low' && { sortBy: 'price' as const, sortOrder: 'ASC' as const }),
+        ...(sortBy === 'price-high' && { sortBy: 'price' as const, sortOrder: 'DESC' as const }),
+        ...(sortBy === 'popular' && { sortBy: 'viewCount' as const, sortOrder: 'DESC' as const }),
+        ...(sortBy === 'newest' && { sortBy: 'createdAt' as const, sortOrder: 'DESC' as const }),
+      };
+      
+      const response = await productsApi.getProducts(params);
+      setProducts(response.products);
+      setTotalPages(response.totalPages);
+    } catch (error) {
+      console.error('Error fetching products:', error);
+      setProducts([]);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
-  // Get current category details
-  const currentCategory = categories.find(cat => cat.id === activeCategory);
+  // Get current category details - try by slug first, then by id
+  const currentCategory = activeCategory !== 'all' 
+    ? getCategoryBySlug(activeCategory) || getCategoryById(activeCategory)
+    : null;
   
   return (
     <>
@@ -109,16 +115,24 @@ function CollectionPage() {
                       All Collections
                     </button>
                   </li>
-                  {categories.map(category => (
-                    <li key={category.id}>
-                      <button 
-                        onClick={() => setActiveCategory(category.id)}
-                        className={`w-full text-left px-2 py-1 rounded ${activeCategory === category.id ? 'bg-primary-100 text-primary-700' : 'hover:bg-secondary-50'}`}
-                      >
-                        {category.name}
-                      </button>
-                    </li>
-                  ))}
+                  {categoriesLoading ? (
+                    [...Array(5)].map((_, index) => (
+                      <li key={index}>
+                        <div className="animate-pulse h-8 bg-gray-200 rounded mb-1"></div>
+                      </li>
+                    ))
+                  ) : (
+                    categories.map(category => (
+                      <li key={category.id}>
+                        <button 
+                          onClick={() => setActiveCategory(category.slug || category.id)}
+                          className={`w-full text-left px-2 py-1 rounded ${activeCategory === (category.slug || category.id) ? 'bg-primary-100 text-primary-700' : 'hover:bg-secondary-50'}`}
+                        >
+                          {category.name}
+                        </button>
+                      </li>
+                    ))
+                  )}
                 </ul>
                 
                 <h3 className="font-display text-xl mb-4">Sort By</h3>
@@ -137,7 +151,17 @@ function CollectionPage() {
             
             {/* Products grid */}
             <div className="flex-1">
-              {currentDresses.length > 0 ? (
+              {loading ? (
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                  {[...Array(productsPerPage)].map((_, index) => (
+                    <div key={index} className="animate-pulse">
+                      <div className="bg-gray-200 aspect-square rounded-lg mb-4"></div>
+                      <div className="h-4 bg-gray-200 rounded mb-2"></div>
+                      <div className="h-4 bg-gray-200 rounded w-3/4"></div>
+                    </div>
+                  ))}
+                </div>
+              ) : products.length > 0 ? (
                 <div ref={ref}>
                   {inView && (
                     <motion.div 
@@ -146,36 +170,34 @@ function CollectionPage() {
                       transition={{ duration: 0.5 }}
                       className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
                     >
-                      {currentDresses.map(dress => (
-                        <ProductCard key={dress.id} dress={dress} />
+                      {products.map(product => (
+                        <ProductCard key={product.id} dress={product} />
                       ))}
                     </motion.div>
                   )}
                   
                   {/* Pagination */}
-                  {totalPages > 1 && (
-                    <div className="flex justify-center mt-12">
-                      <div className="flex space-x-2">
-                        {Array.from({ length: totalPages }, (_, index) => (
-                          <button
-                            key={index}
-                            onClick={() => paginate(index + 1)}
-                            className={`w-10 h-10 rounded-lg ${
-                              currentPage === index + 1
-                                ? 'bg-primary-600 text-white'
-                                : 'bg-white border border-secondary-200 text-secondary-700 hover:bg-secondary-50'
-                            }`}
-                          >
-                            {index + 1}
-                          </button>
-                        ))}
-                      </div>
+                  <div className="flex justify-center mt-12">
+                    <div className="flex space-x-2">
+                      {Array.from({ length: Math.max(totalPages, 1) }, (_, index) => (
+                        <button
+                          key={index}
+                          onClick={() => paginate(index + 1)}
+                          className={`w-10 h-10 rounded-lg ${
+                            currentPage === index + 1
+                              ? 'bg-primary-600 text-white'
+                              : 'bg-white border border-secondary-200 text-secondary-700 hover:bg-secondary-50'
+                          }`}
+                        >
+                          {index + 1}
+                        </button>
+                      ))}
                     </div>
-                  )}
+                  </div>
                 </div>
               ) : (
                 <div className="text-center py-16">
-                  <p className="text-xl text-secondary-500">No dresses found in this category.</p>
+                  <p className="text-xl text-secondary-500">No products found in this category.</p>
                 </div>
               )}
             </div>
