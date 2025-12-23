@@ -47,7 +47,15 @@ function FeaturedCollection() {
         )}
 
         {loading ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div 
+            className="grid gap-8"
+            style={{
+              display: 'grid',
+              gap: '2rem',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+              maxWidth: '100%'
+            }}
+          >
             {[...Array(9)].map((_, index) => (
               <div key={index} className="animate-pulse">
                 <div className="aspect-[3/4] bg-gray-200 rounded-lg mb-4"></div>
@@ -61,7 +69,13 @@ function FeaturedCollection() {
             variants={container}
             initial="hidden"
             animate="show"
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+            className="grid gap-8"
+            style={{
+              display: 'grid',
+              gap: '2rem',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+              maxWidth: '100%'
+            }}
           >
             {categories.slice(0, 9).map((category, index) => (
               <motion.div key={category.id} variants={item}>

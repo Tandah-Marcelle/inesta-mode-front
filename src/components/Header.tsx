@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ShoppingBag, Shield } from 'lucide-react';
+import { Menu, X, ShoppingBag } from 'lucide-react';
 import { useShop } from '../contexts/ShopContext';
 
 import logo from '../assets/images/InestaLogo/logo.jpg'
@@ -86,18 +86,6 @@ function Header() {
             )}
           </Link>
           
-          {/* Admin Access */}
-          <Link 
-            to="/admin/login" 
-            className={`hidden md:flex items-center space-x-1 px-3 py-1 rounded-full text-xs font-medium transition-all duration-200 hover:bg-primary-100 ${
-              isScrolled ? 'text-gray-600 hover:text-primary-700' : 'text-white/80 hover:text-white hover:bg-white/10'
-            }`}
-            title="Administration"
-          >
-            <Shield className="h-4 w-4" />
-            <span>Admin</span>
-          </Link>
-          
           <button 
             onClick={toggleMenu} 
             className={`md:hidden ${isScrolled ? 'text-secondary-800' : 'text-white'}`}
@@ -140,17 +128,6 @@ function Header() {
             )}
             <Link to="/about" className="hover:text-primary-500 transition-colors">About</Link>
             <Link to="/contact" className="hover:text-primary-500 transition-colors">Contact</Link>
-            
-            {/* Admin Access - Mobile */}
-            <div className="mt-8 pt-8 border-t border-gray-200">
-              <Link 
-                to="/admin/login" 
-                className="flex items-center space-x-2 text-gray-600 hover:text-primary-500 transition-colors"
-              >
-                <Shield className="h-5 w-5" />
-                <span>Administration</span>
-              </Link>
-            </div>
           </nav>
         </div>
       </div>

@@ -72,7 +72,15 @@ function FeaturedProducts() {
             transition={{ duration: 0.5 }}
           >
             {loading ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div 
+                className="grid gap-6"
+                style={{
+                  display: 'grid',
+                  gap: '1.5rem',
+                  gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                  maxWidth: '100%'
+                }}
+              >
                 {[...Array(3)].map((_, index) => (
                   <div key={index} className="animate-pulse px-3 pb-6">
                     <div className="bg-gray-200 h-80 rounded-lg mb-4"></div>

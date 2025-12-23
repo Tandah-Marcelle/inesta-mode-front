@@ -21,11 +21,36 @@
 @layer components {
   .container-custom {
     @apply container mx-auto px-4 md:px-8;
+    max-width: 1200px; /* Ensure container has proper max-width */
   }
   
   /* Admin section with Montserrat font */
   .font-montserrat {
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'sans-serif';
+  }
+  
+  /* Force grid layouts to work properly */
+  .grid-responsive {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+  }
+  
+  @media (min-width: 768px) {
+    .grid-responsive.md-2-cols {
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
+    .grid-responsive.md-3-cols {
+      grid-template-columns: repeat(3, 1fr) !important;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .grid-responsive.lg-3-cols {
+      grid-template-columns: repeat(3, 1fr) !important;
+    }
+    .grid-responsive.lg-4-cols {
+      grid-template-columns: repeat(4, 1fr) !important;
+    }
   }
   
   .btn {

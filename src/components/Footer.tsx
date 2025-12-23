@@ -54,6 +54,15 @@ function Footer() {
         
         <div className="border-t border-secondary-800 pt-8 mt-8 text-center text-gray-500">
           <p>&copy; {new Date().getFullYear()} Inesta Mode. All Rights Reserved.</p>
+          <div className="mt-2">
+            <Link 
+              to="/admin/login" 
+              className="text-xs text-gray-600 hover:text-gray-400 transition-colors opacity-50 hover:opacity-75"
+              title="Staff Access"
+            >
+              Access
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
