@@ -156,7 +156,7 @@ const buildQueryString = (params: Record<string, any>): string => {
 };
 
 export const productsApi = {
-  // Public endpoints
+  // Public endpoints (no auth required)
   getProducts: (params?: ProductsQueryParams): Promise<PaginatedProductsResponse> => {
     const queryString = params ? buildQueryString(params) : '';
     return apiClient.get(`/products${queryString ? '?' + queryString : ''}`);
@@ -180,7 +180,15 @@ export const productsApi = {
   incrementViewCount: (id: string): Promise<void> => 
     apiClient.post<void>(`/products/${id}/view`),
 
-  // Admin endpoints
+  // Admin endpoints (auth required)
+  getProductsAdmin: (params?: ProductsQueryParams): Promise<PaginatedProductsResponse> => {
+    const queryString = params ? buildQueryString(params) : '';
+    return apiClient.get(`/products/admin${queryString ? '?' + queryString : ''}`);
+  },
+
+  getProductByIdAdmin: (id: string): Promise<Product> => 
+    apiClient.get<Product>(`/products/admin/${id}`),
+
   createProduct: (data: CreateProductData): Promise<Product> => 
     apiClient.post<Product>('/products', data),
 

@@ -18,6 +18,8 @@ import MessagesManagement from './pages/admin/MessagesManagement';
 import TestimonialsManagement from './pages/admin/TestimonialsManagement';
 import NewsManagement from './pages/admin/NewsManagement';
 import PartnersManagement from './pages/admin/PartnersManagement';
+import SecurityDashboard from './pages/admin/SecurityDashboard';
+import AdminApprovalManagement from './pages/admin/AdminApprovalManagement';
 import ProtectedRoute from './components/admin/ProtectedRoute';
 
 function App() {
@@ -76,6 +78,16 @@ function App() {
         <Route path="partners" element={
           <ProtectedRoute resource="settings" action="view">
             <PartnersManagement />
+          </ProtectedRoute>
+        } />
+        <Route path="approvals" element={
+          <ProtectedRoute resource="settings" action="view">
+            <AdminApprovalManagement />
+          </ProtectedRoute>
+        } />
+        <Route path="security" element={
+          <ProtectedRoute resource="settings" action="view">
+            <SecurityDashboard />
           </ProtectedRoute>
         } />
         <Route index element={

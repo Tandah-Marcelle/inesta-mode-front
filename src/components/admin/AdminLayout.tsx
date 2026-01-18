@@ -7,7 +7,6 @@ import {
   Tags, 
   Users, 
   ShoppingCart, 
-  BarChart3, 
   Settings, 
   LogOut, 
   Menu, 
@@ -15,21 +14,15 @@ import {
   Bell,
   Search,
   User,
-  MessageSquare,
   ChevronDown,
-  ChevronRight,
   Newspaper,
   Handshake,
-  FileText,
-  Store,
   TrendingUp,
   Mail,
   Shield,
   Activity,
-  Home,
-  Calendar,
   Heart,
-  Star
+  UserCheck
 } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { usePermissions } from '../../contexts/PermissionsContext';
@@ -37,8 +30,26 @@ import { messagesApi } from '../../services/messages.api';
 import inestaLogo from '../../assets/images/InestaLogo/logo.jpg';
 import SessionExpiredModal from './SessionExpiredModal';
 
+// Navigation item interface
+interface NavigationItem {
+  name: string;
+  href: string;
+  icon: any;
+  resource: string;
+  action: string;
+  gradient: string;
+  description: string;
+  unavailable?: boolean;
+  badge?: string;
+}
+
+interface NavigationSection {
+  title: string;
+  items: NavigationItem[];
+}
+
 // Main navigation sections function with dynamic badges
-const getNavigationSections = (unreadCount: number) => [
+const getNavigationSections = (unreadCount: number): NavigationSection[] => [
   {
     title: 'TABLEAU DE BORD',
     items: [
@@ -171,6 +182,24 @@ const getNavigationSections = (unreadCount: number) => [
     title: 'SYSTÈME',
     items: [
       {
+        name: 'Approbations Admin',
+        href: '/admin/approvals',
+        icon: UserCheck,
+        resource: 'settings',
+        action: 'view',
+        gradient: 'from-indigo-500 to-indigo-700',
+        description: 'Approuver les demandes admin'
+      },
+      {
+        name: 'Sécurité',
+        href: '/admin/security',
+        icon: Shield,
+        resource: 'settings',
+        action: 'view',
+        gradient: 'from-red-500 to-red-700',
+        description: 'Paramètres de sécurité'
+      },
+      {
         name: 'Paramètres',
         href: '/admin/settings',
         icon: Settings,
@@ -261,9 +290,6 @@ function AdminLayout() {
     navigate('/admin/login');
   };
   
-  const handleSessionExpired = () => {
-    setShowSessionExpiredModal(true);
-  };
   
   const handleRelogin = async () => {
     setShowSessionExpiredModal(false);
@@ -705,6 +731,8 @@ function AdminLayout() {
                   {location.pathname === '/admin/partners' && 'Partenaires Humanitaires'}
                   {location.pathname === '/admin/testimonials' && 'Témoignages'}
                   {location.pathname === '/admin/orders' && 'Commandes'}
+                  {location.pathname === '/admin/approvals' && 'Approbations Admin'}
+                  {location.pathname === '/admin/security' && 'Paramètres de Sécurité'}
                   {location.pathname === '/admin/settings' && 'Paramètres'}
                 </h1>
                 <p className="text-xs text-gray-500 mt-0.5 font-medium">

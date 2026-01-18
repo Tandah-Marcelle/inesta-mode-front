@@ -149,7 +149,7 @@ function ProductsManagement() {
       };
 
       const [productsResponse, categoriesResponse] = await Promise.all([
-        productsApi.getProducts(queryParams),
+        productsApi.getProductsAdmin(queryParams),
         categoriesApi.getAllCategories()
       ]);
       

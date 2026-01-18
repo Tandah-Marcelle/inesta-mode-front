@@ -7,15 +7,61 @@ export const API_CONFIG = {
 class ApiClient {
   private baseUrl: string;
   private timeout: number;
+  private isRefreshing: boolean = false;
+  private refreshPromise: Promise<boolean> | null = null;
 
   constructor(baseUrl: string = API_CONFIG.BASE_URL, timeout: number = API_CONFIG.TIMEOUT) {
     this.baseUrl = baseUrl;
     this.timeout = timeout;
   }
 
+  private async refreshToken(): Promise<boolean> {
+    if (this.isRefreshing) {
+      return this.refreshPromise || Promise.resolve(false);
+    }
+
+    this.isRefreshing = true;
+    this.refreshPromise = this.performTokenRefresh();
+    
+    try {
+      const result = await this.refreshPromise;
+      return result;
+    } finally {
+      this.isRefreshing = false;
+      this.refreshPromise = null;
+    }
+  }
+
+  private async performTokenRefresh(): Promise<boolean> {
+    try {
+      const token = localStorage.getItem('auth_token');
+      if (!token) return false;
+
+      const response = await fetch(`${this.baseUrl}/api/auth/refresh`, {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json',
+        },
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        localStorage.setItem('auth_token', data.access_token);
+        localStorage.setItem('auth_user', JSON.stringify(data.user));
+        return true;
+      }
+      return false;
+    } catch (error) {
+      console.error('Token refresh failed:', error);
+      return false;
+    }
+  }
+
   private async request<T>(
     endpoint: string,
-    options: RequestInit = {}
+    options: RequestInit = {},
+    isRetry: boolean = false
   ): Promise<T> {
     const url = `${this.baseUrl}/api${endpoint}`;
     
@@ -41,6 +87,21 @@ class ApiClient {
       });
       
       clearTimeout(timeoutId);
+
+      // Handle 401 Unauthorized - try to refresh token
+      if (response.status === 401 && !isRetry) {
+        const refreshed = await this.refreshToken();
+        if (refreshed) {
+          // Retry the request with new token
+          return this.request<T>(endpoint, options, true);
+        } else {
+          // Refresh failed, redirect to login
+          localStorage.removeItem('auth_token');
+          localStorage.removeItem('auth_user');
+          window.location.href = '/admin/login';
+          throw new Error('Session expired');
+        }
+      }
 
       if (!response.ok) {
         const errorText = await response.text();

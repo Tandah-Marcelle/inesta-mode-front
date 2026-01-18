@@ -25,6 +25,7 @@ interface AuthContextType {
   token: string | null;
   validateToken: () => Promise<boolean>;
   refreshUserData: () => Promise<void>;
+  refreshToken: () => Promise<boolean>;
 }
 
 const AuthContext = createContext<AuthContextType | null>(null);
@@ -57,6 +58,28 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
       return response.valid;
     } catch (error) {
       console.error('Token validation failed:', error);
+      return false;
+    }
+  };
+
+  // Refresh token
+  const refreshToken = async (): Promise<boolean> => {
+    const savedToken = localStorage.getItem('auth_token');
+    if (!savedToken) return false;
+
+    try {
+      const response = await apiClient.post<AuthResponse>('/auth/refresh');
+      const { access_token, user: userData } = response;
+
+      // Update state and storage
+      setToken(access_token);
+      setUser(userData);
+      localStorage.setItem('auth_token', access_token);
+      localStorage.setItem('auth_user', JSON.stringify(userData));
+      
+      return true;
+    } catch (error) {
+      console.error('Token refresh failed:', error);
       return false;
     }
   };
@@ -129,12 +152,21 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
       try {
         const isValid = await validateToken();
         if (!isValid) {
+          // Try to refresh token before logging out
+          const refreshed = await refreshToken();
+          if (!refreshed) {
+            setSessionExpired(true);
+            logout();
+          }
+        }
+      } catch (error) {
+        // If validation fails, try to refresh token
+        const refreshed = await refreshToken();
+        if (!refreshed) {
+          console.warn('Token validation and refresh failed');
           setSessionExpired(true);
           logout();
         }
-      } catch (error) {
-        // If validation fails, assume token is still valid for now
-        console.warn('Token validation failed, assuming token is still valid');
       }
     }, 5 * 60 * 1000); // Check every 5 minutes
 
@@ -194,6 +226,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
     token,
     validateToken,
     refreshUserData,
+    refreshToken,
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

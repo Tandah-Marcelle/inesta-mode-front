@@ -35,7 +35,12 @@ const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
     return <Navigate to="/admin/login" replace />;
   }
 
-  // Check specific permissions for all users (including admins)
+  // Super admins have access to everything
+  if (user.role === 'super_admin') {
+    return <>{children}</>;
+  }
+
+  // Check specific permissions for other users
   if (resource && action && !hasPermission(resource, action)) {
     return (
       <div className="flex items-center justify-center min-h-screen">
