@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ShoppingBag } from 'lucide-react';
 import { useShop } from '../contexts/ShopContext';
 
-import logo from '../assets/images/InestaLogo/logo.jpg'
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -50,12 +49,12 @@ function Header() {
     <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container-custom flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <img src={logo} alt="Inesta Mode Logo" className="h-10 w-10 mr-2" />
+          <img src={""} alt="Inesta Mode Logo" className="h-10 w-10 mr-2" />
           <span className={`font-display font-semibold text-2xl ${isScrolled ? 'text-primary-800' : 'text-primary-800 md:text-white'}`}>
             Inesta Mode
           </span>
         </Link>
-        
+
         <nav className={`hidden md:flex space-x-8 ${isScrolled ? 'text-secondary-800' : 'text-white'}`}>
           {isHomePage ? (
             <>
@@ -75,7 +74,7 @@ function Header() {
           <Link to="/about" className="hover:text-primary-500 transition-colors">About</Link>
           <Link to="/contact" className="hover:text-primary-500 transition-colors">Contact</Link>
         </nav>
-        
+
         <div className="flex items-center space-x-4">
           <Link to="/cart" className="relative">
             <ShoppingBag className={`h-6 w-6 ${isScrolled ? 'text-secondary-800' : 'text-white'}`} />
@@ -85,22 +84,22 @@ function Header() {
               </span>
             )}
           </Link>
-          
-          <button 
-            onClick={toggleMenu} 
+
+          <button
+            onClick={toggleMenu}
             className={`md:hidden ${isScrolled ? 'text-secondary-800' : 'text-white'}`}
           >
             <Menu className="h-6 w-6" />
           </button>
         </div>
       </div>
-      
+
       {/* Mobile Menu */}
       <div className={`fixed inset-0 bg-white z-50 transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 md:hidden`}>
         <div className="container mx-auto px-4 py-5 flex flex-col h-full">
           <div className="flex justify-between items-center">
             <Link to="/" className="flex items-center">
-              <img src="/logo.svg" alt="Inesta Mode Logo" className="h-10 w-10 mr-2" />
+              <img src="" alt="Inesta Mode Logo" className="h-10 w-10 mr-2" />
               <span className="font-display font-semibold text-2xl text-primary-800">
                 Inesta Mode
               </span>
@@ -109,7 +108,7 @@ function Header() {
               <X className="h-6 w-6" />
             </button>
           </div>
-          
+
           <nav className="flex flex-col space-y-6 mt-12 text-lg">
             {isHomePage ? (
               <>

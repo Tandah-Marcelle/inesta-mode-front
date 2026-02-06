@@ -27,7 +27,7 @@ import {
 import { useAuth } from '../../contexts/AuthContext';
 import { usePermissions } from '../../contexts/PermissionsContext';
 import { messagesApi } from '../../services/messages.api';
-import inestaLogo from '../../assets/images/InestaLogo/logo.jpg';
+
 import SessionExpiredModal from './SessionExpiredModal';
 
 // Navigation item interface
@@ -289,8 +289,7 @@ function AdminLayout() {
     await logout();
     navigate('/admin/login');
   };
-  
-  
+
   const handleRelogin = async () => {
     setShowSessionExpiredModal(false);
     await logout();
@@ -351,7 +350,7 @@ function AdminLayout() {
             >
               <div className="relative w-10 h-10 bg-white rounded-xl flex items-center justify-center overflow-hidden border border-white/30 shadow-sm">
                 <img 
-                  src={inestaLogo} 
+                  src={""} 
                   alt="INESTA Mode Logo" 
                   className="w-8 h-8 object-cover rounded-lg"
                 />
@@ -602,7 +601,7 @@ function AdminLayout() {
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center overflow-hidden border border-white/30 shadow-sm">
                 <img 
-                  src={inestaLogo} 
+                  src={""} 
                   alt="INESTA Mode Logo" 
                   className="w-8 h-8 object-cover rounded-lg"
                 />

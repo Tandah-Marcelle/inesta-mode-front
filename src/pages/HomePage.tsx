@@ -7,7 +7,6 @@ import FAQ from '../components/FAQ';
 import Testimonials from '../components/Testimonials';
 
 // Import your local workshop image
-import workshopImage from '../assets/images/collection rose noir/image rose noir.jpg'; 
 
 function HomePage() {
   return (
@@ -23,7 +22,7 @@ function HomePage() {
         <div className="container-custom">
           <div className="relative rounded-lg overflow-hidden">
             <img 
-              src={workshopImage} 
+              src={""} 
               alt="Atelier Inesta Mode" 
               className="w-full h-96 object-cover"
             />

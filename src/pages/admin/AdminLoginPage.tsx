@@ -6,7 +6,6 @@ import { useAuth } from '../../contexts/AuthContext';
 import AnimatedBackground from '../../components/admin/AnimatedBackground';
 import MfaVerification from '../../components/MfaVerification';
 import PasswordStrengthIndicator from '../../components/PasswordStrengthIndicator';
-import bgImage from '../../assets/images/bg_image.jpg';
 
 function AdminLoginPage() {
   const [mode, setMode] = useState<'login' | 'create'>('login');
@@ -86,7 +85,7 @@ function AdminLoginPage() {
       if (data.sessionToken) {
         localStorage.setItem('sessionToken', data.sessionToken);
       }
-      
+
       console.log('Navigating to dashboard...'); // Debug log
       // Try both navigation methods
       navigate('/admin/dashboard');
@@ -103,7 +102,7 @@ function AdminLoginPage() {
 
   const handleForgotPassword = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!forgotPasswordEmail) {
       setError('Please enter your email address');
       return;
@@ -139,7 +138,7 @@ function AdminLoginPage() {
 
   const handleCreateAdmin = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (formData.password !== formData.confirmPassword) {
       setError('Passwords do not match');
       return;
@@ -180,7 +179,7 @@ function AdminLoginPage() {
       } else {
         setSuccess('Secure admin account created successfully! You can now log in.');
       }
-      
+
       setMode('login');
       setFormData({
         email: formData.email,
@@ -189,7 +188,7 @@ function AdminLoginPage() {
         lastName: '',
         confirmPassword: '',
         requestReason: '',
-        requestReason: '',
+
       });
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to create admin account');
@@ -231,7 +230,7 @@ function AdminLoginPage() {
       if (data.sessionToken) {
         localStorage.setItem('sessionToken', data.sessionToken);
       }
-      
+
       navigate('/admin/dashboard');
     } catch (err) {
       setMfaError(err instanceof Error ? err.message : 'MFA verification failed');
@@ -253,7 +252,7 @@ function AdminLoginPage() {
       <div className="flex-1 flex items-center justify-center p-8 lg:p-12 relative">
         {/* Animated Background - Only on login side */}
         <AnimatedBackground className="opacity-20" />
-        
+
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -570,21 +569,21 @@ function AdminLoginPage() {
                 </div>
               </form>
             )}
-            
+
             {/* Additional Options */}
             <div className="mt-6">
               <p className="text-sm text-center text-secondary-500">
-                {mode === 'login' 
-                  ? 'Besoin d\'aide avec votre compte ?' 
+                {mode === 'login'
+                  ? 'Besoin d\'aide avec votre compte ?'
                   : 'Votre demande sera examinée par les super administrateurs'
                 }
               </p>
             </div>
-            
+
             {/* Footer Note */}
             <div className="mt-8 text-center">
               <p className="text-xs text-secondary-400">
-                {mode === 'login' 
+                {mode === 'login'
                   ? 'N\'hésitez pas à nous contacter\nEn cas de difficultés de connexion'
                   : 'Authentification sécurisée avec processus d\'approbation\nValidation des mots de passe incluse'
                 }
@@ -593,16 +592,16 @@ function AdminLoginPage() {
           </div>
         </motion.div>
       </div>
-      
+
       {/* Right Side - Image */}
       <div className="hidden lg:flex lg:flex-1 relative">
         <div className="absolute inset-0 bg-gradient-to-br from-primary-50 to-accent-100"></div>
-        <img 
-          src={bgImage} 
-          alt="Login background" 
+        <img
+          src={""}
+          alt="Login background"
           className="absolute inset-0 w-full h-full object-cover mix-blend-multiply opacity-90"
         />
-        
+
         {/* Overlay Content */}
         <div className="relative z-10 flex items-center justify-center p-12 text-white">
           <div className="max-w-md text-center">
@@ -698,7 +697,7 @@ function AdminLoginPage() {
                 <p className="text-gray-600 mb-4">
                   Entrez votre adresse email et nous vous enverrons un lien pour réinitialiser votre mot de passe.
                 </p>
-                
+
                 <div className="mb-4">
                   <label htmlFor="forgotEmail" className="block text-sm font-medium text-gray-700 mb-2">
                     Adresse email

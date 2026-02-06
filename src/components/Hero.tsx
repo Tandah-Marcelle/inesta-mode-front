@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-// import image1 from "../assets/images/collection marrige robe blanche/fille dhonneur/3.jpg";
-import image2 from "../assets/images/collection marrige robe blanche/fille dhonneur/2.jpg";
-import image3 from "../assets/images/Collection homme/garcon dhonneur/3.jpg";
+// 
 
 // Preload images for better performance
 const preloadImages = (urls) => {
@@ -16,17 +14,17 @@ const preloadImages = (urls) => {
 const heroBackgrounds = [
   // {
   //   id: 1,
-  //   image: image1,
+  //   image: "",
   //   alt: "Bridal dress collection - elegant white gown"
   // },
   {
     id: 2,
-    image: image2,
+    image: "",
     alt: "Bridesmaid dress collection - stylish designs"
   },
   {
     id: 3,
-    image: image3,
+    image: "",
     alt: "Wedding party fashion - sophisticated attire"
   },
 ];
@@ -91,13 +89,6 @@ function Hero() {
           >
             <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-semibold mb-4 leading-tight">
             Mode artisanale exquise.
-
-
-
-
-
-
-
 
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl mb-8 max-w-lg">
