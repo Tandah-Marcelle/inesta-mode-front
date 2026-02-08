@@ -46,9 +46,14 @@ function AdminLoginPage() {
     setError('');
 
     try {
-      console.log('Attempting login with:', formData.email);
+      // Trim inputs to remove accidental whitespace
+      const cleanEmail = formData.email.trim();
+      const cleanPassword = formData.password.trim();
+
+      console.log(`Attempting login for: ${cleanEmail}`);
+
       // Use the login function from AuthContext to ensure state is updated correctly
-      const data = await login(formData.email, formData.password);
+      const data = await login(cleanEmail, cleanPassword);
       console.log('Login successful:', data);
 
       // Check if MFA is required (if the login response indicates it, though AuthContext types might need adjustment if login() returns stricter types)
