@@ -3,6 +3,11 @@ const getBaseUrl = () => {
   if (!url.startsWith('http')) {
     url = `https://${url}`;
   }
+
+  // Ensure we are hitting the /api endpoint
+  if (!url.endsWith('/api')) {
+    url = `${url}/api`;
+  }
   return url;
 };
 
