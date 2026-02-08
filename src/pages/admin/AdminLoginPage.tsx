@@ -72,25 +72,20 @@ function AdminLoginPage() {
       }
 
       // Store token and redirect
-      console.log('Storing token and redirecting...'); // Debug log
+      console.log('Storing token and session data...');
       localStorage.setItem('auth_token', data.access_token);
-      localStorage.setItem('auth_user', JSON.stringify(data.user)); // Also store user data
+      localStorage.setItem('auth_user', JSON.stringify(data.user));
+
       if (data.sessionToken) {
-        localStorage.setItem('sessionToken', data.sessionToken);
+        localStorage.setItem('session_token', data.sessionToken); // Ensure key matches AuthContext if it uses one
       }
 
-      // Update AuthContext state if login function exposes a way, 
-      // otherwise force a reload or rely on AuthContext's internal listener if any.
-      // Since we are bypassing login(), we might need to manually trigger state update or just redirect.
-      // Redirecting usually triggers app reload or re-mount depending on router.
+      console.log('Login successful, looking for redirect...');
 
-      console.log('Navigating to dashboard...'); // Debug log
-      // Try both navigation methods
-      navigate('/admin/dashboard');
-      // Force redirect as backup
-      setTimeout(() => {
-        window.location.href = '/admin/dashboard';
-      }, 100);
+      // FORCE RELOAD to ensure AuthContext picks up the new token
+      // This avoids the race condition where AuthContext thinks we are unauthenticated
+      window.location.href = '/admin/dashboard';
+
     } catch (err) {
       console.error('Login error:', err);
       setError(err instanceof Error ? err.message : 'Login failed');
