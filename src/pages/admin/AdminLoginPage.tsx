@@ -46,45 +46,37 @@ function AdminLoginPage() {
     setError('');
 
     try {
-      console.log('Attempting login with:', formData.email); // Debug log
-      const data = await apiClient.post<any>('/auth/login', {
-        email: formData.email,
-        password: formData.password,
-      });
+      console.log('Attempting login with:', formData.email);
+      // Use the login function from AuthContext to ensure state is updated correctly
+      const data = await login(formData.email, formData.password);
+      console.log('Login successful:', data);
 
-      console.log('Login response:', data); // Debug log
+      // Check if MFA is required (if the login response indicates it, though AuthContext types might need adjustment if login() returns stricter types)
+      // Note: AuthContext.login returns AuthResponse. If it returns more (like requiresMfa), we might need to cast or update the interface.
+      // Based on previous code, data might have requiresMfa property.
+      const responseData = data as any;
 
-      // apiClient throws on error, so if we get here, it's successful
-
-      // Check if MFA is required
-      if (data.requiresMfa) {
-        setTempLoginData(data);
+      if (responseData.requiresMfa) {
+        setTempLoginData(responseData);
         setShowMfaVerification(true);
         setLoading(false);
         return;
       }
 
       // Check admin privileges
-      if (data.user.role !== 'admin' && data.user.role !== 'super_admin') {
+      if (responseData.user.role !== 'admin' && responseData.user.role !== 'super_admin') {
         setError('Access denied. Admin privileges required.');
         setLoading(false);
         return;
       }
 
-      // Store token and redirect
-      console.log('Storing token and session data...');
-      localStorage.setItem('auth_token', data.access_token);
-      localStorage.setItem('auth_user', JSON.stringify(data.user));
+      // Login successful and state updated by AuthContext
+      setSuccess('Login successful! Redirecting...');
 
-      if (data.sessionToken) {
-        localStorage.setItem('session_token', data.sessionToken); // Ensure key matches AuthContext if it uses one
-      }
-
-      console.log('Login successful, looking for redirect...');
-
-      // FORCE RELOAD to ensure AuthContext picks up the new token
-      // This avoids the race condition where AuthContext thinks we are unauthenticated
-      window.location.href = '/admin/dashboard';
+      // Delay redirect slightly to show success message and ensure state propagation
+      setTimeout(() => {
+        navigate('/admin/dashboard');
+      }, 1500);
 
     } catch (err) {
       console.error('Login error:', err);
