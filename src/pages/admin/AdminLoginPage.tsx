@@ -6,7 +6,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import AnimatedBackground from '../../components/admin/AnimatedBackground';
 import MfaVerification from '../../components/MfaVerification';
 import PasswordStrengthIndicator from '../../components/PasswordStrengthIndicator';
-import { apiClient } from '../../config/api';
+import { apiClient, API_CONFIG } from '../../config/api';
 
 function AdminLoginPage() {
   const [mode, setMode] = useState<'login' | 'create'>('login');
