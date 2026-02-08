@@ -1,5 +1,13 @@
+const getBaseUrl = () => {
+  let url = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+  if (!url.startsWith('http')) {
+    url = `https://${url}`;
+  }
+  return url;
+};
+
 export const API_CONFIG = {
-  BASE_URL: import.meta.env.VITE_API_URL || 'http://localhost:3000',
+  BASE_URL: getBaseUrl(),
   TIMEOUT: 10000,
 };
 
@@ -22,7 +30,7 @@ class ApiClient {
 
     this.isRefreshing = true;
     this.refreshPromise = this.performTokenRefresh();
-    
+
     try {
       const result = await this.refreshPromise;
       return result;
@@ -64,10 +72,10 @@ class ApiClient {
     isRetry: boolean = false
   ): Promise<T> {
     const url = `${this.baseUrl}/api${endpoint}`;
-    
+
     // Get auth token from localStorage
     const token = localStorage.getItem('auth_token');
-    
+
     const config: RequestInit = {
       ...options,
       headers: {
@@ -80,12 +88,12 @@ class ApiClient {
     try {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), this.timeout);
-      
+
       const response = await fetch(url, {
         ...config,
         signal: controller.signal,
       });
-      
+
       clearTimeout(timeoutId);
 
       // Handle 401 Unauthorized - try to refresh token

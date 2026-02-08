@@ -6,6 +6,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import AnimatedBackground from '../../components/admin/AnimatedBackground';
 import MfaVerification from '../../components/MfaVerification';
 import PasswordStrengthIndicator from '../../components/PasswordStrengthIndicator';
+import { apiClient } from '../../config/api';
 
 function AdminLoginPage() {
   const [mode, setMode] = useState<'login' | 'create'>('login');
@@ -45,23 +46,15 @@ function AdminLoginPage() {
     setError('');
 
     try {
-      const response = await fetch('/api/auth/login', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          email: formData.email,
-          password: formData.password,
-        }),
+      console.log('Attempting login with:', formData.email); // Debug log
+      const data = await apiClient.post<any>('/auth/login', {
+        email: formData.email,
+        password: formData.password,
       });
 
-      const data = await response.json();
       console.log('Login response:', data); // Debug log
 
-      if (!response.ok) {
-        throw new Error(data.message || 'Login failed');
-      }
+      // apiClient throws on error, so if we get here, it's successful
 
       // Check if MFA is required
       if (data.requiresMfa) {
@@ -80,11 +73,16 @@ function AdminLoginPage() {
 
       // Store token and redirect
       console.log('Storing token and redirecting...'); // Debug log
-      localStorage.setItem('auth_token', data.access_token); // Fixed: use 'auth_token' instead of 'token'
+      localStorage.setItem('auth_token', data.access_token);
       localStorage.setItem('auth_user', JSON.stringify(data.user)); // Also store user data
       if (data.sessionToken) {
         localStorage.setItem('sessionToken', data.sessionToken);
       }
+
+      // Update AuthContext state if login function exposes a way, 
+      // otherwise force a reload or rely on AuthContext's internal listener if any.
+      // Since we are bypassing login(), we might need to manually trigger state update or just redirect.
+      // Redirecting usually triggers app reload or re-mount depending on router.
 
       console.log('Navigating to dashboard...'); // Debug log
       // Try both navigation methods
@@ -94,6 +92,7 @@ function AdminLoginPage() {
         window.location.href = '/admin/dashboard';
       }, 100);
     } catch (err) {
+      console.error('Login error:', err);
       setError(err instanceof Error ? err.message : 'Login failed');
     } finally {
       setLoading(false);
