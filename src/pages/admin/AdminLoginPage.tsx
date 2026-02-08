@@ -730,6 +730,10 @@ function AdminLoginPage() {
           </motion.div>
         </div>
       )}
+      {/* Debug Info */}
+      <div className="fixed bottom-2 right-2 text-xs text-gray-400 bg-white/80 p-1 rounded pointer-events-none z-50">
+        API: {API_CONFIG.BASE_URL}
+      </div>
     </div>
   );
 }
