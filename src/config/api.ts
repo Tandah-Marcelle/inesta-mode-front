@@ -4,6 +4,11 @@ const getBaseUrl = () => {
     url = `https://${url}`;
   }
 
+  // Remove trailing slash if present
+  if (url.endsWith('/')) {
+    url = url.slice(0, -1);
+  }
+
   // Ensure we are hitting the /api endpoint
   if (!url.endsWith('/api')) {
     url = `${url}/api`;
