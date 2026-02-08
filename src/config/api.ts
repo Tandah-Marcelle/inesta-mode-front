@@ -55,7 +55,7 @@ class ApiClient {
       const token = localStorage.getItem('auth_token');
       if (!token) return false;
 
-      const response = await fetch(`${this.baseUrl}/api/auth/refresh`, {
+      const response = await fetch(`${this.baseUrl}/auth/refresh`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -81,7 +81,7 @@ class ApiClient {
     options: RequestInit = {},
     isRetry: boolean = false
   ): Promise<T> {
-    const url = `${this.baseUrl}/api${endpoint}`;
+    const url = `${this.baseUrl}${endpoint}`;
 
     // Get auth token from localStorage
     const token = localStorage.getItem('auth_token');
