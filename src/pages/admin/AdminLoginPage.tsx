@@ -83,9 +83,19 @@ function AdminLoginPage() {
         navigate('/admin/dashboard');
       }, 1500);
 
-    } catch (err) {
+    } catch (err: any) {
       console.error('Login error:', err);
-      setError(err instanceof Error ? err.message : 'Login failed');
+
+      const errorMessage = err instanceof Error ? err.message : 'Login failed';
+
+      if (errorMessage.includes('Password change required')) {
+        setError('⚠️ Security Update: You must change your password. Please contact support or use the "Forgot Password" link to reset it.');
+        // Ideally, we would redirect to a change-password page here
+      } else if (errorMessage.includes('pending approval')) {
+        setError('⏳ Your account is pending approval by a Super Admin.');
+      } else {
+        setError(errorMessage);
+      }
     } finally {
       setLoading(false);
     }
