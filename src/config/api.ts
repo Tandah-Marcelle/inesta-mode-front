@@ -1,5 +1,7 @@
 const getBaseUrl = () => {
-  let url = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+  // FALLBACK to PRODUCTION URL if VITE_API_URL is missing
+  let url = import.meta.env.VITE_API_URL || 'https://web-production-365d2.up.railway.app';
+
   if (!url.startsWith('http')) {
     url = `https://${url}`;
   }
